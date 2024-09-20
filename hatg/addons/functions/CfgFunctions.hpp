@@ -17,12 +17,15 @@ class CfgFunctions
         {
             file = QPATHTOFOLDER(functions\handlers);
             class addHandlers {};
+            class getNearbyUnits {};
             class handleFired {};
             class handleStance {};
+            class surfaceIsGrass {};
         };
         class init 
         {
             file = QPATHTOFOLDER(functions\init);
+            class getVariable {};
             class postInit {};
             class preInit {};
         };

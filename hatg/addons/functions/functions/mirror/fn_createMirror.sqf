@@ -25,7 +25,10 @@ params [
 ];
 
 if (_unit isEqualTo ObjNull) exitWith {false};
-if !([_unit] call HATG_fnc_canCreateMirror) exitWith {false};
+if !([_unit] call HATG_fnc_canCreateMirror) exitWith {false}; // technically unnecessary, but probably a good idea
+
+private _mirror = [_unit] call HATG_fnc_getMirror;
+if (_mirror isNotEqualTo ObjNull) exitWith {false};
 
 [format["Creating a mirror for %1 (ATL: %2)", name _unit, getPosATL _unit], 1, _fnc_scriptName] call HATG_fnc_log;
 
