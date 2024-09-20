@@ -21,11 +21,11 @@
     "SLIDER", // setting type
     "Detection Cooldown", // Pretty name shown inside the ingame settings menu. Can be stringtable entry.
     SETTING_HEADER, // Pretty name of the category where the setting can be found. Can be stringtable entry.
-    [0, 120, 10],
+    [0, 600, 30],
     true, // "_isGlobal" flag. Set this to true to always have this setting synchronized between all clients in multiplayer
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_cooldown", _value, true];
+        missionNamespace setVariable ["hatg_setting_cooldown", round(_value), true];
     }
 ] call CBA_fnc_addSetting;
