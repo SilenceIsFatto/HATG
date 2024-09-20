@@ -1,0 +1,1 @@
+call HATG_fnc_settings;

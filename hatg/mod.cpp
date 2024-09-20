@@ -1,0 +1,15 @@
+name = "Hide Among The Grass";
+author = "Silence";
+description = "";
+tooltip = "Hide Among The Grass";
+tooltipOwned = "Hide Among The Grass";
+overview = "Allows you to 'hide among the grass'. It basically just blocks the AI from seeing you when prone in a performant way.";
+actionName = "GitHub";
+action = "https://github.com/SilenceIsFatto/TBD";
+hideName = 0;
+hidePicture = 0;
+dlcColor[] = {1, 0, 0, 1};
+logo = "\z\hatg\addons\core\logo_ca.paa"; // Logo displayed in the main menu
+logoOver = "\z\hatg\addons\core\logo_ca.paa"; // When the mouse is over, in the main menu
+picture = "\z\hatg\addons\core\logo_ca.paa"; // Picture displayed from the expansions menu. Optimal size is 2048x1024
+logoSmall = "\z\hatg\addons\core\logo_ca.paa"; // Display in creative lists, next to the entities added by the mod

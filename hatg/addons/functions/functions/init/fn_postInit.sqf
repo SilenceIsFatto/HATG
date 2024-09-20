@@ -1,0 +1,1 @@
+[player] spawn HATG_fnc_addHandlers;

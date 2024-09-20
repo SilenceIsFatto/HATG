@@ -1,0 +1,5 @@
+*.pbo
+*.vscode
+*.xcf
+build
+release
