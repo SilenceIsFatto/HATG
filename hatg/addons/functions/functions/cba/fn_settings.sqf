@@ -49,7 +49,7 @@
     "SLIDER", // setting type
     "Detection Cooldown", // Pretty name shown inside the ingame settings menu. Can be stringtable entry.
     SETTING_HEADER, // Pretty name of the category where the setting can be found. Can be stringtable entry.
-    [0, 600, 30],
+    [0, 600, 30, 0],
     true, // "_isGlobal" flag. Set this to true to always have this setting synchronized between all clients in multiplayer
     {
         params ["_value"];
@@ -63,7 +63,7 @@
     "SLIDER", // setting type
     "Detection Distance (Close)", // Pretty name shown inside the ingame settings menu. Can be stringtable entry.
     SETTING_HEADER, // Pretty name of the category where the setting can be found. Can be stringtable entry.
-    [0, 50, 20],
+    [0, 50, 20, 0],
     true, // "_isGlobal" flag. Set this to true to always have this setting synchronized between all clients in multiplayer
     {
         params ["_value"];
