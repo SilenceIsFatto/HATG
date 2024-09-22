@@ -1,3 +1,24 @@
+/*
+    Author:
+        Silence
+    
+    Description:
+        Checks if a mirror can be created
+    
+    Params:
+        _unit <OBJECT> <Default: ObjNull>
+    
+    Dependencies:
+        _unit Namespace variables:
+        > "hatg_mirror_cooldown"
+    
+    Usage:
+        [player] call HATG_fnc_canCreateMirror;
+    
+    Return:
+        true, false <BOOL>
+*/
+
 params [
     ["_unit", ObjNull]
 ];

@@ -1,3 +1,28 @@
+/*
+    Author:
+        Silence
+    
+    Description:
+        Handles the "mirror" cooldown, resets it after _cooldown
+    
+    Params:
+        _unit <OBJECT> <Default: ObjNull>
+        _cooldown <INT> <Default: -1>
+    
+    Dependencies:
+        _unit Namespace variables:
+        > "hatg_mirror_cooldown"
+
+        missionNamespace variables:
+        > "hatg_setting_cooldown"
+    
+    Usage:
+        [player, 10] call HATG_fnc_cooldown;
+    
+    Return:
+        N/A
+*/
+
 params [
     ["_unit", ObjNull],
     ["_cooldown", -1]

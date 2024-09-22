@@ -1,3 +1,23 @@
+/*
+    Author:
+        Silence
+    
+    Description:
+        Adds handlers to _unit
+    
+    Params:
+        _unit <OBJECT> <Default: ObjNull>
+    
+    Dependencies:
+        N/A
+    
+    Usage:
+        [player] call HATG_fnc_addHandlers;
+    
+    Return:
+        N/A
+*/
+
 params [
     ["_unit", ObjNull]
 ];

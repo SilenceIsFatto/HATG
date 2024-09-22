@@ -13,13 +13,27 @@ class CfgFunctions
             class isDebug {};
             class log {};
         };
-        class handlers 
+        class equipment 
+        {
+            file = QPATHTOFOLDER(functions\equipment);
+            class defaultGhillies {};
+            class defaultSuppressors {};
+            class getGhillies {};
+            class getSuppressors {};
+            class getUniform {};
+            class hasGhillie {};
+            class hasSuppressor {};
+        };
+        class handlers
         {
             file = QPATHTOFOLDER(functions\handlers);
             class addHandlers {};
             class getNearbyUnits {};
             class handleFired {};
             class handleStance {};
+            class isNight {};
+            class onFired {};
+            class onStance {};
             class surfaceIsGrass {};
         };
         class init 
@@ -28,6 +42,7 @@ class CfgFunctions
             class getVariable {};
             class postInit {};
             class preInit {};
+            class setVariable {};
         };
         class mirror 
         {
