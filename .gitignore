@@ -1,5 +1,6 @@
 *.pbo
 *.vscode
 *.xcf
+*.blend1
 build
 release
