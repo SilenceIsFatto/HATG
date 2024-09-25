@@ -6,18 +6,24 @@ private _hasGhillie = [_unit] call HATG_fnc_hasGhillie;
 private _hasSuppressor = [_unit] call HATG_fnc_hasSuppressor;
 private _isNight = call HATG_fnc_isNight;
 
-private _allowedShotsRange = round (random [_allowedShots-2, _allowedShots, _allowedShots+2]);
+private _allowedShotsRange = ["hatg_mirror_allowedShots", -1, _unit] call HATG_fnc_getVariable;
 
-if (_hasGhillie) then {
-    _allowedShotsRange = _allowedShotsRange + round(random 3);
-};
+if (_allowedShotsRange isEqualTo -1) then {
+    _allowedShotsRange = round (random [_allowedShots-2, _allowedShots, _allowedShots+2]);
 
-if (_hasSuppressor) then {
-    _allowedShotsRange = _allowedShotsRange + round(random (_allowedShots * 2));
-};
+    if (_hasGhillie) then {
+        _allowedShotsRange = _allowedShotsRange + round(random [3, 5, 7]);
+    };
 
-if (_isNight) then {
-    _allowedShotsRange = _allowedShotsRange + round(random 3);
+    if (_hasSuppressor) then {
+        _allowedShotsRange = _allowedShotsRange + round(random [_allowedShots, (_allowedShots + 2), (_allowedShots * 2)]);
+    };
+
+    if (_isNight) then {
+        _allowedShotsRange = _allowedShotsRange + round(random [3, 5, 7]);
+    };
+
+    ["hatg_mirror_allowedShots", _allowedShotsRange, _unit] call HATG_fnc_setVariable;
 };
 
 [format["Has Ghillie? %1, Has Suppressor? %2, Is Night? %3, Allowed Shots: %4", _hasGhillie, _hasSuppressor, _isNight, _allowedShotsRange], 4, _fnc_scriptName] call HATG_fnc_log;

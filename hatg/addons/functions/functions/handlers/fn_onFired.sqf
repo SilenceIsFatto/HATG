@@ -43,6 +43,8 @@ if (_unit distance2D _unitPos >= _resetDistance || {_resetDistance isEqualTo -1}
     private _unitPosUpdated = getPosATL _unit;
     
     ["hatg_mirror_unitInformation", [0, _unitPosUpdated], _unit] call HATG_fnc_setVariable;
+
+    ["hatg_mirror_allowedShots", -1, _unit] call HATG_fnc_setVariable;
     
     [format["Resetting shot count for %1 and updating their position information.", name _unit], 4, _fnc_scriptName] call HATG_fnc_log;
 } else {
