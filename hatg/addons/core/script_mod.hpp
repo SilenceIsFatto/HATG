@@ -5,6 +5,8 @@
 #define DOUBLES(var1,var2) ##var1##_##var2
 #define QUOTE(var1) #var1
 #define COMPONENT_NAME QUOTE(PREFIX - COMPONENT)
+#define JOIN(var1,var2) ##var1## - ##var2
+#define JOINQUOTE(var1) QUOTE(var1)
 
 #define MOD_CONSTANT PREFIX
 #define MOD(var1) DOUBLES(MOD_CONSTANT,var1)

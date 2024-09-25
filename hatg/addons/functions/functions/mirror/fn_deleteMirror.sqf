@@ -36,4 +36,6 @@ if (_mirror isEqualTo ObjNull) exitWith {false}; // if mirror is still ObjNull t
 deleteVehicle _mirror;
 _unit setVariable ["hatg_mirror", ObjNull];
 
+[_unit] call HATG_fnc_handleDisplayText;
+
 true;

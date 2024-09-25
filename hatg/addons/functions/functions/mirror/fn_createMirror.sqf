@@ -21,11 +21,11 @@
 */
 
 params [
-    ["_unit", ObjNull]
+    ["_unit", ObjNull],
+    ["_stance", "PRONE"]
 ];
 
 if (_unit isEqualTo ObjNull) exitWith {false};
-if !([_unit] call HATG_fnc_canCreateMirror) exitWith {false}; // technically unnecessary, but probably a good idea
 
 private _mirror = [_unit] call HATG_fnc_getMirror;
 if (_mirror isNotEqualTo ObjNull) exitWith {false};
@@ -38,6 +38,8 @@ private _mirror = _mirrorType createVehicle [0,0,0];
 _mirror setPosATL getPosATL _unit;
 _mirror attachTo [_unit, [0,0,0]];
 
-_unit setVariable ["hatg_mirror", _mirror];
+["hatg_mirror", _mirror, _unit] call HATG_fnc_setVariable;
+
+[_unit] call HATG_fnc_handleDisplayText;
 
 _mirror;

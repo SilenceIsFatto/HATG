@@ -5,6 +5,7 @@
 
 #include "fn_settings_detection.sqf"
 #include "fn_settings_equipment.sqf"
+#include "fn_settings_ui.sqf"
 
 [
     "hatg_setting_debug", // Internal setting name, should always contain a tag! This will be the global variable which takes the value of the setting.

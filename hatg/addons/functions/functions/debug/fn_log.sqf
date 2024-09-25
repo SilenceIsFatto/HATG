@@ -14,6 +14,7 @@
         missionNamespace variables:
         > "hatg_setting_debug_surface" <BOOL>
         > "hatg_setting_debug_conditions" <BOOL>
+        > "hatg_setting_debug_detection" <BOOL>
     
     Usage:
         ["Test"] call HATG_fnc_log;

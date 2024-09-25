@@ -3,7 +3,7 @@
         Silence
     
     Description:
-        Checks if the surface under _unit is grass or not
+        Checks if the surface under _unit is grass or not, handles the surface check setting being disabled
     
     Params:
         _unit <OBJECT>
@@ -15,7 +15,7 @@
         [player] call HATG_fnc_surfaceIsGrass;
     
     Return:
-        _grassDetected <BOOL>
+        true, false <BOOL>
 */
 
 params ["_unit"];
@@ -29,6 +29,7 @@ private _surfaceTexture = toLowerANSI (surfaceTexture _pos);
 [_surface, 2, _fnc_scriptName] call HATG_fnc_log;
 [_surfaceTexture, 2, _fnc_scriptName] call HATG_fnc_log;
 
+if (["hatg_setting_surfaces", false] call HATG_fnc_getVariable isEqualTo false) exitWith {true}; // If the setting to ignore surfaces is off, return true
 if ("grass" in _surface || {"grass" in _surfaceTexture}) exitWith {true};
 
 false;

@@ -21,10 +21,15 @@
 params ["_unit"];
 
 private _unitMuzzle = currentMuzzle _unit;
-private _unitSuppressor = _unit weaponAccessories _unitMuzzle; // will probably falsely flag muzzles as suppressors in certain mods
+private _unitSuppressor = _unit weaponAccessories _unitMuzzle; // will probably falsely flag muzzles as suppressors in certain mods, so white/blacklisting is necessary
 private _hasSuppressor = _unitSuppressor param [0, ""] != "";
 
 private _blacklistedSuppressors = ["hatg_equipment_suppressor_blacklist", []] call HATG_fnc_getVariable;
 if (_unitSuppressor in _blacklistedSuppressors) exitWith {false};
 
-_hasSuppressor;
+private _whitelistedSuppressors = ["hatg_equipment_suppressor_whitelist", []] call HATG_fnc_getVariable;
+if (_unitSuppressor in _whitelistedSuppressors) exitWith {true};
+
+if (_hasSuppressor) exitWith {true};
+
+false;

@@ -15,13 +15,15 @@
         [player] call HATG_fnc_handleFired;
     
     Return:
-        N/A
+        _ehFired <INT>
 */
 
 params ["_unit"];
 
-_unit addEventHandler ["Fired", {
+private _ehFired = _unit addEventHandler ["Fired", {
 	params ["_unit"];
 
     [_unit] call HATG_fnc_onFired;
 }];
+
+_ehFired;

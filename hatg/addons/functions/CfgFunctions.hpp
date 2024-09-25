@@ -28,8 +28,10 @@ class CfgFunctions
         {
             file = QPATHTOFOLDER(functions\handlers);
             class addHandlers {};
+            class canStayHidden {};
             class getNearbyUnits {};
             class handleFired {};
+            class handleRespawn {};
             class handleStance {};
             class isNight {};
             class onFired {};
@@ -48,6 +50,7 @@ class CfgFunctions
         {
             file = QPATHTOFOLDER(functions\mirror);
             class canCreateMirror {};
+            class canCreateMirrorCrouch {};
             class cooldown {};
             class createMirror {};
             class deleteMirror {};

@@ -4,7 +4,9 @@
     <i>A performance-focused and lightweight solution to stealth in Arma 3.</i>
   </p>
 
-  ### ***"Why does this even exist?"***
+  ### ***"What features does this mod offer?"***
+
+  ### ***"Why does this exist?"***
 
   I noticed that the only real available mod that "solves" this problem, ACSTG AI Cannot See Through Grass, is very... questionable. It spams the server with creation/deletion requests and creates a ton of threads that clog the scheduler, causing massive slowdown especially as time goes on.
 
@@ -14,9 +16,11 @@
 
   ### ***"How is this different to ACSTG"***
 
-  While the end result is similar, the backend is completely different.
+  The main difference is that this mod is *faster* and *better for performance*.
 
-  ACSTG does a ton of calculations that in my opinion are needless. ACSTG is extremely inefficient. It does a lot of checks that aren't needed, and the o^n2 complexity is huge. ACSTG gets worse for performance as you add more to the inputs - those being the amount of AI or players. Not only is the code inefficient, it creates and deletes objects every single second, regardless of if the player/AI has moved or not.
+  From quick code performance testing, ACSTG takes around 2 milliseconds to run with no AI present. With 100 AI present, this can skyrocket from anywhere to 4-6ms. That's the main loop that runs every second or so (I couldn't test the entire thing due to its heavy use of threads and scheduling, made the performance results inaccurate. If anything the loop may actually take longer.). It also floods the server network with creation/deletion requests, which is then passed on to every connected client.
+
+  HATG will take around 0.6-0.8ms to run its loop every second with 120 AI present. That's a lot faster than ACSTG.
 
   For example:
   If you have 10 players attacking a position with around 70 enemy AI, ACSTG will potentially be spawning ~100-700 objects every second depending on how many players are "hidden". These are then being deleted ~1 second after they are being made, resulting in another ~100-700 deletions. It will also create multiple boxes per AI for each player.

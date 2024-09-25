@@ -8,6 +8,7 @@
     Params:
         _varName <STRING> <Default: "">
         _defaultValue <ANY> <Default: "">
+        _namespace <ANY> <Default: missionNamespace>
     
     Dependencies:
         N/A
@@ -16,7 +17,7 @@
         [VARNAME, DEFAULTVALUE] call HATG_fnc_getVariable;
     
     Return:
-        _variable or _defaultValue <ANY>
+        _variable <ANY>
 */
 
 params [

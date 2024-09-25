@@ -26,3 +26,4 @@ if (_unit isEqualTo ObjNull) exitWith {["Could not add event handlers, _unit was
 
 [_unit] spawn HATG_fnc_handleStance;
 [_unit] call HATG_fnc_handleFired;
+[_unit] call HATG_fnc_handleRespawn;
