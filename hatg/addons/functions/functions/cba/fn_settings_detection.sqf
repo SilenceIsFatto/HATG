@@ -86,3 +86,17 @@
         missionNamespace setVariable ["hatg_setting_distance_shots", round(_value), true];
     }
 ] call CBA_fnc_addSetting;
+
+[
+    "hatg_setting_movement_crouch",
+    "LIST",
+    ["Crouching Movement Speed Before Detection", "This controls how fast you can move while crouching before getting detected."],
+    SETTING_HEADER_DETECTION_STEALTH,
+    [[0, 5, 12, 20], ["Always Detect Movement", "Sneaking", "Walking", "Never Detect Movement"], 1],
+    true,
+    {
+        params ["_value"];
+
+        missionNamespace setVariable ["hatg_setting_movement_crouch", _value, true];
+    }
+] call CBA_fnc_addSetting;

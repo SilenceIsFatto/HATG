@@ -27,6 +27,8 @@ if (_unit isEqualTo ObjNull) exitWith {false};
 
 private _cooldown = _unit getVariable ["hatg_mirror_cooldown", false];
 
+private _movementSpeed = speed _unit;
+
 private _unitInVehicle = !(isNull objectParent _unit);
 
 private _units = [_unit, "CROUCH"] call HATG_fnc_getNearbyUnits;
@@ -37,5 +39,6 @@ private _closeUnits = _units#1;
 if (_cooldown) exitWith {false};
 if (_unitInVehicle) then {false};
 if (count (_closeUnits) != 0) exitWith {false};
+if (_movementSpeed > hatg_setting_movement_crouch) exitWith {false};
 
 true
