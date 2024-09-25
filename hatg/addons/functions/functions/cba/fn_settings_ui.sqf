@@ -47,11 +47,25 @@
 ] call CBA_fnc_addSetting;
 
 [
+    "hatg_setting_ui_textsize",
+    "SLIDER",
+    ["HUD Text Size", "This controls the size of the text on the hud."],
+    SETTING_HEADER_GENERAL,
+    [0, 6.5, 2, 1],
+    2,
+    {
+        params["_value"];
+
+        uiNamespace setVariable ["hatg_setting_ui_textsize", _value];
+    }
+] call CBA_fnc_addSetting;
+
+[
     "hatg_setting_ui_colour_hidden",
     "COLOR",
     ["UI Colour (Hidden)", "This controls the UI colour when hidden."],
     SETTING_HEADER_GENERAL,
-    [0, 1, 0],
+    [0, 1, 0, 1],
     2,
     {
         params ["_value"];
@@ -65,7 +79,7 @@
     "COLOR",
     ["UI Colour (Revealed)", "This controls the UI colour when revealed."],
     SETTING_HEADER_GENERAL, 
-    [1, 0, 0],
+    [1, 0, 0, 1],
     2,
     {
         params ["_value"];
