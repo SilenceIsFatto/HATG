@@ -21,7 +21,7 @@
     "SLIDER",
     ["UI X Position", "This controls the UI X position, Left/Right."],
     SETTING_HEADER_GENERAL, 
-    [0, 2, 0.45, 1],
+    [-2, 2, 0, 1],
     2,
     {
         params ["_value"];
@@ -36,7 +36,7 @@
     "SLIDER",
     ["UI Y Position", "This controls the UI Y position, Up/Down."],
     SETTING_HEADER_GENERAL, 
-    [0, 2, 1.7, 1],
+    [-2, 2, 0, 1],
     2,
     {
         params ["_value"];
