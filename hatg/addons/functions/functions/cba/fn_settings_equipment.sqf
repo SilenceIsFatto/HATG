@@ -14,7 +14,7 @@ private _defaultGhilliesBlacklist = _defaultGhillies#1 joinString ", ";
     "hatg_setting_equipment_suppressor_whitelist",
     "EDITBOX",
     "Suppressors (Whitelist)",
-    SETTING_HEADER_DEBUG,
+    SETTING_HEADER_EQUIPMENT,
     _defaultSuppressorsWhitelist,
     true,
     {
@@ -28,7 +28,7 @@ private _defaultGhilliesBlacklist = _defaultGhillies#1 joinString ", ";
     "hatg_setting_equipment_ghillie_whitelist",
     "EDITBOX",
     "Ghillies (Whitelist)",
-    SETTING_HEADER_DEBUG,
+    SETTING_HEADER_EQUIPMENT,
     _defaultGhilliesWhitelist,
     true,
     {
@@ -42,7 +42,7 @@ private _defaultGhilliesBlacklist = _defaultGhillies#1 joinString ", ";
     "hatg_setting_equipment_suppressor_blacklist",
     "EDITBOX",
     "Suppressors (Blacklist)",
-    SETTING_HEADER_DEBUG,
+    SETTING_HEADER_EQUIPMENT,
     _defaultSuppressorsBlacklist,
     true,
     {
@@ -56,7 +56,7 @@ private _defaultGhilliesBlacklist = _defaultGhillies#1 joinString ", ";
     "hatg_setting_equipment_ghillie_blacklist",
     "EDITBOX",
     "Ghillies (Blacklist)",
-    SETTING_HEADER_DEBUG,
+    SETTING_HEADER_EQUIPMENT,
     _defaultGhilliesBlacklist,
     true,
     {
