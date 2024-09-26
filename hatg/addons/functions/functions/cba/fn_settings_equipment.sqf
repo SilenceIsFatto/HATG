@@ -5,10 +5,10 @@
 private _defaultSuppressors = call HATG_fnc_defaultSuppressors;
 private _defaultGhillies = call HATG_fnc_defaultGhillies;
 
-private _defaultSuppressorsWhitelist = _defaultSuppressors#0 joinString ", ";
-private _defaultSuppressorsBlacklist = _defaultSuppressors#1 joinString ", ";
-private _defaultGhilliesWhitelist = _defaultGhillies#0 joinString ", ";
-private _defaultGhilliesBlacklist = _defaultGhillies#1 joinString ", ";
+private _defaultSuppressorsWhitelist = str(_defaultSuppressors#0);
+private _defaultSuppressorsBlacklist = str(_defaultSuppressors#1);
+private _defaultGhilliesWhitelist = str(_defaultGhillies#0);
+private _defaultGhilliesBlacklist = str(_defaultGhillies#1);
 
 [
     "hatg_setting_equipment_suppressor_whitelist",

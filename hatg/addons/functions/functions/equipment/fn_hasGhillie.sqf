@@ -24,10 +24,10 @@ private _unitUniform = [_unit] call HATG_fnc_getUniform;
 
 private _hasGhillie = false; // find a method to figure out if uniform is ghillie
 
-private _blacklistedGhillies = ["hatg_equipment_ghillie_blacklist", []] call HATG_fnc_getVariable;
+private _ghillies = call HATG_fnc_getGhillies;
+private _whitelistedGhillies = _ghillies # 0;
+private _blacklistedGhillies = _ghillies # 1;
 if (_unitUniform in _blacklistedGhillies) exitWith {false};
-
-private _whitelistedGhillies = ["hatg_equipment_ghillie_whitelist", []] call HATG_fnc_getVariable;
 if (_unitUniform in _whitelistedGhillies) exitWith {true};
 
 if (_hasGhillie) exitWith {true};
