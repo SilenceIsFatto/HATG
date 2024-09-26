@@ -1,6 +1,4 @@
-private _suppressorsWhitelist = [
-    ""
-];
+private _suppressorsWhitelist = [];
 
 private _suppressorsBlacklist = [
     // Ace muzzles

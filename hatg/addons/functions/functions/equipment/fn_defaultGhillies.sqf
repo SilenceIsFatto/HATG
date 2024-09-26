@@ -25,8 +25,6 @@ private _ghilliesWhitelist = [
     "U_I_FullGhillie_ard"
 ];
 
-private _ghilliesBlacklist = [
-    ""
-];
+private _ghilliesBlacklist = [];
 
 [_ghilliesWhitelist, _ghilliesBlacklist];
