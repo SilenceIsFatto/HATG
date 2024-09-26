@@ -30,6 +30,7 @@ class CfgFunctions
             class addHandlers {};
             class canStayHidden {};
             class getNearbyUnits {};
+            class handleDamage {};
             class handleFired {};
             class handleRespawn {};
             class handleStance {};
