@@ -20,10 +20,10 @@
 
 params ["_group"];
 
-(units _group) apply {[_x] call HATG_fnc_addHandlers};
-
 private _ehUnitJoined = _group addEventHandler ["UnitJoined", {
 	params ["_group", "_newUnit"];
+
+    [_newUnit] call HATG_fnc_addHandlers;
 }];
 
 _ehUnitJoined;

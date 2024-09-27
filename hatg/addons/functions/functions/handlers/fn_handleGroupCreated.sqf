@@ -12,7 +12,7 @@
         N/A
     
     Usage:
-        call HATG_fnc_handleGroup;
+        call HATG_fnc_handleGroupCreated;
     
     Return:
         _ehGroupCreated <INT>
@@ -24,8 +24,6 @@ private _ehGroupCreated = addMissionEventHandler ["GroupCreated", {
     private _leader = leader _group;
 
     if (!(isMultiplayer) && {isPlayer _leader}) then {
-        (units _group) apply {[_x] call HATG_fnc_addHandlers};
-
         [_group] call HATG_fnc_handleUnitJoined;
     };
 }];
