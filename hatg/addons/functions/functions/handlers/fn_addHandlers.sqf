@@ -28,3 +28,7 @@ if (_unit isEqualTo ObjNull) exitWith {["Could not add event handlers, _unit was
 [_unit] call HATG_fnc_handleFired;
 [_unit] call HATG_fnc_handleRespawn;
 [_unit] call HATG_fnc_handleDamage;
+
+if !(isMultiplayer && {isPlayer _unit}) then {
+    [group _unit] call HATG_fnc_handleUnitJoined;
+};

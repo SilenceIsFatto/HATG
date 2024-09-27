@@ -32,8 +32,10 @@ class CfgFunctions
             class getNearbyUnits {};
             class handleDamage {};
             class handleFired {};
+            class handleGroupCreated {};
             class handleRespawn {};
             class handleStance {};
+            class handleUnitJoined {};
             class isNight {};
             class onFired {};
             class onStance {};

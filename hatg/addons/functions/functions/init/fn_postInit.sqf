@@ -6,3 +6,7 @@ if !(_serverActivated) exitWith {titleText ["HATG is not a client mod and needs 
 [player] call HATG_fnc_addHandlers;
 
 [_unit] call HATG_fnc_createDisplay;
+
+if !(isMultiplayer) then {
+    call HATG_fnc_handleGroup;
+};
