@@ -29,7 +29,8 @@ if (_unit isEqualTo ObjNull) exitWith {["Could not add event handlers, _unit was
 [_unit] call HATG_fnc_handleRespawn;
 [_unit] call HATG_fnc_handleDamage;
 
-if !(isMultiplayer && {isPlayer _unit}) then {
-    private _unitGroup = group _unit;
-    [_unitGroup] call HATG_fnc_handleUnitJoined;
-};
+// Not sure why but this causes a game freeze when an AI is added to your group, I might just be dumb
+// if !(isMultiplayer && {isPlayer _unit}) then {
+//     private _unitGroup = group _unit;
+//     [_unitGroup] call HATG_fnc_handleUnitJoined;
+// };

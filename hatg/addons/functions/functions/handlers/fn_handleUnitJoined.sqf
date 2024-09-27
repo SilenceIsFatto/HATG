@@ -20,8 +20,13 @@
 
 params ["_group"];
 
+if (_group isEqualTo GrpNull) exitWith {};
+
 private _ehUnitJoined = _group addEventHandler ["UnitJoined", {
 	params ["_group", "_newUnit"];
+
+    diag_log _group;
+    diag_log _newUnit;
 
     [_newUnit] call HATG_fnc_addHandlers;
 }];

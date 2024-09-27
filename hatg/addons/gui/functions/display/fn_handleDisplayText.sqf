@@ -4,7 +4,7 @@ private _display = call HATG_fnc_getDisplay;
 
 if (_display isEqualTo []) exitWith {};
 
-private _statusText = "Overt";
+private _statusText = localize "$STR_HATG_Revealed";
 private _displayHidden = _display#1;
 
 private _textSize = hatg_setting_ui_textsize;
@@ -24,7 +24,7 @@ private _colour = _displayColourRevealed;
 if (["hatg_mirror", ObjNull, _unit] call HATG_fnc_getVariable isNotEqualTo ObjNull) then {
     _hidden = true;
     _colour = _displayColourHidden;
-    _statusText = "Hidden";
+    _statusText = localize "$STR_HATG_Hidden";
 };
 
 _colour = (_colour call BIS_fnc_colorRGBAtoHTML);

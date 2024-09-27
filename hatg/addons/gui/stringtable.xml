@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="HATG">
+	<Package name="Stealth">
+		<Container name="Revealed/Hidden">
+			<Key ID="STR_HATG_Revealed">
+				<Original>Revealed</Original>
+				<English>Revealed</English>
+				<Czech>Odhalený</Czech>
+				<French>Révélé</French>
+				<German>Offenbart</German>
+				<Italian>Rivelato</Italian>
+				<Polish>Ujawniony</Polish>
+				<Russian>Раскрытый</Russian>
+				<Spanish>Revelado</Spanish>
+				<Korean>드러난</Korean>
+				<Japanese>明らかにされた</Japanese>
+				<Chinesesimp>揭示</Chinesesimp>
+				<Chinese>揭露</Chinese>
+			</Key>
+			<Key ID="STR_HATG_Hidden">
+				<Original>Hidden</Original>
+				<English>Hidden</English>
+				<Czech>Skrytý</Czech>
+				<French>Caché</French>
+				<German>Versteckt</German>
+				<Italian>Nascosto</Italian>
+				<Polish>Ukryty</Polish>
+				<Russian>Скрытый</Russian>
+				<Spanish>Oculto</Spanish>
+				<Korean>숨겨진</Korean>
+				<Japanese>隠された</Japanese>
+				<Chinesesimp>隐藏</Chinesesimp>
+				<Chinese>隐匿</Chinese>
+			</Key>
+		</Container>
+	</Package>
+</Project>
