@@ -562,16 +562,6 @@
 				<Portuguese>Isso controla o tempo que o texto leva para desaparecer. Se definido como 0, o texto não desaparecerá.</Portuguese>
 				<Turkish>Bu, metnin solması için gereken süreyi kontrol eder. 0 olarak ayarlanırsa, metin solmaz.</Turkish>
 			</Key>
-			<Key ID="STR_HATG_UI_Enable_Fading">
-				<Original>Enable UI Fading</Original>
-				<English>Enable UI Fading</English>
-				<Russian>Включить затухание пользовательского интерфейса</Russian>
-			</Key>
-			<Key ID="STR_HATG_UI_Enable_Fading_info">
-				<Original>This controls the amount of time it takes for the text to fade away. in set to 0 the text will not fade away.</Original>
-				<English>This controls the amount of time it takes for the text to fade away. in set to 0 the text will not fade away.</English>
-				<Russian>Это контролирует время, необходимое для исчезновения текста. если установлено значение 0, текст не исчезнет.</Russian>
-			</Key>
 			<Key ID="STR_HATG_UI_Position_X">
 				<Original>UI X Position</Original>
 				<English>UI X Position</English>
