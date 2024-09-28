@@ -17,6 +17,20 @@
 ] call CBA_fnc_addSetting;
 
 [
+    "hatg_setting_ui_fade",
+    "SLIDER",
+    ["$STR_HATG_UI_Enable_Fading", "$STR_HATG_UI_Enable_Fading_info"],
+    SETTING_HEADER_GENERAL, 
+    [0, 10, 0, 0],
+    2,
+    {
+        params ["_value"];
+
+        uiNamespace setVariable ["hatg_setting_ui_fade", _value];
+    }
+] call CBA_fnc_addSetting;
+
+[
     "hatg_setting_ui_x",
     "SLIDER",
     ["$STR_HATG_UI_Position_X", "$STR_HATG_UI_Position_X_info"],
