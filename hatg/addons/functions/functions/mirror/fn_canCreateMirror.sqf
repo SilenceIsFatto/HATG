@@ -44,6 +44,6 @@ if (_cooldown) exitWith {false};
 if !(_surfaceIsGrass) exitWith {false};
 if (_unitInVehicle) then {false};
 if (_isOnRoad) exitWith {false};
-if (count (_closeUnits) != 0) exitWith {false};
+if (_closeUnits) exitWith {false};
 
 true

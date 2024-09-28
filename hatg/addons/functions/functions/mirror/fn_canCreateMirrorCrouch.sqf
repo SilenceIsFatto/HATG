@@ -41,7 +41,7 @@ private _closeUnits = _units#1;
 if (_cooldown) exitWith {false};
 if !(_surfaceIsGrass) exitWith {false};
 if (_unitInVehicle) then {false};
-if (count (_closeUnits) != 0) exitWith {false};
+if (_closeUnits) exitWith {false};
 if (_movementSpeed > hatg_setting_movement_crouch) exitWith {false};
 
 true

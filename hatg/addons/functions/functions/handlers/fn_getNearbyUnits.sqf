@@ -42,6 +42,6 @@ if ([_unit] call HATG_fnc_hasGhillie) then {
 
 // Fun fact, swapping BIS_fnc_sideIsEnemy to getFriend made the execution time go from about 1.8776ms with 119 AI to 0.5239ms. Fun :D
 private _nearbyUnits = allUnits select {_x != _unit && {_unitSide getFriend side _x <= 0.5} && {_x distance _unit <= _distanceNearby}};
-private _closeUnits = _nearbyUnits select {_x distance _unit <= _distanceClose};
+private _closeUnits = if (_nearbyUnits findIf {_x distance _unit <= _distanceClose} != -1) then {true} else {false};
 
 [_nearbyUnits, _closeUnits];
