@@ -5,7 +5,7 @@
 [
     "hatg_setting_ui",
     "CHECKBOX",
-    ["Enable UI", "This controls if the 'Hidden' message can be drawn to help you know when you are vulnerable."],
+    ["$STR_HATG_UI_Enable", "$STR_HATG_UI_Enable_info"],
     SETTING_HEADER_GENERAL, 
     true,
     false,
@@ -19,7 +19,7 @@
 [
     "hatg_setting_ui_x",
     "SLIDER",
-    ["UI X Position", "This controls the UI X position, Left/Right."],
+    ["$STR_HATG_UI_Position_X", "$STR_HATG_UI_Position_X_info"],
     SETTING_HEADER_GENERAL, 
     [-2, 2, 0, 2],
     2,
@@ -34,7 +34,7 @@
 [
     "hatg_setting_ui_y",
     "SLIDER",
-    ["UI Y Position", "This controls the UI Y position, Up/Down."],
+    ["$STR_HATG_UI_Position_Y", "$STR_HATG_UI_Position_Y_info"],
     SETTING_HEADER_GENERAL, 
     [-2, 2, 0, 2],
     2,
@@ -49,7 +49,7 @@
 [
     "hatg_setting_ui_textsize",
     "SLIDER",
-    ["HUD Text Size", "This controls the size of the text on the hud."],
+    ["$STR_HATG_UI_Text_Size", "$STR_HATG_UI_Text_Size_info"],
     SETTING_HEADER_GENERAL,
     [0, 6.5, 2, 1],
     2,
@@ -63,7 +63,7 @@
 [
     "hatg_setting_ui_colour_hidden",
     "COLOR",
-    ["UI Colour (Hidden)", "This controls the UI colour when hidden."],
+    ["$STR_HATG_UI_Colour_Hidden", "$STR_HATG_UI_Colour_Hidden_info"],
     SETTING_HEADER_GENERAL,
     [0, 1, 0, 1],
     2,
@@ -77,7 +77,7 @@
 [
     "hatg_setting_ui_colour_revealed",
     "COLOR",
-    ["UI Colour (Revealed)", "This controls the UI colour when revealed."],
+    ["$STR_HATG_UI_Colour_Revealed", "$STR_HATG_UI_Colour_Revealed_info"],
     SETTING_HEADER_GENERAL, 
     [1, 0, 0, 1],
     2,

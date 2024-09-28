@@ -1,5 +1,97 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Project name="HATG">
+	<Package name="Debug">
+		<Container name="Settings">
+			<Key ID="STR_HATG_Debug">
+				<Original>Debug Mode</Original>
+				<English>Debug Mode</English>
+				<Russian>Режим отладки</Russian>
+			</Key>
+			<Key ID="STR_HATG_Debug_RPT_Surfaces">
+				<Original>Debug RPT (Surfaces)</Original>
+				<English>Debug RPT (Surfaces)</English>
+				<Russian>Отладка RPT (поверхности)</Russian>
+			</Key>
+			<Key ID="STR_HATG_Debug_RPT_Conditions">
+				<Original>Debug RPT (Conditions)</Original>
+				<English>Debug RPT (Conditions)</English>
+				<Russian>Отладка RPT (условия)</Russian>
+			</Key>
+			<Key ID="STR_HATG_Debug_RPT_Detection">
+				<Original>Debug RPT (Detection)</Original>
+				<English>Debug RPT (Detection)</English>
+				<Russian>Отладка RPT (обнаружение)</Russian>
+			</Key>
+		</Container>
+	</Package>
+	<Package name="Detection">
+		<Container name="Settings">
+			<Key ID="STR_HATG_Surface_Requirements">
+				<Original>Enable Surface Requirements</Original>
+				<English>Enable Surface Requirements</English>
+				<Russian>Включить требования к поверхности</Russian>
+			</Key>
+			<Key ID="STR_HATG_Surface_Requirements_info">
+				<Original>This controls the surfaces you need to be on in order to be hidden. By default you need to be on 'grass' to stay hidden. If set to off, you will remain hidden regardless of the terrain you're on. (other factors still apply)</Original>
+				<English>This controls the surfaces you need to be on in order to be hidden. By default you need to be on 'grass' to stay hidden. If set to off, you will remain hidden regardless of the terrain you're on. (other factors still apply)</English>
+				<Russian>Это контролирует поверхности, на которых вам нужно находиться, чтобы спрятаться. По умолчанию вам нужно находиться на 'траве', чтобы оставаться скрытым. Если этот параметр отключен, вы останетесь скрытыми независимо от местности, на которой находитесь. (другие факторы все еще применяются)</Russian>
+			</Key>
+			<Key ID="STR_HATG_Detection_Cooldown">
+				<Original>Detection Cooldown</Original>
+				<English>Detection Cooldown</English>
+				<Russian>Время восстановления обнаружения</Russian>
+			</Key>
+			<Key ID="STR_HATG_Detection_Cooldown_info">
+				<Original>This controls how long you will be 'spotted' for if you fire without a suppressor. This is divided by 10 if you fire while not prone.</Original>
+				<English>This controls how long you will be 'spotted' for if you fire without a suppressor. This is divided by 10 if you fire while not prone.</English>
+				<Russian>Это определяет, как долго вас будут 'засекать', если вы стреляете без глушителя. Это значение делится на 10, если вы стреляете, не лежа лежа.</Russian>
+			</Key>
+			<Key ID="STR_HATG_Detection_Distance">
+				<Original>Detection Distance</Original>
+				<English>Detection Distance</English>
+				<Russian>Расстояние обнаружения</Russian>
+			</Key>
+			<Key ID="STR_HATG_Detection_Distance_info">
+				<Original>This controls how close you can get to AI before they 'spot' you. At night this is halved to mimic low visibility. It will be further halved if you wear a ghillie suit.</Original>
+				<English>This controls how close you can get to AI before they 'spot' you. At night this is halved to mimic low visibility. It will be further halved if you wear a ghillie suit.</English>
+				<Russian>Это контролирует, насколько близко вы можете подойти к ИИ, прежде чем он 'заметит' вас. Ночью это значение уменьшается вдвое, чтобы имитировать плохую видимость. Если вы наденете маскировочный костюм, он уменьшится еще вдвое.</Russian>
+			</Key>
+			<Key ID="STR_HATG_Detection_Distance_multiplier">
+				<Original>Detection Distance Multiplier</Original>
+				<English>Detection Distance Multiplier</English>
+				<Russian>Множитель расстояния обнаружения</Russian>
+			</Key>
+			<Key ID="STR_HATG_Detection_Distance_multiplier_info">
+				<Original>This controls the multiplier at which the different stances increase distance detection (above). For example, 40m becomes 80m when you are crouching instead of prone.</Original>
+				<English>This controls the multiplier at which the different stances increase distance detection (above). For example, 40m becomes 80m when you are crouching instead of prone.</English>
+				<Russian>Это контролирует множитель, при котором различные стойки увеличивают обнаружение расстояния (выше). Например, 40 м становятся 80 м, когда вы сидите на корточках, а не лежа.</Russian>
+			</Key>
+		</Container>
+	</Package>
+	<Package name="Equipment">
+		<Container name="Settings">
+			<Key ID="STR_HATG_Suppressors_whitelist">
+				<Original>Suppressors (Whitelist)</Original>
+				<English>Suppressors (Whitelist)</English>
+				<Russian>Звукоподавители (Белый список)</Russian>
+			</Key>
+			<Key ID="STR_HATG_Ghillies_whitelist">
+				<Original>Ghillies (Whitelist)</Original>
+				<English>Ghillies (Whitelist)</English>
+				<Russian>Маскировочные костюмы (Белый список)</Russian>
+			</Key>
+			<Key ID="STR_HATG_Suppressors_blacklist">
+				<Original>Suppressores (Blacklist)</Original>
+				<English>Suppressores (Blacklist)</English>
+				<Russian>Звукоподавители (Черный список)</Russian>
+			</Key>
+			<Key ID="STR_HATG_Ghillies_blacklist">
+				<Original>Ghillies (Blacklist)</Original>
+				<English>Ghillies (Blacklist)</English>
+				<Russian>Маскировочные костюмы (Черный список)</Russian>
+			</Key>
+		</Container>
+	</Package>
 	<Package name="Stealth">
 		<Container name="Revealed/Hidden">
 			<Key ID="STR_HATG_Revealed">
@@ -31,6 +123,122 @@
 				<Japanese>隠された</Japanese>
 				<Chinesesimp>隐藏</Chinesesimp>
 				<Chinese>隐匿</Chinese>
+			</Key>
+		</Container>
+		<Container name="Settings">
+			<Key ID="STR_HATG_Reset_Shot_Counter">
+				<Original>Reset Shot Counter Distance</Original>
+				<English>Reset Shot Counter Distance</English>
+				<Russian>Сбросить расстояние счетчика выстрелов</Russian>
+			</Key>
+			<Key ID="STR_HATG_Reset_Shot_Counter_info">
+				<Original>This controls the distance (m) you have to move to reset the shot counter whilst using a suppressor. -1 means you can shoot in the same spot indefinitely.</Original>
+				<English>This controls the distance (m) you have to move to reset the shot counter whilst using a suppressor. -1 means you can shoot in the same spot indefinitely.</English>
+				<Russian>Определяет расстояние (м), которое вам придется пройти, чтобы сбросить счетчик выстрелов при использовании глушителя. -1 означает, что вы можете стрелять в одно и то же место бесконечно.</Russian>
+			</Key>
+			<Key ID="STR_HATG_Shots_Before_Detection">
+				<Original>Shots Before Detection</Original>
+				<English>Shots Before Detection</English>
+				<Russian>Выстрелы до обнаружения</Russian>
+			</Key>
+			<Key ID="STR_HATG_Shots_Before_Detection_info">
+				<Original>This controls the general amount of shots you can fire in one spot before being revealed while using a suppressor. -1 means you can shoot indefinitely.</Original>
+				<English>This controls the general amount of shots you can fire in one spot before being revealed while using a suppressor. -1 means you can shoot indefinitely.</English>
+				<Russian>Это контролирует общее количество выстрелов, которые вы можете сделать в одном месте, прежде чем его обнаружат при использовании глушителя. -1 означает, что вы можете стрелять бесконечно.</Russian>
+			</Key>
+			<Key ID="STR_HATG_Crouching_Movement_Speed">
+				<Original>Crouching Movement Speed Before Detection</Original>
+				<English>Crouching Movement Speed Before Detection</English>
+				<Russian>Скорость движения при приседании до обнаружения</Russian>
+			</Key>
+			<Key ID="STR_HATG_Crouching_Movement_Speed_info">
+				<Original>This controls how fast you can move while crouching before getting detected.</Original>
+				<English>This controls how fast you can move while crouching before getting detected.</English>
+				<Russian>Это контролирует, насколько быстро вы можете двигаться, присев, прежде чем вас обнаружат.</Russian>
+			</Key>
+			<Key ID="STR_HATG_Movement_Speed_always">
+				<Original>Always Detect Movement</Original>
+				<English>Always Detect Movement</English>
+				<Russian>Всегда обнаруживать движение</Russian>
+			</Key>
+			<Key ID="STR_HATG_Movement_Speed_sneaking">
+				<Original>Sneaking</Original>
+				<English>Sneaking</English>
+				<Russian>Подкрадываться</Russian>
+			</Key>
+			<Key ID="STR_HATG_Movement_Speed_walking">
+				<Original>Walking</Original>
+				<English>Walking</English>
+				<Russian>Прогулка</Russian>
+			</Key>
+			<Key ID="STR_HATG_Movement_Speed_never">
+				<Original>Never Detect Movement</Original>
+				<English>Never Detect Movement</English>
+				<Russian>Никогда не обнаруживайте движение</Russian>
+			</Key>
+		</Container>
+	</Package>
+	<Package name="UI">
+		<Container name="Settings">
+			<Key ID="STR_HATG_UI_Enable">
+				<Original>Enable UI</Original>
+				<English>Enable UI</English>
+				<Russian>Включить пользовательский интерфейс</Russian>
+			</Key>
+			<Key ID="STR_HATG_UI_Enable_info">
+				<Original>This controls if the 'Hidden' message can be drawn to help you know when you are vulnerable.</Original>
+				<English>This controls if the 'Hidden' message can be drawn to help you know when you are vulnerable.</English>
+				<Russian>Это контролирует, может ли быть отображено 'Скрытое' сообщение, которое поможет вам узнать, когда вы уязвимы.</Russian>
+			</Key>
+			<Key ID="STR_HATG_UI_Position_X">
+				<Original>UI X Position</Original>
+				<English>UI X Position</English>
+				<Russian>Позиция пользовательского интерфейса X</Russian>
+			</Key>
+			<Key ID="STR_HATG_UI_Position_X_info">
+				<Original>This controls the UI X position, Left/Right.</Original>
+				<English>This controls the UI X position, Left/Right.</English>
+				<Russian>Это контролирует положение UI X, влево/вправо.</Russian>
+			</Key>
+			<Key ID="STR_HATG_UI_Position_Y">
+				<Original>UI Y Position</Original>
+				<English>UI Y Position</English>
+				<Russian>Позиция Y пользовательского интерфейса</Russian>
+			</Key>
+			<Key ID="STR_HATG_UI_Position_Y_info">
+				<Original>This controls the UI Y position, Up/Down.</Original>
+				<English>This controls the UI Y position, Up/Down.</English>
+				<Russian>Это контролирует положение пользовательского интерфейса Y, вверх/вниз.</Russian>
+			</Key>
+			<Key ID="STR_HATG_UI_Text_Size">
+				<Original>HUD Text Size</Original>
+				<English>HUD Text Size</English>
+				<Russian>Размер текста HUD</Russian>
+			</Key>
+			<Key ID="STR_HATG_UI_Text_Size_info">
+				<Original>This controls the size of the text on the hud.</Original>
+				<English>This controls the size of the text on the hud.</English>
+				<Russian>Это контролирует размер текста на интерфейсе.</Russian>
+			</Key>
+			<Key ID="STR_HATG_UI_Colour_Hidden">
+				<Original>UI Colour (Hidden)</Original>
+				<English>UI Colour (Hidden)</English>
+				<Russian>Цвет пользовательского интерфейса (скрытый)</Russian>
+			</Key>
+			<Key ID="STR_HATG_UI_Colour_Hidden_info">
+				<Original>This controls the UI colour when hidden.</Original>
+				<English>This controls the UI colour when hidden.</English>
+				<Russian>Это контролирует цвет пользовательского интерфейса, когда игрок скрыт.</Russian>
+			</Key>
+			<Key ID="STR_HATG_UI_Colour_Revealed">
+				<Original>UI Colour (Revealed)</Original>
+				<English>UI Colour (Revealed)</English>
+				<Russian>Цвет пользовательского интерфейса (показан)</Russian>
+			</Key>
+			<Key ID="STR_HATG_UI_Colour_Revealed_info">
+				<Original>This controls the UI colour when revealed.</Original>
+				<English>This controls the UI colour when revealed.</English>
+				<Russian>Это контролирует цвет пользовательского интерфейса при раскрытии игрока.</Russian>
 			</Key>
 		</Container>
 	</Package>
