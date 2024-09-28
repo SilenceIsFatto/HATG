@@ -23,6 +23,7 @@ params ["_unit"];
 private _ehDamage = _unit addEventHandler ["HandleDamage", {
 	params ["_unit"];
 
+    [_unit] call HATG_fnc_deleteMirror;
     [_unit] call HATG_fnc_cooldown;
 }];
 
