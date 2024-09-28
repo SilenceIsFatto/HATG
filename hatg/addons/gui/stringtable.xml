@@ -528,6 +528,40 @@
 				<Portuguese>Isso controla se a mensagem 'Oculto' pode ser exibida para ajudá-lo a saber quando você está vulnerável.</Portuguese>
 				<Turkish>Bu, 'Gizli' mesajının çizilip çizilemeyeceğini kontrol eder; bu, savunmasız olduğunuzda bilmenize yardımcı olur.</Turkish>
 			</Key>
+			<Key ID="STR_HATG_UI_Enable_Fading">
+				<Original>Enable UI Fading</Original>
+				<English>Enable UI Fading</English>
+				<Russian>Включить затухание пользовательского интерфейса</Russian>
+				<German>UI-Ausblenden aktivieren</German>
+				<Italian>Abilita dissolvenza dell'interfaccia utente</Italian>
+				<Spanish>Habilitar desvanecimiento de la interfaz de usuario</Spanish>
+				<French>Activer l'estompage de l'interface utilisateur</French>
+				<Korean>UI 페이드 기능 활성화</Korean>
+				<Japanese>UIフェードを有効にする</Japanese>
+				<Chineseimp>启用UI淡出</Chineseimp>
+				<Chinese>啟用UI淡出</Chinese>
+				<Polish>Włącz zanikanie interfejsu użytkownika</Polish>
+				<Czech>Povolit vyblednutí uživatelského rozhraní</Czech>
+				<Portuguese>Ativar desvanecimento da interface do usuário</Portuguese>
+				<Turkish>UI Solmasını Etkinleştir</Turkish>
+			</Key>
+			<Key ID="STR_HATG_UI_Enable_Fading_info">
+				<Original>This controls the amount of time it takes for the text to fade away. if set to 0 the text will not fade away.</Original>
+				<English>This controls the amount of time it takes for the text to fade away. if set to 0 the text will not fade away.</English>
+				<Russian>Это контролирует время, необходимое для исчезновения текста. если установлено значение 0, текст не исчезнет.</Russian>
+				<German>Dies steuert die Zeit, die benötigt wird, bis der Text verblasst. Wenn auf 0 eingestellt, wird der Text nicht verblassen.</German>
+				<Italian>Questo controlla il tempo necessario affinché il testo scompaia. Se impostato su 0, il testo non scomparirà.</Italian>
+				<Spanish>Esto controla el tiempo que tarda en desvanecerse el texto. Si se establece en 0, el texto no se desvanecerá.</Spanish>
+				<French>Cela contrôle le temps nécessaire pour que le texte disparaisse. Si réglé sur 0, le texte ne disparaîtra pas.</French>
+				<Korean>이 설정은 텍스트가 사라지는 데 걸리는 시간을 제어합니다. 0으로 설정하면 텍스트가 사라지지 않습니다.</Korean>
+				<Japanese>これはテキストが消えるまでの時間を制御します。0に設定すると、テキストは消えません。</Japanese>
+				<Chineseimp>该选项控制文本消失所需的时间。如果设置为0，文本将不会消失。</Chineseimp>
+				<Chinese>該選項控制文本消失所需的時間。如果設置為0，文本將不會消失。</Chinese>
+				<Polish>To kontroluje czas, po którym tekst zanika. Jeśli ustawione na 0, tekst nie zniknie.</Polish>
+				<Czech>Toto řídí dobu, za kterou text zmizí. Pokud je nastaveno na 0, text nezmizí.</Czech>
+				<Portuguese>Isso controla o tempo que o texto leva para desaparecer. Se definido como 0, o texto não desaparecerá.</Portuguese>
+				<Turkish>Bu, metnin solması için gereken süreyi kontrol eder. 0 olarak ayarlanırsa, metin solmaz.</Turkish>
+			</Key>
 			<Key ID="STR_HATG_UI_Position_X">
 				<Original>UI X Position</Original>
 				<English>UI X Position</English>
