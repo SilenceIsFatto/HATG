@@ -31,4 +31,10 @@ _colour = (_colour call BIS_fnc_colorRGBAtoHTML);
 
 private _hiddenText = format ["<t font ='PuristaBold' align = 'center' size='%2' color='%1'>" + _statusText + "</t>", _colour, _textSize];
 _displayHidden ctrlSetStructuredText (parseText _hiddenText);
+_displayHidden ctrlSetFade 0;
 _displayHidden ctrlCommit 0;
+
+if (hatg_setting_ui_fade > 0) then {
+    _displayHidden ctrlSetFade 1;
+    _displayHidden ctrlCommit hatg_setting_ui_fade;
+};

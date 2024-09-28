@@ -190,6 +190,16 @@
 				<English>This controls if the 'Hidden' message can be drawn to help you know when you are vulnerable.</English>
 				<Russian>Это контролирует, может ли быть отображено 'Скрытое' сообщение, которое поможет вам узнать, когда вы уязвимы.</Russian>
 			</Key>
+			<Key ID="STR_HATG_UI_Enable_Fading">
+				<Original>Enable UI Fading</Original>
+				<English>Enable UI Fading</English>
+				<Russian>Включить затухание пользовательского интерфейса</Russian>
+			</Key>
+			<Key ID="STR_HATG_UI_Enable_Fading_info">
+				<Original>This controls the amount of time it takes for the text to fade away. in set to 0 the text will not fade away.</Original>
+				<English>This controls the amount of time it takes for the text to fade away. in set to 0 the text will not fade away.</English>
+				<Russian>Это контролирует время, необходимое для исчезновения текста. если установлено значение 0, текст не исчезнет.</Russian>
+			</Key>
 			<Key ID="STR_HATG_UI_Position_X">
 				<Original>UI X Position</Original>
 				<English>UI X Position</English>

@@ -16,7 +16,6 @@ private _display = uiNamespace getVariable _displayName;
 private _hiddenDisplayText = _display ctrlCreate ["RscStructuredText", IDC_HIDDENTEXT];
 [_width, _height] call HATG_fnc_handleDisplayPosition;
 _hiddenDisplayText ctrlEnable false;
-_hiddenDisplayText ctrlCommit 0;
 
 ["hatg_display_hidden", [_display, _hiddenDisplayText], uiNamespace] call HATG_fnc_setVariable;
 
