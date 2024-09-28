@@ -39,8 +39,50 @@ private _suppressorsBlacklist = [
     "CUP_acc_sffh",
     "CUP_muzzle_mfsup_Flashhider_PK_Black",
     "CUP_muzzle_mfsup_Flashhider_PK_OD",
-    "CUP_muzzle_mfsup_Flashhider_PK_Tan"
-]; // probably need a case for integrally suppressed guns
+    "CUP_muzzle_mfsup_Flashhider_PK_Tan",
+    // RHS
+    "rhs_acc_ak5",
+    "rhs_acc_dtk",
+    "rhs_acc_dtk1983",
+    "rhs_acc_dtk1",
+    "rhs_acc_dtk2",
+    "rhs_acc_dtk3",
+    "rhs_acc_pgs64",
+    "rhs_acc_pgs64_74u",
+    "rhs_acc_pgs64_74un",
+    "rhs_acc_uuk",
+    "rhs_acc_dtk1l",
+    "rhs_acc_dtkakm",
+    "rhs_acc_dtkrpk",
+    "rhsusf_acc_ARDEC_M240",
+    "rhsgref_acc_falMuzzle_l1a1",
+    "rhsusf_acc_SF3P556",
+    "rhsusf_acc_SFMB556",
+    "rhsgref_acc_zendl",
+    "rhsusf_acc_m14_flashsuppresor",
+    "rhsusf_acc_m24_muzzlehider_black",
+    "rhsusf_acc_m24_muzzlehider_d",
+    "rhsusf_acc_m24_muzzlehider_wd",
+    // NIArms
+    "hlc_muzzle_Miter18T",
+    "hlc_muzzle_snds_ROTEX3P",
+    "hlc_muzzle_Gunfighter_comp",
+    "hlc_muzzle_Brevis",
+    "hlc_muzzle_MAG58_Brake",
+    "hlc_muzzle_17SBrake",
+    "hlc_muzzle_OEMDevice",
+    "hlc_muzzle_KX3_comp",
+    "hlc_muzzle_FSC30",
+    "hlc_muzzle_Cherrybomb",
+    "hlc_muzzle_SF3P_762R",
+    "hlc_muzzle_A1_FlashHider",
+    "hlc_muzzle_XM177E1_Moderator",
+    "hlc_muzzle_XM177E2_Moderator",
+    "hlc_muzzle_E1_FlashHider",
+    "hlc_muzzle_OEMDevice_556",
+    "hlc_muzzle_snds_ArsenalComp",
+    "hlc_muzzle_SF3P_762"
+];
 
 private _suppressorsIntegral = [
     // Vanilla
@@ -64,7 +106,24 @@ private _suppressorsIntegral = [
     "CUP_srifle_VSSVintorez_VFG_top_rail",
     "CUP_smg_MP5SD6",
     "CUP_arifle_OTS14_GROZA_762_Grip",
-    "CUP_arifle_OTS14_GROZA_Grip"
-]; // probably need a case for integrally suppressed guns
+    "CUP_arifle_OTS14_GROZA_Grip",
+    // RHS
+    "rhs_weap_asval",
+    "rhs_weap_asval_grip",
+    "rhs_weap_asval_grip_npz",
+    "rhs_weap_asval_npz",
+    "rhs_weap_vss",
+    "rhs_weap_vss_grip",
+    "rhs_weap_vss_grip_npz",
+    "rhs_weap_vss_npz",
+    "rhs_weap_m3a1_specops",
+    // NIArms
+    "hlc_rifle_honeybase",
+    "hlc_rifle_awcovert_BL",
+    "hlc_rifle_awcovert_FDE",
+    "hlc_rifle_awcovert",
+    "hlc_smg_mp5sd5",
+    "hlc_smg_mp5sd6"
+]; // what if you wanted to BUILD A COOL MOD but designers said "WE. NEED. TO. PUT. THE. SUPPRESSOR. IN. THE. GUN!"
 
 [_suppressorsWhitelist, _suppressorsBlacklist, _suppressorsIntegral];

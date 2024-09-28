@@ -22,7 +22,7 @@ params ["_unit"];
 
 private _unitUniform = [_unit] call HATG_fnc_getUniform;
 
-private _hasGhillie = false; // find a method to figure out if uniform is ghillie
+private _hasGhillie = "ghillie" in (toLowerANSI (_unitUniform)); // Kinda hacky, but the blacklists exist for a reason
 
 private _ghillies = call HATG_fnc_getGhillies;
 private _whitelistedGhillies = _ghillies # 0;
