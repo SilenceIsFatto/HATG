@@ -40,6 +40,8 @@ _mirror attachTo [_unit, [0,0,0]];
 
 ["hatg_mirror", _mirror, _unit] call HATG_fnc_setVariable;
 
-[_unit] call HATG_fnc_handleDisplayText;
+if (isPlayer _unit) then {
+    [_unit] call HATG_fnc_handleDisplayText;
+};
 
 _mirror;
