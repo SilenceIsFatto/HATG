@@ -2,5 +2,6 @@
 *.vscode
 *.xcf
 *.blend1
+*.biprivatekey
 build
 release
