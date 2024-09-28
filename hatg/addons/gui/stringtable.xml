@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Project name="HATG">
+	<Package name="Debug">
+		<Container name="Settings">
+			<Key ID="STR_HATG_Debug">
+				<Original>Debug Mode</Original>
+				<English>Debug Mode</English>
+				<Russian>Режим отладки</Russian>
+				<German>Debug-Modus</German>
+				<Italian>Modalità Debug</Italian>
+				<Spanish>Modo de Depuración</Spanish>
+				<French>Mode Débogage</French>
+				<Korean>디버그 모드</Korean>
+				<Japanese>デバッグモード</Japanese>
+				<Chinesesimp>调试模式</Chinesesimp>
+				<Chinese>调试模式</Chinese>
+				<Polish>Tryb debugowania</Polish>
+				<Czech>Režim ladění</Czech>
+				<Portuguese>Modo de Depuração</Portuguese>
+				<Turkish>Ayrıntılı Mod</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Debug_RPT_Surfaces">
+				<Original>Debug RPT (Surfaces)</Original>
+				<English>Debug RPT (Surfaces)</English>
+				<Russian>Отладка RPT (поверхности)</Russian>
+				<German>Debuggen RPT (Oberflächen)</German>
+				<Italian>Debug RPT (Superfici)</Italian>
+				<Spanish>Debug RPT (Superficies)</Spanish>
+				<French>Debug RPT (Surfaces)</French>
+				<Korean>디버그 RPT (표면)</Korean>
+				<Japanese>デバッグ RPT (サーフェス)</Japanese>
+				<Chinesesimp>调试 RPT (表面)</Chinesesimp>
+				<Chinese>调试 RPT (表面)</Chinese>
+				<Polish>Debug RPT (Powierzchnie)</Polish>
+				<Czech>Debug RPT (Povrchy)</Czech>
+				<Portuguese>Debug RPT (Superfícies)</Portuguese>
+				<Turkish>Debug RPT (Yüzeyler)</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Debug_RPT_Conditions">
+				<Original>Debug RPT (Conditions)</Original>
+				<English>Debug RPT (Conditions)</English>
+				<Russian>Отладка RPT (условия)</Russian>
+				<German>Debuggen RPT (Bedingungen)</German>
+				<Italian>Debug RPT (Condizioni)</Italian>
+				<Spanish>Debug RPT (Condiciones)</Spanish>
+				<French>Debug RPT (Conditions)</French>
+				<Korean>디버그 RPT (조건)</Korean>
+				<Japanese>デバッグ RPT (条件)</Japanese>
+				<Chinesesimp>调试 RPT (条件)</Chinesesimp>
+				<Chinese>调试 RPT (条件)</Chinese>
+				<Polish>Debug RPT (Warunki)</Polish>
+				<Czech>Debug RPT (Podmínky)</Czech>
+				<Portuguese>Debug RPT (Condições)</Portuguese>
+				<Turkish>Debug RPT (Koşullar)</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Debug_RPT_Detection">
+				<Original>Debug RPT (Detection)</Original>
+				<English>Debug RPT (Detection)</English>
+				<Russian>Отладка RPT (обнаружение)</Russian>
+				<German>Debuggen RPT (Entdeckung)</German>
+				<Italian>Debug RPT (Rilevamento)</Italian>
+				<Spanish>Debug RPT (Detección)</Spanish>
+				<French>Debug RPT (Détection)</French>
+				<Korean>디버그 RPT (탐지)</Korean>
+				<Japanese>デバッグ RPT (検出)</Japanese>
+				<Chinesesimp>调试 RPT (检测)</Chinesesimp>
+				<Chinese>调试 RPT (检测)</Chinese>
+				<Polish>Debug RPT (Wykrywanie)</Polish>
+				<Czech>Debug RPT (Detekce)</Czech>
+				<Portuguese>Debug RPT (Detecção)</Portuguese>
+				<Turkish>Debug RPT (Algılama)</Turkish>
+			</Key>
+		</Container>
+	</Package>
+	<Package name="Detection">
+		<Container name="Settings">
+			<Key ID="STR_HATG_Surface_Requirements">
+				<Original>Enable Surface Requirements</Original>
+				<English>Enable Surface Requirements</English>
+				<Russian>Включить требования к поверхности</Russian>
+				<German>Oberflächenanforderungen aktivieren</German>
+				<Italian>Aktivieren Sie die Oberflächenanforderungen</Italian>
+				<Spanish>Habilitar requisitos de superficie</Spanish>
+				<French>Activer les exigences de surface</French>
+				<Korean>표면 요구 사항 활성화</Korean>
+				<Japanese>表面要件を有効にする</Japanese>
+				<Chinesesimp>启用表面要求</Chinesesimp>
+				<Chinese>启用表面要求</Chinese>
+				<Polish>Włącz wymagania dotyczące powierzchni</Polish>
+				<Czech>Aktivovat požadavky na povrch</Czech>
+				<Portuguese>Ativar requisitos de superfície</Portuguese>
+				<Turkish>Yüzey Gereksinimlerini Etkinleştir</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Surface_Requirements_info">
+				<Original>This controls the surfaces you need to be on in order to be hidden. By default you need to be on 'grass' to stay hidden. If set to off, you will remain hidden regardless of the terrain you're on. (other factors still apply)</Original>
+				<English>This controls the surfaces you need to be on in order to be hidden. By default you need to be on 'grass' to stay hidden. If set to off, you will remain hidden regardless of the terrain you're on. (other factors still apply)</English>
+				<Russian>Это контролирует поверхности, на которых вам нужно находиться, чтобы спрятаться. По умолчанию вам нужно находиться на 'траве', чтобы оставаться скрытым. Если этот параметр отключен, вы останетесь скрытыми независимо от местности, на которой находитесь. (другие факторы все еще применяются)</Russian>
+				<German>Dies steuert, auf welchen Oberflächen du dich befinden musst, um versteckt zu bleiben. Standardmäßig musst du auf 'Gras' sein, um unentdeckt zu bleiben. Wenn die Option deaktiviert ist, bleibst du unabhängig vom Terrain versteckt. (andere Faktoren gelten weiterhin)</German>
+				<Italian>Dies steuert, auf welchen Oberflächen du dich befinden musst, um versteckt zu bleiben. Standardmäßig musst du auf 'Gras' sein, um unentdeckt zu bleiben. Wenn die Option deaktiviert ist, bleibst du unabhängig vom Terrain versteckt. (andere Faktoren gelten weiterhin)</Italian>
+				<Spanish>Esto controla las superficies en las que debes estar para estar oculto. Por defecto, debes estar en 'hierba' para permanecer oculto. Si se desactiva, permanecerás oculto sin importar el terreno en el que te encuentres. (se aplican otros factores)</Spanish>
+				<French>Cela contrôle les surfaces sur lesquelles vous devez être pour rester caché. Par défaut, vous devez être sur 'herbe' pour rester caché. Si désactivé, vous resterez caché quel que soit le terrain sur lequel vous vous trouvez. (d'autres facteurs s'appliquent toujours)</French>
+				<Korean>숨기 위해 있어야 하는 표면을 제어합니다. 기본적으로 '잔디' 위에 있어야 숨을 수 있습니다. 꺼져 있으면 있는 지형에 관계없이 숨겨진 상태로 유지됩니다. (다른 요소도 여전히 적용됩니다)</Korean>
+				<Japanese>隠れるためにいる必要がある表面を制御します。デフォルトでは、隠れるためには「草」の上にいる必要があります。オフにすると、いる地形に関係なく隠れたままになります。（他の要因も適用されます）</Japanese>
+				<Chinesesimp>这控制着您需要站在的表面，以便隐藏。默认情况下，您需要站在“草”上才能保持隐藏。如果关闭，则无论您所在的地形如何，您将保持隐藏。（其他因素仍然适用）</Chinesesimp>
+				<Chinese>这控制着您需要站在的表面，以便隐藏。默认情况下，您需要站在“草”上才能保持隐藏。如果关闭，则无论您所在的地形如何，您将保持隐藏。（其他因素仍然适用）</Chinese>
+				<Polish>To kontroluje powierzchnie, na których musisz być, aby się ukryć. Domyślnie musisz być na 'trawie', aby pozostać ukrytym. Jeśli ustawione na wyłączone, pozostaniesz ukryty niezależnie od terenu, na którym się znajdujesz. (obowiązują inne czynniki)</Polish>
+				<Czech>To kontroluje povrchy, na kterých musíte být, abyste byli skryti. Ve výchozím nastavení musíte být na 'trávě', abyste zůstali skryti. Pokud je nastaveno na vypnuto, zůstanete skryti bez ohledu na terén, na kterém se nacházíte. (další faktory stále platí)</Czech>
+				<Portuguese>Isso controla as superfícies em que você precisa estar para ficar escondido. Por padrão, você precisa estar na 'grama' para permanecer escondido. Se definido como desligado, você permanecerá escondido independentemente do terreno em que estiver. (outros fatores ainda se aplicam)</Portuguese>
+				<Turkish>Gizlenmek için üzerinde olmanız gereken yüzeyleri kontrol eder. Varsayılan olarak, gizli kalmak için 'ot' üzerinde olmalısınız. Kapatıldığında, bulunduğunuz araziden bağımsız olarak gizli kalacaksınız. (diğer faktörler hala geçerlidir)</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Detection_Cooldown">
+				<Original>Detection Cooldown</Original>
+				<English>Detection Cooldown</English>
+				<Russian>Время восстановления обнаружения</Russian>
+				<German>Erholungszeit der Erkennung</German>
+				<Italian>Cooldown di rilevamento</Italian>
+				<Spanish>Tiempo de reutilización de detección</Spanish>
+				<French>Délai de récupération de détection</French>
+				<Korean>탐지 재사용 대기시간</Korean>
+				<Japanese>検出クールダウン</Japanese>
+				<Chinesesimp>侦测冷却时间</Chinesesimp>
+				<Chinese>侦测冷却时间</Chinese>
+				<Polish>Chłodzenie wykrywania</Polish>
+				<Czech>Čas obnovy detekce</Czech>
+				<Portuguese>Tempo de recarga de detecção</Portuguese>
+				<Turkish>Algılama bekleme süresi</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Detection_Cooldown_info">
+				<Original>This controls how long you will be 'spotted' for if you fire without a suppressor. This is divided by 10 if you fire while not prone.</Original>
+				<English>This controls how long you will be 'spotted' for if you fire without a suppressor. This is divided by 10 if you fire while not prone.</English>
+				<Russian>Это определяет, как долго вас будут 'засекать', если вы стреляете без глушителя. Это значение делится на 10, если вы стреляете, не лежа лежа.</Russian>
+				<German>Dies steuert, wie lange du 'entdeckt' wirst, wenn du ohne Schalldämpfer schießt. Dies wird durch 10 geteilt, wenn du nicht in der Bauchlage schießt.</German>
+				<Italian>Ciò controlla per quanto tempo sarai 'scoperto' se spari senza un soppressore. Questo è diviso per 10 se spari in posizione prona.</Italian>
+				<Spanish>Esto controla cuánto tiempo serás 'detectado' si disparas sin un supresor. Esto se divide por 10 si disparas sin estar en posición prona.</Spanish>
+				<French>Cela contrôle combien de temps vous serez 'repéré' si vous tirez sans un suppresseur. Cela est divisé par 10 si vous tirez en position couchée.</French>
+				<Korean>소음기 없이 발사하면 '발견'되는 시간을 제어합니다. 엎드린 자세가 아닐 경우 10으로 나뉩니다.</Korean>
+				<Japanese>サプレッサーなしで発砲すると、どれくらいの時間「発見」されるかを制御します。伏せていない状態で発砲すると、10で割られます。</Japanese>
+				<Chinesesimp>如果您在没有消音器的情况下开火，这会控制您被“发现”的时间。如果您不是趴着开火，则会被除以10。</Chinesesimp>
+				<Chinese>如果您在没有消音器的情况下开火，这会控制您被“发现”的时间。如果您不是趴着开火，则会被除以10。</Chinese>
+				<Polish>To kontroluje, jak długo będziesz 'zauważony', jeśli strzelasz bez tłumika. Jest to dzielone przez 10, jeśli strzelasz w pozycji stojącej.</Polish>
+				<Czech>To řídí, jak dlouho budete 'zpozorován', pokud vystřelíte bez tlumiče. Toto se dělí 10, pokud střílíte, když nejste v leže.</Czech>
+				<Portuguese>Isso controla por quanto tempo você será 'detectado' se disparar sem um supressor. Isso é dividido por 10 se você disparar enquanto não estiver deitado.</Portuguese>
+				<Turkish>Ses sistemi olmadan ateş ederseniz, 'tespit' edildiğiniz süreyi kontrol eder. Eğer yatar pozisyonda değilken ateş ederseniz, 10'a bölünür.</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Detection_Distance">
+				<Original>Detection Distance</Original>
+				<English>Detection Distance</English>
+				<Russian>Расстояние обнаружения</Russian>
+				<German>Erkennungsreichweite</German>
+				<Italian>Distanza di rilevamento</Italian>
+				<Spanish>Distancia de detección</Spanish>
+				<French>Distance de détection</French>
+				<Korean>탐지 거리</Korean>
+				<Japanese>検出距離</Japanese>
+				<Chinesesimp>侦测距离</Chinesesimp>
+				<Chinese>侦测距离</Chinese>
+				<Polish>Odległość wykrycia</Polish>
+				<Czech>Vzdálenost detekce</Czech>
+				<Portuguese>Distância de detecção</Portuguese>
+				<Turkish>Algılama Mesafesi</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Detection_Distance_info">
+				<Original>This controls how close you can get to AI before they 'spot' you. At night this is halved to mimic low visibility. It will be further halved if you wear a ghillie suit.</Original>
+				<English>This controls how close you can get to AI before they 'spot' you. At night this is halved to mimic low visibility. It will be further halved if you wear a ghillie suit.</English>
+				<Russian>Это контролирует, насколько близко вы можете подойти к ИИ, прежде чем он 'заметит' вас. Ночью это значение уменьшается вдвое, чтобы имитировать плохую видимость. Если вы наденете маскировочный костюм, он уменьшится еще вдвое.</Russian>
+				<German>Dies steuert, wie nah du an die KI herankommen kannst, bevor sie dich 'entdeckt'. Nachts wird dies halbiert, um geringe Sichtbarkeit zu simulieren. Wenn du einen Ghillie-Anzug trägst, wird es weiter halbiert.</German>
+				<Italian>Ciò controlla quanto vicino puoi avvicinarti all'IA prima che ti 'scopra'. Di notte, questo viene dimezzato per simulare la bassa visibilità. Sarà ulteriormente dimezzato se indossi un abito ghillie.</Italian>
+				<Spanish>Esto controla qué tan cerca puedes acercarte a la IA antes de que te 'detecte'. Por la noche, esto se reduce a la mitad para simular baja visibilidad. Se reducirá aún más si usas un traje de camuflaje.</Spanish>
+				<French>Cela contrôle la proximité à laquelle vous pouvez vous approcher de l'IA avant qu'elle ne vous 'repère'. La nuit, cela est réduit de moitié pour simuler une faible visibilité. Cela sera encore réduit de moitié si vous portez un costume de camouflage.</French>
+				<Korean>AI에 '발견'되기 전에 얼마나 가까이 접근할 수 있는지 제어합니다. 밤에는 낮은 가시성을 모방하기 위해 이 값이 절반으로 줄어듭니다. 길리 수트를 입으면 추가로 절반이 줄어듭니다.</Korean>
+				<Japanese>AIに「発見」される前にどれだけ近づけるかを制御します。夜間は低視認性を模倣するために半減されます。ギリースーツを着用している場合はさらに半減します。</Japanese>
+				<Chinesesimp>这控制着您可以接近AI的距离，直到它“发现”您。晚上这个值减半以模拟低能见度。如果您穿着伪装服，它将进一步减半。</Chinesesimp>
+				<Chinese>这控制着您可以接近AI的距离，直到它“发现”您。晚上这个值减半以模拟低能见度。如果您穿着伪装服，它将进一步减半。</Chinese>
+				<Polish>To kontroluje, jak blisko możesz podejść do AI, zanim cię 'zauważą'. W nocy wartość ta jest zmniejszana o połowę, aby zasymulować niską widoczność. Zostanie to dodatkowo zmniejszone, jeśli założysz strój ghillie.</Polish>
+				<Czech>To kontroluje, jak blízko se můžete přiblížit k AI, než vás 'zpozorují'. V noci se to sníží na polovinu, aby se napodobila nízká viditelnost. Pokud si obléknete ghillie oblek, dále se to sníží na polovinu.</Czech>
+				<Portuguese>Isso controla quão perto você pode chegar da IA antes que ela o 'detecte'. À noite, isso é reduzido pela metade para simular baixa visibilidade. Será ainda mais reduzido se você usar um traje de camuflagem.</Portuguese>
+				<Turkish>AI'nin seni 'tahmin etmeden' ne kadar yakın olabileceğini kontrol eder. Gece olunca, düşük görüş açısını taklit etmek için bu değer yarıya indirilir. Ghillie elbisesi giyiyorsanız, bu değer daha da yarıya iner.</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Detection_Distance_multiplier">
+				<Original>Detection Distance Multiplier</Original>
+				<English>Detection Distance Multiplier</English>
+				<Russian>Множитель расстояния обнаружения</Russian>
+				<German>Erkennungsreichweitenmultiplikator</German>
+				<Italian>Multiplicatore di distanza di rilevamento</Italian>
+				<Spanish>Multiplicador de distancia de detección</Spanish>
+				<French>Multiplicateur de distance de détection</French>
+				<Korean>탐지 거리 배율</Korean>
+				<Japanese>検出距離の倍率</Japanese>
+				<Chinesesimp>侦测距离乘数</Chinesesimp>
+				<Chinese>侦测距离乘数</Chinese>
+				<Polish>Mnożnik odległości wykrycia</Polish>
+				<Czech>Multiplikátor vzdálenosti detekce</Czech>
+				<Portuguese>Multiplicador de distância de detecção</Portuguese>
+				<Turkish>Algılama Mesafesi Çarpanı</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Detection_Distance_multiplier_info">
+				<Original>This controls the multiplier at which the different stances increase distance detection (above). For example, 40m becomes 80m when you are crouching instead of prone.</Original>
+				<English>This controls the multiplier at which the different stances increase distance detection (above). For example, 40m becomes 80m when you are crouching instead of prone.</English>
+				<Russian>Это контролирует множитель, при котором различные стойки увеличивают обнаружение расстояния (выше). Например, 40 м становятся 80 м, когда вы сидите на корточках, а не лежа.</Russian>
+				<German>Dies steuert den Multiplikator, bei dem verschiedene Stellungen die Distanzdetektion erhöhen (siehe oben). Zum Beispiel werden 40 m zu 80 m, wenn du in die Hocke gehst, anstatt zu liegen.</German>
+				<Italian>Questo controlla il moltiplicatore con cui le diverse posture aumentano il rilevamento della distanza (sopra). Ad esempio, 40 m diventano 80 m quando sei inginocchiato invece di prona.</Italian>
+				<Spanish>Esto controla el multiplicador en el que las diferentes posturas aumentan la distancia de detección (anteriormente). Por ejemplo, 40 m se convierten en 80 m cuando estás agachado en lugar de en posición prona.</Spanish>
+				<French>Cela contrôle le multiplicateur auquel les différentes positions augmentent la distance de détection (ci-dessus). Par exemple, 40 m deviennent 80 m lorsque vous êtes en position accroupie plutôt qu'en position couchée.</French>
+				<Korean>이것은 다양한 자세가 거리 감지를 증가시키는 배율을 제어합니다(위 참조). 예를 들어, 40m는 엎드려 있는 대신 웅크리면 80m가 됩니다.</Korean>
+				<Japanese>これは、さまざまな姿勢が距離検出を増加させる倍率を制御します（上記）。たとえば、40mはうつ伏せの代わりにしゃがむと80mになります。</Japanese>
+				<Chinesesimp>这控制了不同姿势增加距离检测的倍数（如上所述）。例如，当你蹲下而不是趴着时，40米变为80米。</Chinesesimp>
+				<Chinese>这控制了不同姿势增加距离检测的倍数（如上所述）。例如，当你蹲下而不是趴着时，40米变为80米。</Chinese>
+				<Polish>To kontroluje mnożnik, w którym różne postawy zwiększają wykrywanie odległości (powyżej). Na przykład 40 m staje się 80 m, gdy klęczysz, a nie leżysz.</Polish>
+				<Czech>To řídí násobitel, při kterém různé postoje zvyšují detekci vzdálenosti (výše). Například 40 m se stává 80 m, když se sehněte místo ležící.</Czech>
+				<Portuguese>Isso controla o multiplicador em que as diferentes posturas aumentam a detecção de distância (acima). Por exemplo, 40m se torna 80m quando você está agachado em vez de deitado.</Portuguese>
+				<Turkish>Bu, farklı pozisyonların mesafe algısını artırdığı çarpanı kontrol eder (yukarıda). Örneğin, 40m, uzanmak yerine çömelirseniz 80m olur.</Turkish>
+			</Key>
+		</Container>
+	</Package>
+	<Package name="Equipment">
+		<Container name="Settings">
+			<Key ID="STR_HATG_Suppressors_whitelist">
+				<Original>Suppressors (Whitelist)</Original>
+				<English>Suppressors (Whitelist)</English>
+				<Russian>Звукоподавители (Белый список)</Russian>
+				<German>Schalldämpfer (Whitelist)</German>
+				<Italian>Silenzatori (Whitelist)</Italian>
+				<Spanish>Supresores (Lista blanca)</Spanish>
+				<French>Suppresseurs (Liste blanche)</French>
+				<Korean>소음기 (허용 목록)</Korean>
+				<Japanese>サプレッサー（ホワイトリスト）</Japanese>
+				<Chineseimp>消音器（白名单）</Chineseimp>
+				<Chinese>消音器（白名單）</Chinese>
+				<Polish>Tłumiki (Biała lista)</Polish>
+				<Czech>Hluku (Bílý seznam)</Czech>
+				<Portuguese>Supressores (Lista branca)</Portuguese>
+				<Turkish>Susturucular (Beyaz liste)</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Ghillies_whitelist">
+				<Original>Ghillies (Whitelist)</Original>
+				<English>Ghillies (Whitelist)</English>
+				<Russian>Маскировочные костюмы (Белый список)</Russian>
+				<German>Ghillies (Whitelist)</German>
+				<Italian>Ghillies (Whitelist)</Italian>
+				<Spanish>Ghillies (Lista blanca)</Spanish>
+				<French>Ghillies (Liste blanche)</French>
+				<Korean>기리 (허용 목록)</Korean>
+				<Japanese>ギリー（ホワイトリスト）</Japanese>
+				<Chineseimp>伪装服（白名单）</Chineseimp>
+				<Chinese>偽裝服（白名單）</Chinese>
+				<Polish>Ghillies (Biała lista)</Polish>
+				<Czech>Ghillies (Bílý seznam)</Czech>
+				<Portuguese>Ghillies (Lista branca)</Portuguese>
+				<Turkish>Ghillies (Beyaz liste)</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Suppressors_blacklist">
+				<Original>Suppressors (Blacklist)</Original>
+				<English>Suppressors (Blacklist)</English>
+				<Russian>Звукоподавители (Черный список)</Russian>
+				<German>Schalldämpfer (Blacklist)</German>
+				<Italian>Silenzatori (Blacklist)</Italian>
+				<Spanish>Supresores (Lista negra)</Spanish>
+				<French>Suppresseurs (Liste noire)</French>
+				<Korean>소음기 (차단 목록)</Korean>
+				<Japanese>サプレッサー（ブラックリスト）</Japanese>
+				<Chineseimp>消音器（黑名单）</Chineseimp>
+				<Chinese>消音器（黑名單）</Chinese>
+				<Polish>Tłumiki (Czarna lista)</Polish>
+				<Czech>Tlumících (Černý seznam)</Czech>
+				<Portuguese>Supressores (Lista negra)</Portuguese>
+				<Turkish>Susturucular (Kara liste)</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Ghillies_blacklist">
+				<Original>Ghillies (Blacklist)</Original>
+				<English>Ghillies (Blacklist)</English>
+				<Russian>Маскировочные костюмы (Черный список)</Russian>
+				<German>Ghillies (Blacklist)</German>
+				<Italian>Ghillies (Blacklist)</Italian>
+				<Spanish>Ghillies (Lista negra)</Spanish>
+				<French>Ghillies (Liste noire)</French>
+				<Korean>기리 (차단 목록)</Korean>
+				<Japanese>ギリー（ブラックリスト）</Japanese>
+				<Chineseimp>伪装服（黑名单）</Chineseimp>
+				<Chinese>偽裝服（黑名單）</Chinese>
+				<Polish>Ghillies (Czarna lista)</Polish>
+				<Czech>Ghillies (Černý seznam)</Czech>
+				<Portuguese>Ghillies (Lista negra)</Portuguese>
+				<Turkish>Ghillies (Kara liste)</Turkish>
+			</Key>
+		</Container>
+	</Package>
+	<Package name="Stealth">
+		<Container name="Revealed/Hidden">
+			<Key ID="STR_HATG_Revealed">
+				<Original>Revealed</Original>
+				<English>Revealed</English>
+				<Czech>Odhalený</Czech>
+				<French>Révélé</French>
+				<German>Offenbart</German>
+				<Italian>Rivelato</Italian>
+				<Polish>Ujawniony</Polish>
+				<Russian>Раскрытый</Russian>
+				<Spanish>Revelado</Spanish>
+				<Korean>드러난</Korean>
+				<Japanese>明らかにされた</Japanese>
+				<Chinesesimp>揭示</Chinesesimp>
+				<Chinese>揭露</Chinese>
+			</Key>
+			<Key ID="STR_HATG_Hidden">
+				<Original>Hidden</Original>
+				<English>Hidden</English>
+				<Czech>Skrytý</Czech>
+				<French>Caché</French>
+				<German>Versteckt</German>
+				<Italian>Nascosto</Italian>
+				<Polish>Ukryty</Polish>
+				<Russian>Скрытый</Russian>
+				<Spanish>Oculto</Spanish>
+				<Korean>숨겨진</Korean>
+				<Japanese>隠された</Japanese>
+				<Chinesesimp>隐藏</Chinesesimp>
+				<Chinese>隐匿</Chinese>
+			</Key>
+		</Container>
+	</Package>
+	<Package name="Movement">
+		<Container name="Settings">
+			<Key ID="STR_HATG_Reset_Shot_Counter">
+				<Original>Reset Shot Counter Distance</Original>
+				<English>Reset Shot Counter Distance</English>
+				<Russian>Сбросить расстояние счетчика выстрелов</Russian>
+				<German>Zurücksetzen der Schusszähler-Distanz</German>
+				<Italian>Ripristina la distanza del contatore dei colpi</Italian>
+				<Spanish>Restablecer distancia del contador de disparos</Spanish>
+				<French>Réinitialiser la distance du compteur de tir</French>
+				<Korean>발사 카운터 거리 재설정</Korean>
+				<Japanese>ショットカウンター距離のリセット</Japanese>
+				<Chineseimp>重置射击计数器距离</Chineseimp>
+				<Chinese>重置射擊計數器距離</Chinese>
+				<Polish>Resetuj odległość licznika strzałów</Polish>
+				<Czech>Resetovat vzdálenost počítadla střel</Czech>
+				<Portuguese>Redefinir distância do contador de tiros</Portuguese>
+				<Turkish>Ateş Sayacı Mesafesini Sıfırla</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Reset_Shot_Counter_info">
+				<Original>This controls the distance (m) you have to move to reset the shot counter whilst using a suppressor. -1 means you can shoot in the same spot indefinitely.</Original>
+				<English>This controls the distance (m) you have to move to reset the shot counter whilst using a suppressor. -1 means you can shoot in the same spot indefinitely.</English>
+				<Russian>Определяет расстояние в метрах, которое вам придется пройти, чтобы сбросить счетчик выстрелов при использовании глушителя. -1 означает, что вы можете стрелять в одно и то же место бесконечно.</Russian>
+				<German>Dies steuert die Entfernung (m), die du zurücklegen musst, um den Schusszähler beim Einsatz eines Schalldämpfers zurückzusetzen. -1 bedeutet, dass du an derselben Stelle unendlich schießen kannst.</German>
+				<Italian>Questo controlla la distanza (m) che devi percorrere per ripristinare il contatore dei colpi mentre utilizzi un silenziatore. -1 significa che puoi sparare nello stesso punto all'infinito.</Italian>
+				<Spanish>Esto controla la distancia (m) que tienes que mover para restablecer el contador de disparos mientras usas un supresor. -1 significa que puedes disparar en el mismo lugar indefinidamente.</Spanish>
+				<French>Cela contrôle la distance (m) que vous devez parcourir pour réinitialiser le compteur de tirs tout en utilisant un suppresseur. -1 signifie que vous pouvez tirer au même endroit indéfiniment.</French>
+				<Korean>소음기를 사용하면서 발사 카운터를 재설정하려면 이동해야 하는 거리(미터)를 제어합니다. -1은 같은 위치에서 무한히 발사할 수 있음을 의미합니다.</Korean>
+				<Japanese>サプレッサーを使用中にショットカウンターをリセットするために移動しなければならない距離（m）を制御します。-1は同じ場所で無限に撃つことができることを意味します。</Japanese>
+				<Chineseimp>这控制着您必须移动的距离（米）以在使用消声器时重置射击计数器。 -1表示您可以无限次在同一位置射击。</Chineseimp>
+				<Chinese>這控制著您必須移動的距離（米）以在使用消聲器時重置射擊計數器。 -1表示您可以無限次在同一位置射擊。</Chinese>
+				<Polish>To kontroluje odległość (m), którą musisz przebyć, aby zresetować licznik strzałów podczas korzystania z tłumika. -1 oznacza, że możesz strzelać w tym samym miejscu w nieskończoność.</Polish>
+				<Czech>To řídí vzdálenost (m), kterou musíš urazit, abys resetoval počítadlo střel při používání tlumiče. -1 znamená, že můžeš střílet na stejném místě nekonečně.</Czech>
+				<Portuguese>Isso controla a distância (m) que você deve percorrer para redefinir o contador de tiros enquanto usa um supressor. -1 significa que você pode atirar no mesmo local indefinidamente.</Portuguese>
+				<Turkish>Bu, bir susturucu kullanırken ateş sayacını sıfırlamak için hareket etmeniz gereken mesafeyi (m) kontrol eder. -1, aynı noktada sonsuz bir şekilde ateş edebileceğiniz anlamına gelir.</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Shots_Before_Detection">
+				<Original>Shots Before Detection</Original>
+				<English>Shots Before Detection</English>
+				<Russian>Выстрелы до обнаружения</Russian>
+				<German>Schüsse vor der Entdeckung</German>
+				<Italian>Colpi prima della rilevazione</Italian>
+				<Spanish>Disparos antes de la detección</Spanish>
+				<French>Coups avant détection</French>
+				<Korean>탐지 이전 발사</Korean>
+				<Japanese>検出前の発射</Japanese>
+				<Chineseimp>检测前的射击</Chineseimp>
+				<Chinese>檢測前的射擊</Chinese>
+				<Polish>Strzały przed wykryciem</Polish>
+				<Czech>Střely před odhalením</Czech>
+				<Portuguese>Disparos antes da detecção</Portuguese>
+				<Turkish>Tespit Öncesi Atışlar</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Shots_Before_Detection_info">
+				<Original>This controls the general amount of shots you can fire in one spot before being revealed while using a suppressor. -1 means you can shoot indefinitely.</Original>
+				<English>This controls the general amount of shots you can fire in one spot before being revealed while using a suppressor. -1 means you can shoot indefinitely.</English>
+				<Russian>Это контролирует общее количество выстрелов, которые вы можете сделать в одном месте, прежде чем его обнаружат при использовании глушителя. -1 означает, что вы можете стрелять бесконечно.</Russian>
+				<German>Dies steuert die allgemeine Anzahl der Schüsse, die du an einem Ort abgeben kannst, bevor du beim Einsatz eines Schalldämpfers entdeckt wirst. -1 bedeutet, dass du unendlich schießen kannst.</German>
+				<Italian>Questo controlla il numero generale di colpi che puoi sparare in un punto prima di essere rivelato mentre utilizzi un silenziatore. -1 significa che puoi sparare all'infinito.</Italian>
+				<Spanish>Esto controla la cantidad general de disparos que puedes realizar en un solo lugar antes de ser revelado mientras usas un supresor. -1 significa que puedes disparar indefinidamente.</Spanish>
+				<French>Cela contrôle le nombre général de coups que vous pouvez tirer à un endroit avant d'être révélé en utilisant un suppresseur. -1 signifie que vous pouvez tirer indéfiniment.</French>
+				<Korean>소음기를 사용하면서 드러나기 전에 한 장소에서 발사할 수 있는 총 발사량을 제어합니다. -1은 무한히 발사 edebileceğiniz anlamına gelir.</Korean>
+				<Japanese>サプレッサーを使用している間に明らかになる前に、ある場所で発射できるショットの総数を制御します。-1は無限に撃てることを意味します。</Japanese>
+				<Chineseimp>这控制了在使用消声器之前，您可以在一个地方发射的总数。 -1 表示您可以无限射击。</Chineseimp>
+				<Chinese>這控制了在使用消聲器之前，您可以在一個地方發射的總數。 -1表示您可以無限次射擊。</Chinese>
+				<Polish>To kontroluje ogólną liczbę strzałów, które możesz oddać w jednym miejscu przed ujawnieniem podczas korzystania z tłumika. -1 oznacza, że możesz strzelać w nieskończoność.</Polish>
+				<Czech>To řídí celkový počet výstřelů, které můžeš na jednom místě vystřelit, než budeš odhalen při používání tlumiče. -1 znamená, že můžeš střílet nekonečně.</Czech>
+				<Portuguese>Isso controla a quantidade geral de tiros que você pode disparar em um só lugar antes de ser revelado enquanto usa um supressor. -1 significa que você pode atirar indefinidamente.</Portuguese>
+				<Turkish>Bu, susturucu kullanırken ifşa edilmeden önce bir noktada atabileceğiniz toplam mermi sayısını kontrol eder. -1, sonsuz bir şekilde ateş edebileceğiniz anlamına gelir.</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Crouching_Movement_Speed">
+				<Original>Crouching Movement Speed Before Detection</Original>
+				<English>Crouching Movement Speed Before Detection</English>
+				<Russian>Скорость движения при приседании до обнаружения</Russian>
+				<German>Crouching Bewegungsgeschwindigkeit vor der Entdeckung</German>
+				<Italian>Velocità di movimento accovacciato prima della rilevazione</Italian>
+				<Spanish>Velocidad de movimiento agachado antes de la detección</Spanish>
+				<French>Vitesse de mouvement en accroupi avant détection</French>
+				<Korean>탐지 이전 무릎 꿇고 이동하는 속도</Korean>
+				<Japanese>検出前のしゃがんだ移動速度</Japanese>
+				<Chineseimp>检测前的蹲下移动速度</Chineseimp>
+				<Chinese>檢測前的蹲下移動速度</Chinese>
+				<Polish>Prędkość ruchu podczas kucania przed wykryciem</Polish>
+				<Czech>Rychlost pohybu při dřepování před odhalením</Czech>
+				<Portuguese>Velocidade de movimento agachado antes da detecção</Portuguese>
+				<Turkish>Algılama Öncesi Eğilme Hızı</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Crouching_Movement_Speed_info">
+				<Original>This controls how fast you can move while crouching before getting detected.</Original>
+				<English>This controls how fast you can move while crouching before getting detected.</English>
+				<Russian>Это контролирует, насколько быстро вы можете двигаться, присев, прежде чем вас обнаружат.</Russian>
+				<German>Dies steuert, wie schnell du dich bewegen kannst, während du dich duckt, bevor du entdeckt wirst.</German>
+				<Italian>Questo controlla quanto velocemente puoi muoverti mentre sei accovacciato prima di essere rilevato.</Italian>
+				<Spanish>Esto controla qué tan rápido puedes moverte mientras estás agachado antes de ser detectado.</Spanish>
+				<French>Cela contrôle la vitesse à laquelle vous pouvez vous déplacer en étant accroupi avant d'être détecté.</French>
+				<Korean>탐지되기 전에 쭈그리고 앉아 있을 때 얼마나 빨리 이동할 수 있는지를 제어합니다.</Korean>
+				<Japanese>検出される前にしゃがんでいるときにどれだけ速く動けるかを制御します。</Japanese>
+				<Chineseimp>这控制着您在蹲下时被发现之前可以移动的速度。</Chineseimp>
+				<Chinese>這控制著您在蹲下時被發現之前可以移動的速度。</Chinese>
+				<Polish>To kontroluje, jak szybko możesz się poruszać podczas kucania, zanim zostaniesz wykryty.</Polish>
+				<Czech>To řídí, jak rychle se můžeš pohybovat, když se skrčíš, než budeš odhalen.</Czech>
+				<Portuguese>Isso controla quão rápido você pode se mover enquanto está agachado antes de ser detectado.</Portuguese>
+				<Turkish>Eğilirken algılanmadan önce ne kadar hızlı hareket edebileceğinizi kontrol eder.</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Movement_Speed_always">
+				<Original>Always Detect Movement</Original>
+				<English>Always Detect Movement</English>
+				<Russian>Всегда обнаруживать движение</Russian>
+				<German>Bewegung immer erkennen</German>
+				<Italian>Rileva sempre il movimento</Italian>
+				<Spanish>Siempre detectar movimiento</Spanish>
+				<French>Détecter toujours le mouvement</French>
+				<Korean>항상 움직임을 감지하다</Korean>
+				<Japanese>常に動きを検出する</Japanese>
+				<Chineseimp>始终检测运动</Chineseimp>
+				<Chinese>始終檢測運動</Chinese>
+				<Polish>Zawsze wykrywaj ruch</Polish>
+				<Czech>Vždy detekovat pohyb</Czech>
+				<Portuguese>Detectar sempre movimento</Portuguese>
+				<Turkish>Her Zaman Hareketi Tespit Et</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Movement_Speed_sneaking">
+				<Original>Sneaking</Original>
+				<English>Sneaking</English>
+				<Russian>Подкрадываться</Russian>
+				<German>Schleichen</German>
+				<Italian>Furtività</Italian>
+				<Spanish>Sigilo</Spanish>
+				<French>Se faufiler</French>
+				<Korean>살금살금</Korean>
+				<Japanese>忍び寄る</Japanese>
+				<Chineseimp>悄悄地</Chineseimp>
+				<Chinese>悄悄地</Chinese>
+				<Polish>Czajenie się</Polish>
+				<Czech>Plížení</Czech>
+				<Portuguese>Rastejar</Portuguese>
+				<Turkish>Sinsice Yürümek</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Movement_Speed_walking">
+				<Original>Walking</Original>
+				<English>Walking</English>
+				<Russian>Прогулка</Russian>
+				<German>Gehen</German>
+				<Italian>Camminare</Italian>
+				<Spanish>Caminando</Spanish>
+				<French>Marcher</French>
+				<Korean>걷다</Korean>
+				<Japanese>歩く</Japanese>
+				<Chineseimp>走路</Chineseimp>
+				<Chinese>走路</Chinese>
+				<Polish>Chodzenie</Polish>
+				<Czech>Chůze</Czech>
+				<Portuguese>Caminhando</Portuguese>
+				<Turkish>Yürümek</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Movement_Speed_never">
+				<Original>Never Detect Movement</Original>
+				<English>Never Detect Movement</English>
+				<Russian>Никогда не обнаруживайте движение</Russian>
+				<German>Bewegung niemals erkennen</German>
+				<Italian>Mai rilevare il movimento</Italian>
+				<Spanish>Nunca detectar movimiento</Spanish>
+				<French>Ne jamais détecter le mouvement</French>
+				<Korean>결코 움직임을 감지하지 마십시오</Korean>
+				<Japanese>決して動きを検出しない</Japanese>
+				<Chineseimp>绝对不检测运动</Chineseimp>
+				<Chinese>絕對不檢測運動</Chinese>
+				<Polish>Nigdy nie wykrywaj ruchu</Polish>
+				<Czech>Nikdy detekovat pohyb</Czech>
+				<Portuguese>Nunca detectar movimento</Portuguese>
+				<Turkish>Asla Hareketi Tespit Etme</Turkish>
+			</Key>
+		</Container>
+	</Package>
+	<Package name="UI">
+		<Container name="Settings">
+			<Key ID="STR_HATG_UI_Enable">
+				<Original>Enable UI</Original>
+				<English>Enable UI</English>
+				<Russian>Включить пользовательский интерфейс</Russian>
+				<German>UI aktivieren</German>
+				<Italian>Abilita l'interfaccia utente</Italian>
+				<Spanish>Activar UI</Spanish>
+				<French>Activer l'interface utilisateur</French>
+				<Korean>UI 활성화</Korean>
+				<Japanese>UIを有効にする</Japanese>
+				<Chineseimp>启用用户界面</Chineseimp>
+				<Chinese>啟用使用者介面</Chinese>
+				<Polish>Włącz UI</Polish>
+				<Czech>Aktivovat UI</Czech>
+				<Portuguese>Ativar UI</Portuguese>
+				<Turkish>UI'yi Etkinleştir</Turkish>
+			</Key>
+			<Key ID="STR_HATG_UI_Enable_info">
+				<Original>This controls if the 'Hidden' message can be drawn to help you know when you are vulnerable.</Original>
+				<English>This controls if the 'Hidden' message can be drawn to help you know when you are vulnerable.</English>
+				<Russian>Это контролирует, может ли быть отображено 'Скрытое' сообщение, которое поможет вам узнать, когда вы уязвимы.</Russian>
+				<German>Dies steuert, ob die Nachricht 'Versteckt' angezeigt werden kann, um Ihnen zu helfen, zu wissen, wann Sie verwundbar sind.</German>
+				<Italian>Questo controlla se il messaggio 'Nascosto' può essere visualizzato per aiutarti a sapere quando sei vulnerabile.</Italian>
+				<Spanish>Esto controla si se puede dibujar el mensaje 'Oculto' para ayudarte a saber cuándo eres vulnerable.</Spanish>
+				<French>Cela contrôle si le message 'Caché' peut être affiché pour vous aider à savoir quand vous êtes vulnérable.</French>
+				<Korean>이것은 '숨김' 메시지가 표시될 수 있는지 제어하여 취약할 때 알림을 도와줍니다.</Korean>
+				<Japanese>これは、あなたが脆弱なときに「隠れている」というメッセージが描画されるかどうかを制御します。</Japanese>
+				<Chineseimp>这控制着是否可以绘制“隐藏”消息，以帮助您知道何时处于脆弱状态。</Chineseimp>
+				<Chinese>這控制著是否可以繪製“隱藏”消息，以幫助您知道何時處於脆弱狀態。</Chinese>
+				<Polish>To kontroluje, czy wiadomość „Ukryte” może być wyświetlana, aby pomóc Ci wiedzieć, kiedy jesteś podatny na atak.</Polish>
+				<Czech>To řídí, zda může být zobrazena zpráva „Skryto“, aby vám pomohla vědět, kdy jste zranitelní.</Czech>
+				<Portuguese>Isso controla se a mensagem 'Oculto' pode ser exibida para ajudá-lo a saber quando você está vulnerável.</Portuguese>
+				<Turkish>Bu, 'Gizli' mesajının çizilip çizilemeyeceğini kontrol eder; bu, savunmasız olduğunuzda bilmenize yardımcı olur.</Turkish>
+			</Key>
+			<Key ID="STR_HATG_UI_Enable_Fading">
+				<Original>Enable UI Fading</Original>
+				<English>Enable UI Fading</English>
+				<Russian>Включить затухание пользовательского интерфейса</Russian>
+				<German>UI-Ausblenden aktivieren</German>
+				<Italian>Abilita dissolvenza dell'interfaccia utente</Italian>
+				<Spanish>Habilitar desvanecimiento de la interfaz de usuario</Spanish>
+				<French>Activer l'estompage de l'interface utilisateur</French>
+				<Korean>UI 페이드 기능 활성화</Korean>
+				<Japanese>UIフェードを有効にする</Japanese>
+				<Chineseimp>启用UI淡出</Chineseimp>
+				<Chinese>啟用UI淡出</Chinese>
+				<Polish>Włącz zanikanie interfejsu użytkownika</Polish>
+				<Czech>Povolit vyblednutí uživatelského rozhraní</Czech>
+				<Portuguese>Ativar desvanecimento da interface do usuário</Portuguese>
+				<Turkish>UI Solmasını Etkinleştir</Turkish>
+			</Key>
+			<Key ID="STR_HATG_UI_Enable_Fading_info">
+				<Original>This controls the amount of time it takes for the text to fade away. if set to 0 the text will not fade away.</Original>
+				<English>This controls the amount of time it takes for the text to fade away. if set to 0 the text will not fade away.</English>
+				<Russian>Это контролирует время, необходимое для исчезновения текста. если установлено значение 0, текст не исчезнет.</Russian>
+				<German>Dies steuert die Zeit, die benötigt wird, bis der Text verblasst. Wenn auf 0 eingestellt, wird der Text nicht verblassen.</German>
+				<Italian>Questo controlla il tempo necessario affinché il testo scompaia. Se impostato su 0, il testo non scomparirà.</Italian>
+				<Spanish>Esto controla el tiempo que tarda en desvanecerse el texto. Si se establece en 0, el texto no se desvanecerá.</Spanish>
+				<French>Cela contrôle le temps nécessaire pour que le texte disparaisse. Si réglé sur 0, le texte ne disparaîtra pas.</French>
+				<Korean>이 설정은 텍스트가 사라지는 데 걸리는 시간을 제어합니다. 0으로 설정하면 텍스트가 사라지지 않습니다.</Korean>
+				<Japanese>これはテキストが消えるまでの時間を制御します。0に設定すると、テキストは消えません。</Japanese>
+				<Chineseimp>该选项控制文本消失所需的时间。如果设置为0，文本将不会消失。</Chineseimp>
+				<Chinese>該選項控制文本消失所需的時間。如果設置為0，文本將不會消失。</Chinese>
+				<Polish>To kontroluje czas, po którym tekst zanika. Jeśli ustawione na 0, tekst nie zniknie.</Polish>
+				<Czech>Toto řídí dobu, za kterou text zmizí. Pokud je nastaveno na 0, text nezmizí.</Czech>
+				<Portuguese>Isso controla o tempo que o texto leva para desaparecer. Se definido como 0, o texto não desaparecerá.</Portuguese>
+				<Turkish>Bu, metnin solması için gereken süreyi kontrol eder. 0 olarak ayarlanırsa, metin solmaz.</Turkish>
+			</Key>
+			<Key ID="STR_HATG_UI_Position_X">
+				<Original>UI X Position</Original>
+				<English>UI X Position</English>
+				<Russian>Позиция пользовательского интерфейса X</Russian>
+				<German>UI X-Position</German>
+				<Italian>Posizione X dell'interfaccia utente</Italian>
+				<Spanish>Posición X de la UI</Spanish>
+				<French>Position X de l'UI</French>
+				<Korean>UI X 위치</Korean>
+				<Japanese>UIのX位置</Japanese>
+				<Chineseimp>用户界面X位置</Chineseimp>
+				<Chinese>使用者介面X位置</Chinese>
+				<Polish>Pozycja X UI</Polish>
+				<Czech>Pozice X uživatelského rozhraní</Czech>
+				<Portuguese>Posição X da UI</Portuguese>
+				<Turkish>UI X Konumu</Turkish>
+			</Key>
+			<Key ID="STR_HATG_UI_Position_X_info">
+				<Original>This controls the UI X position, Left/Right.</Original>
+				<English>This controls the UI X position, Left/Right.</English>
+				<Russian>Это контролирует положение UI X, влево/вправо.</Russian>
+				<German>Dies steuert die UI X-Position, Links/Rechts.</German>
+				<Italian>Questo controlla la posizione X dell'interfaccia utente, Sinistra/Destra.</Italian>
+				<Spanish>Esto controla la posición X de la UI, Izquierda/Derecha.</Spanish>
+				<French>Cela contrôle la position X de l'UI, Gauche/Droite.</French>
+				<Korean>이것은 UI의 X 위치, 왼쪽/오른쪽을 제어합니다.</Korean>
+				<Japanese>これは、UIのX位置を制御します。左/右。</Japanese>
+				<Chineseimp>这控制用户界面X位置，左/右。</Chineseimp>
+				<Chinese>這控制使用者介面X位置，左/右。</Chinese>
+				<Polish>To kontroluje pozycję X UI, Lewo/Prawo.</Polish>
+				<Czech>To řídí pozici X uživatelského rozhraní, vlevo/vpravo.</Czech>
+				<Portuguese>Isso controla a posição X da UI, Esquerda/Direita.</Portuguese>
+				<Turkish>Bu, UI X konumunu, Solda/Sağda kontrol eder.</Turkish>
+			</Key>
+			<Key ID="STR_HATG_UI_Position_Y">
+				<Original>UI Y Position</Original>
+				<English>UI Y Position</English>
+				<Russian>Позиция Y пользовательского интерфейса</Russian>
+				<German>UI Y-Position</German>
+				<Italian>Posizione Y dell'interfaccia utente</Italian>
+				<Spanish>Posición Y de la UI</Spanish>
+				<French>Position Y de l'UI</French>
+				<Korean>UI Y 위치</Korean>
+				<Japanese>UIのY位置</Japanese>
+				<Chineseimp>用户界面Y位置</Chineseimp>
+				<Chinese>使用者介面Y位置</Chinese>
+				<Polish>Pozycja Y UI</Polish>
+				<Czech>Pozice Y uživatelského rozhraní</Czech>
+				<Portuguese>Posição Y da UI</Portuguese>
+				<Turkish>UI Y Konumu</Turkish>
+			</Key>
+			<Key ID="STR_HATG_UI_Position_Y_info">
+				<Original>This controls the UI Y position, Up/Down.</Original>
+				<English>This controls the UI Y position, Up/Down.</English>
+				<Russian>Это контролирует положение пользовательского интерфейса Y, вверх/вниз.</Russian>
+				<German>Dies steuert die UI Y-Position, Hoch/Runter.</German>
+				<Italian>Questo controlla la posizione Y dell'interfaccia utente, Su/Giu.</Italian>
+				<Spanish>Esto controla la posición Y de la UI, Arriba/Abajo.</Spanish>
+				<French>Cela contrôle la position Y de l'UI, Haut/Bas.</French>
+				<Korean>이것은 UI의 Y 위치, 위/아래를 제어합니다.</Korean>
+				<Japanese>これは、UIのY位置を制御します。上/下。</Japanese>
+				<Chineseimp>这控制用户界面Y位置，上/下。</Chineseimp>
+				<Chinese>這控制使用者介面Y位置，上/下。</Chinese>
+				<Polish>To kontroluje pozycję Y UI, W górę/W dół.</Polish>
+				<Czech>To řídí pozici Y uživatelského rozhraní, nahoru/dolů.</Czech>
+				<Portuguese>Isso controla a posição Y da UI, Cima/Baixo.</Portuguese>
+				<Turkish>Bu, UI Y konumunu, Yukarı/Aşağı kontrol eder.</Turkish>
+			</Key>
+			<Key ID="STR_HATG_UI_Text_Size">
+				<Original>HUD Text Size</Original>
+				<English>HUD Text Size</English>
+				<Russian>Размер текста HUD</Russian>
+				<German>HUD-Schriftgröße</German>
+				<Italian>Dimensione del testo HUD</Italian>
+				<Spanish>Tamaño del texto del HUD</Spanish>
+				<French>Taille du texte HUD</French>
+				<Korean>HUD 텍스트 크기</Korean>
+				<Japanese>HUDテキストサイズ</Japanese>
+				<Chineseimp>HUD文本大小</Chineseimp>
+				<Chinese>HUD文字大小</Chinese>
+				<Polish>Rozmiar tekstu HUD</Polish>
+				<Czech>Velikost textu HUD</Czech>
+				<Portuguese>Tamanho do texto do HUD</Portuguese>
+				<Turkish>HUD Metin Boyutu</Turkish>
+			</Key>
+			<Key ID="STR_HATG_UI_Text_Size_info">
+				<Original>This controls the size of the text on the hud.</Original>
+				<English>This controls the size of the text on the hud.</English>
+				<Russian>Это контролирует размер текста на интерфейсе.</Russian>
+				<German>Dies steuert die Größe des Textes im HUD.</German>
+				<Italian>Questo controlla la dimensione del testo nell'HUD.</Italian>
+				<Spanish>Esto controla el tamaño del texto en el HUD.</Spanish>
+				<French>Cela contrôle la taille du texte sur l'interface HUD.</French>
+				<Korean>이것은 HUD의 텍스트 크기를 제어합니다.</Korean>
+				<Japanese>これはHUD上のテキストのサイズを制御します。</Japanese>
+				<Chineseimp>这控制着HUD上文本的大小。</Chineseimp>
+				<Chinese>這控制著HUD上文字的大小。</Chinese>
+				<Polish>To kontroluje rozmiar tekstu na HUD.</Polish>
+				<Czech>To řídí velikost textu na HUD.</Czech>
+				<Portuguese>Isso controla o tamanho do texto no HUD.</Portuguese>
+				<Turkish>Bu, HUD üzerindeki metin boyutunu kontrol eder.</Turkish>
+			</Key>
+			<Key ID="STR_HATG_UI_Colour_Hidden">
+				<Original>UI Colour (Hidden)</Original>
+				<English>UI Colour (Hidden)</English>
+				<Russian>Цвет пользовательского интерфейса (скрытый)</Russian>
+				<German>UI-Farbe (Versteckt)</German>
+				<Italian>Colore UI (Nascosto)</Italian>
+				<Spanish>Color de UI (Oculto)</Spanish>
+				<French>Couleur de l'UI (Caché)</French>
+				<Korean>UI 색상 (숨김)</Korean>
+				<Japanese>UIの色（隠し）</Japanese>
+				<Chineseimp>用户界面颜色（隐藏）</Chineseimp>
+				<Chinese>使用者介面顏色（隱藏）</Chinese>
+				<Polish>Kolor UI (Ukryty)</Polish>
+				<Czech>Barva UI (Skryto)</Czech>
+				<Portuguese>Cor da UI (Oculto)</Portuguese>
+				<Turkish>UI Rengi (Gizli)</Turkish>
+			</Key>
+			<Key ID="STR_HATG_UI_Colour_Hidden_info">
+				<Original>This controls the UI colour when hidden.</Original>
+				<English>This controls the UI colour when hidden.</English>
+				<Russian>Это контролирует цвет пользовательского интерфейса, когда игрок скрыт.</Russian>
+				<German>Dies steuert die UI-Farbe, wenn sie versteckt ist.</German>
+				<Italian>Questo controlla il colore dell'interfaccia utente quando è nascosta.</Italian>
+				<Spanish>Esto controla el color de la UI cuando está oculta.</Spanish>
+				<French>Cela contrôle la couleur de l'UI lorsqu'elle est cachée.</French>
+				<Korean>이것은 숨겨져 있을 때 UI 색상을 제어합니다.</Korean>
+				<Japanese>これは、隠されているときのUIの色を制御します。</Japanese>
+				<Chineseimp>这控制隐藏时的用户界面颜色。</Chineseimp>
+				<Chinese>這控制隱藏時的使用者介面顏色。</Chinese>
+				<Polish>To kontroluje kolor UI, gdy jest ukryty.</Polish>
+				<Czech>To řídí barvu uživatelského rozhraní, když je skryto.</Czech>
+				<Portuguese>Isso controla a cor da UI quando está oculta.</Portuguese>
+				<Turkish>Bu, gizli olduğunda UI rengini kontrol eder.</Turkish>
+			</Key>
+			<Key ID="STR_HATG_UI_Colour_Revealed">
+				<Original>UI Colour (Revealed)</Original>
+				<English>UI Colour (Revealed)</English>
+				<Russian>Цвет пользовательского интерфейса (показан)</Russian>
+				<German>UI-Farbe (Enthüllt)</German>
+				<Italian>Colore UI (Rivelato)</Italian>
+				<Spanish>Color de UI (Revelado)</Spanish>
+				<French>Couleur de l'UI (Révélé)</French>
+				<Korean>UI 색상 (표시됨)</Korean>
+				<Japanese>UIの色（表示）</Japanese>
+				<Chineseimp>用户界面颜色（显示）</Chineseimp>
+				<Chinese>使用者介面顏色（顯示）</Chinese>
+				<Polish>Kolor UI (Odkryty)</Polish>
+				<Czech>Barva UI (Odhaleno)</Czech>
+				<Portuguese>Cor da UI (Revelado)</Portuguese>
+				<Turkish>UI Rengi (Açık)</Turkish>
+			</Key>
+			<Key ID="STR_HATG_UI_Colour_Revealed_info">
+				<Original>This controls the UI colour when revealed.</Original>
+				<English>This controls the UI colour when revealed.</English>
+				<Russian>Это контролирует цвет пользовательского интерфейса при раскрытии игрока.</Russian>
+				<German>Dies steuert die UI-Farbe, wenn sie enthüllt ist.</German>
+				<Italian>Questo controlla il colore dell'interfaccia utente quando è rivelato.</Italian>
+				<Spanish>Esto controla el color de la UI cuando está revelado.</Spanish>
+				<French>Cela contrôle la couleur de l'UI lorsqu'elle est révélée.</French>
+				<Korean>이것은 표시될 때 UI 색상을 제어합니다.</Korean>
+				<Japanese>これは、表示されているときのUIの色を制御します。</Japanese>
+				<Chineseimp>这控制显示时的用户界面颜色。</Chineseimp>
+				<Chinese>這控制顯示時的使用者介面顏色。</Chinese>
+				<Polish>To kontroluje kolor UI, gdy jest odkryty.</Polish>
+				<Czech>To řídí barvu uživatelského rozhraní, když je odhaleno.</Czech>
+				<Portuguese>Isso controla a cor da UI quando está revelada.</Portuguese>
+				<Turkish>Bu, açık olduğunda UI rengini kontrol eder.</Turkish>
+			</Key>
+			<Key ID="STR_HATG_UI_Enable_Fading">
+				<Original>Enable UI Fading</Original>
+				<English>Enable UI Fading</English>
+				<Russian>Включить затухание пользовательского интерфейса</Russian>
+				<German>UI-Fading aktivieren</German>
+				<Italian>Abilita il dissolvenza dell'interfaccia utente</Italian>
+				<Spanish>Activar desvanecimiento de UI</Spanish>
+				<French>Activer le fondu de l'interface utilisateur</French>
+				<Korean>UI 페이딩 활성화</Korean>
+				<Japanese>UIフェードを有効にする</Japanese>
+				<Chineseimp>启用用户界面渐隐</Chineseimp>
+				<Chinese>啟用使用者介面漸隱</Chinese>
+				<Polish>Włącz przejrzystość UI</Polish>
+				<Czech>Aktivovat vyblednutí UI</Czech>
+				<Portuguese>Ativar desvanecimento da UI</Portuguese>
+				<Turkish>UI Solmasını Etkinleştir</Turkish>
+			</Key>
+		</Container>
+	</Package>
+</Project>

@@ -5,7 +5,10 @@ class CfgPatches
 	class ADDON
 	{
 		name = COMPONENT_NAME;
-		units[] = {};
+		units[] = {
+			"hatg_mirror",
+			"hatg_mirror_debug"
+		};
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
 		requiredAddons[] = {

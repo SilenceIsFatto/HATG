@@ -4,9 +4,23 @@
 #define SETTING_HEADER_DETECTION_STEALTH [SETTING_HEADER, QUOTE(Stealth)]
 
 [
+    "hatg_setting_surfaces",
+    "CHECKBOX",
+    ["$STR_HATG_Surface_Requirements", "$STR_HATG_Surface_Requirements_info"],
+    SETTING_HEADER_DETECTION, 
+    true,
+    true,
+    {
+        params ["_value"];
+
+        missionNamespace setVariable ["hatg_setting_surfaces", _value, true];
+    }
+] call CBA_fnc_addSetting;
+
+[
     "hatg_setting_cooldown",
     "SLIDER",
-    ["Detection Cooldown", "This controls how long you will be 'spotted' for if you fire without a ghillie suit and suppressor. This is divided by 10 if you fire while not prone."],
+    ["$STR_HATG_Detection_Cooldown", "$STR_HATG_Detection_Cooldown_info"],
     SETTING_HEADER_DETECTION, 
     [0, 600, 30, 0],
     true,
@@ -20,9 +34,9 @@
 [
     "hatg_setting_distance_close",
     "SLIDER",
-    ["Detection Distance", "This controls how close you can get to AI before they 'spot' you. At night this is halved to mimic low visibilty."],
+    ["$STR_HATG_Detection_Distance", "$STR_HATG_Detection_Distance_info"],
     SETTING_HEADER_DETECTION,
-    [0, 50, 20, 0],
+    [0, 100, 40, 0],
     true,
     {
         params ["_value"];
@@ -32,11 +46,25 @@
 ] call CBA_fnc_addSetting;
 
 [
+    "hatg_setting_distance_close_multiplier",
+    "SLIDER",
+    ["$STR_HATG_Detection_Distance_multiplier", "$STR_HATG_Detection_Distance_multiplier_info"],
+    SETTING_HEADER_DETECTION,
+    [1, 5, 2, 0],
+    true,
+    {
+        params ["_value"];
+
+        missionNamespace setVariable ["hatg_setting_distance_close_multiplier", _value, true];
+    }
+] call CBA_fnc_addSetting;
+
+[
     "hatg_setting_distance_reset",
     "SLIDER",
-    ["Reset Shot Counter Distance", "This controls the distance (m) you have to move to reset the shot counter whilst using a ghillie suit and suppressor. -1 means you can shoot in the same spot indefinitely."],
+    ["$STR_HATG_Reset_Shot_Counter", "$STR_HATG_Reset_Shot_Counter_info"],
     SETTING_HEADER_DETECTION_STEALTH,
-    [-1, 50, 5, 0],
+    [-1, 30, 5, 0],
     true,
     {
         params ["_value"];
@@ -48,13 +76,27 @@
 [
     "hatg_setting_distance_shots",
     "SLIDER",
-    ["Shots Before Detection", "This controls the general amount of shots you can fire before being revealed whilst using a ghillie suit and suppressor. -1 means you can shoot indefinitely."],
+    ["$STR_HATG_Shots_Before_Detection", "$STR_HATG_Shots_Before_Detection_info"],
     SETTING_HEADER_DETECTION_STEALTH,
-    [-1, 30, 4, 0],
+    [-1, 60, 4, 0],
     true,
     {
         params ["_value"];
 
         missionNamespace setVariable ["hatg_setting_distance_shots", round(_value), true];
+    }
+] call CBA_fnc_addSetting;
+
+[
+    "hatg_setting_movement_crouch",
+    "LIST",
+    ["$STR_HATG_Crouching_Movement_Speed", "$STR_HATG_Crouching_Movement_Speed_info"],
+    SETTING_HEADER_DETECTION_STEALTH,
+    [[0, 5, 12, 20], ["$STR_HATG_Movement_Speed_always", "$STR_HATG_Movement_Speed_sneaking", "$STR_HATG_Movement_Speed_walking", "$STR_HATG_Movement_Speed_never"], 1],
+    true,
+    {
+        params ["_value"];
+
+        missionNamespace setVariable ["hatg_setting_movement_crouch", _value, true];
     }
 ] call CBA_fnc_addSetting;

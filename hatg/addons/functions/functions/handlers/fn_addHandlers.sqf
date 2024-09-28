@@ -26,3 +26,17 @@ if (_unit isEqualTo ObjNull) exitWith {["Could not add event handlers, _unit was
 
 [_unit] spawn HATG_fnc_handleStance;
 [_unit] call HATG_fnc_handleFired;
+[_unit] call HATG_fnc_handleRespawn;
+[_unit] call HATG_fnc_handleDamage;
+
+// Word of advice: Don't run addHandlers when these ifs return true the second time around... you may cause a recursion loop and freeze the game...
+if (!isMultiplayer && {isPlayer _unit}) then {
+    private _unitGroup = group _unit;
+
+    {
+        if (_x isEqualTo _unit) then {continue};
+        [_x] call HATG_fnc_addHandlers;
+    } forEach units _unitGroup;
+
+    [_unitGroup] call HATG_fnc_handleUnitJoined;
+};
