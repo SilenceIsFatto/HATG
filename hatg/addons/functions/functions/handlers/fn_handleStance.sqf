@@ -26,7 +26,7 @@ while {alive _unit} do
 {
     private _exit = [_unit] call HATG_fnc_onStance; // Runs at ~0.6ms with 119 AI right next to the player, however 119 AI is rarely a common scenario. Could still probably be better!
 
-    if (_exit) exitWith {["Exiting Stance Loop", 1, _fnc_scriptName] call HATG_fnc_log};
+    if (_exit) exitWith {["Exiting Stance Loop", 1, _fnc_scriptName] call HATG_fnc_log; [_unit] call HATG_fnc_deleteMirror};
 
     uiSleep 1;
 };
