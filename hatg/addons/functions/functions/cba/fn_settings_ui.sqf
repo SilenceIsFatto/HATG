@@ -21,12 +21,12 @@
     "SLIDER",
     ["$STR_HATG_UI_Enable_Fading", "$STR_HATG_UI_Enable_Fading_info"],
     SETTING_HEADER_GENERAL, 
-    [0, 10, 0, 0],
+    [0, 15, 0, 0],
     2,
     {
         params ["_value"];
 
-        uiNamespace setVariable ["hatg_setting_ui_fade", _value];
+        uiNamespace setVariable ["hatg_setting_ui_fade", round (_value)];
     }
 ] call CBA_fnc_addSetting;
 
