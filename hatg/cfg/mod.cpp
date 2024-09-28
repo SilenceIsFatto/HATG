@@ -1,9 +1,9 @@
 name = "Hide Among The Grass";
-author = "Silence";
+author = "Silence, MaxxLite";
 description = "";
 tooltip = "Hide Among The Grass";
 tooltipOwned = "Hide Among The Grass";
-overview = "Allows you to 'hide among the grass'. It basically just blocks the AI from seeing you when prone in a performant way.";
+overview = "Allows you to 'hide among the grass'. It basically just blocks the AI from seeing you in a performant way. Hiding in the grass is the main focus, but this mod does a lot more. It's also customisable via cba settings!";
 actionName = "GitHub";
 action = "https://github.com/SilenceIsFatto/HATG";
 hideName = 0;
