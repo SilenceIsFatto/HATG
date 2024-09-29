@@ -30,7 +30,7 @@ private _blacklistedSuppressors = _suppressors # 1;
 private _integralSuppressors = _suppressors # 2;
 if (_unitSuppressor in _blacklistedSuppressors) exitWith {false};
 if (_unitSuppressor in _whitelistedSuppressors) exitWith {true};
-if (_unitSuppressor in _integralSuppressors) exitWith {true};
+if (_unitMuzzle in _integralSuppressors) exitWith {true};
 
 if (_hasSuppressor) exitWith {true};
 

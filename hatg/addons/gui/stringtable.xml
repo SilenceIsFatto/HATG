@@ -224,7 +224,7 @@
 				<French>Suppresseurs (Liste blanche)</French>
 				<Korean>소음기 (허용 목록)</Korean>
 				<Japanese>サプレッサー（ホワイトリスト）</Japanese>
-				<Chineseimp>消音器（白名单）</Chineseimp>
+				<Chinesesimp>消音器（白名单）</Chinesesimp>
 				<Chinese>消音器（白名單）</Chinese>
 				<Polish>Tłumiki (Biała lista)</Polish>
 				<Czech>Hluku (Bílý seznam)</Czech>
@@ -241,7 +241,7 @@
 				<French>Ghillies (Liste blanche)</French>
 				<Korean>기리 (허용 목록)</Korean>
 				<Japanese>ギリー（ホワイトリスト）</Japanese>
-				<Chineseimp>伪装服（白名单）</Chineseimp>
+				<Chinesesimp>伪装服（白名单）</Chinesesimp>
 				<Chinese>偽裝服（白名單）</Chinese>
 				<Polish>Ghillies (Biała lista)</Polish>
 				<Czech>Ghillies (Bílý seznam)</Czech>
@@ -258,7 +258,7 @@
 				<French>Suppresseurs (Liste noire)</French>
 				<Korean>소음기 (차단 목록)</Korean>
 				<Japanese>サプレッサー（ブラックリスト）</Japanese>
-				<Chineseimp>消音器（黑名单）</Chineseimp>
+				<Chinesesimp>消音器（黑名单）</Chinesesimp>
 				<Chinese>消音器（黑名單）</Chinese>
 				<Polish>Tłumiki (Czarna lista)</Polish>
 				<Czech>Tlumících (Černý seznam)</Czech>
@@ -275,7 +275,7 @@
 				<French>Ghillies (Liste noire)</French>
 				<Korean>기리 (차단 목록)</Korean>
 				<Japanese>ギリー（ブラックリスト）</Japanese>
-				<Chineseimp>伪装服（黑名单）</Chineseimp>
+				<Chinesesimp>伪装服（黑名单）</Chinesesimp>
 				<Chinese>偽裝服（黑名單）</Chinese>
 				<Polish>Ghillies (Czarna lista)</Polish>
 				<Czech>Ghillies (Černý seznam)</Czech>
@@ -330,7 +330,7 @@
 				<French>Réinitialiser la distance du compteur de tir</French>
 				<Korean>발사 카운터 거리 재설정</Korean>
 				<Japanese>ショットカウンター距離のリセット</Japanese>
-				<Chineseimp>重置射击计数器距离</Chineseimp>
+				<Chinesesimp>重置射击计数器距离</Chinesesimp>
 				<Chinese>重置射擊計數器距離</Chinese>
 				<Polish>Resetuj odległość licznika strzałów</Polish>
 				<Czech>Resetovat vzdálenost počítadla střel</Czech>
@@ -347,7 +347,7 @@
 				<French>Cela contrôle la distance (m) que vous devez parcourir pour réinitialiser le compteur de tirs tout en utilisant un suppresseur. -1 signifie que vous pouvez tirer au même endroit indéfiniment.</French>
 				<Korean>소음기를 사용하면서 발사 카운터를 재설정하려면 이동해야 하는 거리(미터)를 제어합니다. -1은 같은 위치에서 무한히 발사할 수 있음을 의미합니다.</Korean>
 				<Japanese>サプレッサーを使用中にショットカウンターをリセットするために移動しなければならない距離（m）を制御します。-1は同じ場所で無限に撃つことができることを意味します。</Japanese>
-				<Chineseimp>这控制着您必须移动的距离（米）以在使用消声器时重置射击计数器。 -1表示您可以无限次在同一位置射击。</Chineseimp>
+				<Chinesesimp>这控制着您必须移动的距离（米）以在使用消声器时重置射击计数器。 -1表示您可以无限次在同一位置射击。</Chinesesimp>
 				<Chinese>這控制著您必須移動的距離（米）以在使用消聲器時重置射擊計數器。 -1表示您可以無限次在同一位置射擊。</Chinese>
 				<Polish>To kontroluje odległość (m), którą musisz przebyć, aby zresetować licznik strzałów podczas korzystania z tłumika. -1 oznacza, że możesz strzelać w tym samym miejscu w nieskończoność.</Polish>
 				<Czech>To řídí vzdálenost (m), kterou musíš urazit, abys resetoval počítadlo střel při používání tlumiče. -1 znamená, že můžeš střílet na stejném místě nekonečně.</Czech>
@@ -364,7 +364,7 @@
 				<French>Coups avant détection</French>
 				<Korean>탐지 이전 발사</Korean>
 				<Japanese>検出前の発射</Japanese>
-				<Chineseimp>检测前的射击</Chineseimp>
+				<Chinesesimp>检测前的射击</Chinesesimp>
 				<Chinese>檢測前的射擊</Chinese>
 				<Polish>Strzały przed wykryciem</Polish>
 				<Czech>Střely před odhalením</Czech>
@@ -381,12 +381,44 @@
 				<French>Cela contrôle le nombre général de coups que vous pouvez tirer à un endroit avant d'être révélé en utilisant un suppresseur. -1 signifie que vous pouvez tirer indéfiniment.</French>
 				<Korean>소음기를 사용하면서 드러나기 전에 한 장소에서 발사할 수 있는 총 발사량을 제어합니다. -1은 무한히 발사 edebileceğiniz anlamına gelir.</Korean>
 				<Japanese>サプレッサーを使用している間に明らかになる前に、ある場所で発射できるショットの総数を制御します。-1は無限に撃てることを意味します。</Japanese>
-				<Chineseimp>这控制了在使用消声器之前，您可以在一个地方发射的总数。 -1 表示您可以无限射击。</Chineseimp>
+				<Chinesesimp>这控制了在使用消声器之前，您可以在一个地方发射的总数。 -1 表示您可以无限射击。</Chinesesimp>
 				<Chinese>這控制了在使用消聲器之前，您可以在一個地方發射的總數。 -1表示您可以無限次射擊。</Chinese>
 				<Polish>To kontroluje ogólną liczbę strzałów, które możesz oddać w jednym miejscu przed ujawnieniem podczas korzystania z tłumika. -1 oznacza, że możesz strzelać w nieskończoność.</Polish>
 				<Czech>To řídí celkový počet výstřelů, které můžeš na jednom místě vystřelit, než budeš odhalen při používání tlumiče. -1 znamená, že můžeš střílet nekonečně.</Czech>
 				<Portuguese>Isso controla a quantidade geral de tiros que você pode disparar em um só lugar antes de ser revelado enquanto usa um supressor. -1 significa que você pode atirar indefinidamente.</Portuguese>
 				<Turkish>Bu, susturucu kullanırken ifşa edilmeden önce bir noktada atabileceğiniz toplam mermi sayısını kontrol eder. -1, sonsuz bir şekilde ateş edebileceğiniz anlamına gelir.</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Height_Before_Detection">
+				<Original>Altitude Before Detection</Original>
+				<English>Altitude Before Detection</English>
+				<German>Höhe vor der Entdeckung</German>
+				<Italian>Altitudine prima della rilevazione</Italian>
+				<Spanish>Altitud antes de ser detectado</Spanish>
+				<French>Altitude avant détection</French>
+				<Korean>발각되기 전 고도</Korean>
+				<Japanese>発見される前の高度</Japanese>
+				<Chinesesimp>发现前的高度</Chinesesimp>
+				<Chinese>發現前的高度</Chinese>
+				<Polish>Wysokość przed wykryciem</Polish>
+				<Czech>Nadmorská výška před odhalením</Czech>
+				<Portuguese>Altitude antes da detecção</Portuguese>
+				<Turkish>Keşif Öncesi İrtifa</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Height_Before_Detection_info">
+				<Original>This controls the altitude before being revealed. -1 means you can go as high as you'd like.</Original>
+				<English>This controls the altitude before being revealed. -1 means you can go as high as you'd like.</English>
+				<German>Dies steuert die Höhe, bevor man entdeckt wird. -1 bedeutet, dass man so hoch gehen kann, wie man möchte.</German>
+				<Italian>Questo controlla l'altitudine prima di essere rilevati. -1 significa che puoi andare in alto quanto vuoi.</Italian>
+				<Spanish>Esto controla la altitud antes de ser revelado. -1 significa que puedes ir tan alto como quieras.</Spanish>
+				<French>Cela contrôle l'altitude avant d'être révélé. -1 signifie que vous pouvez monter aussi haut que vous le souhaitez.</French>
+				<Korean>발각되기 전의 고도를 조정합니다. -1은 원하는 만큼 높이 올라갈 수 있음을 의미합니다.</Korean>
+				<Japanese>発見される前の高度を制御します。-1は好きなだけ高く行けることを意味します。</Japanese>
+				<Chinesesimp>这控制了被发现前的高度。-1 表示可以任意高度。</Chinesesimp>
+				<Chinese>這控制了被發現前的高度。-1 表示可以任意高度。</Chinese>
+				<Polish>To kontroluje wysokość, zanim zostaniesz wykryty. -1 oznacza, że możesz iść tak wysoko, jak chcesz.</Polish>
+				<Czech>Tohle kontroluje nadmořskou výšku před odhalením. -1 znamená, že můžeš jít, jak vysoko chceš.</Czech>
+				<Portuguese>Isso controla a altitude antes de ser revelado. -1 significa que pode subir até onde quiser.</Portuguese>
+				<Turkish>Keşiften önceki irtifayı kontrol eder. -1, istediğiniz kadar yükseğe çıkabileceğiniz anlamına gelir.</Turkish>
 			</Key>
 			<Key ID="STR_HATG_Crouching_Movement_Speed">
 				<Original>Crouching Movement Speed Before Detection</Original>
@@ -398,7 +430,7 @@
 				<French>Vitesse de mouvement en accroupi avant détection</French>
 				<Korean>탐지 이전 무릎 꿇고 이동하는 속도</Korean>
 				<Japanese>検出前のしゃがんだ移動速度</Japanese>
-				<Chineseimp>检测前的蹲下移动速度</Chineseimp>
+				<Chinesesimp>检测前的蹲下移动速度</Chinesesimp>
 				<Chinese>檢測前的蹲下移動速度</Chinese>
 				<Polish>Prędkość ruchu podczas kucania przed wykryciem</Polish>
 				<Czech>Rychlost pohybu při dřepování před odhalením</Czech>
@@ -415,7 +447,7 @@
 				<French>Cela contrôle la vitesse à laquelle vous pouvez vous déplacer en étant accroupi avant d'être détecté.</French>
 				<Korean>탐지되기 전에 쭈그리고 앉아 있을 때 얼마나 빨리 이동할 수 있는지를 제어합니다.</Korean>
 				<Japanese>検出される前にしゃがんでいるときにどれだけ速く動けるかを制御します。</Japanese>
-				<Chineseimp>这控制着您在蹲下时被发现之前可以移动的速度。</Chineseimp>
+				<Chinesesimp>这控制着您在蹲下时被发现之前可以移动的速度。</Chinesesimp>
 				<Chinese>這控制著您在蹲下時被發現之前可以移動的速度。</Chinese>
 				<Polish>To kontroluje, jak szybko możesz się poruszać podczas kucania, zanim zostaniesz wykryty.</Polish>
 				<Czech>To řídí, jak rychle se můžeš pohybovat, když se skrčíš, než budeš odhalen.</Czech>
@@ -432,7 +464,7 @@
 				<French>Détecter toujours le mouvement</French>
 				<Korean>항상 움직임을 감지하다</Korean>
 				<Japanese>常に動きを検出する</Japanese>
-				<Chineseimp>始终检测运动</Chineseimp>
+				<Chinesesimp>始终检测运动</Chinesesimp>
 				<Chinese>始終檢測運動</Chinese>
 				<Polish>Zawsze wykrywaj ruch</Polish>
 				<Czech>Vždy detekovat pohyb</Czech>
@@ -449,7 +481,7 @@
 				<French>Se faufiler</French>
 				<Korean>살금살금</Korean>
 				<Japanese>忍び寄る</Japanese>
-				<Chineseimp>悄悄地</Chineseimp>
+				<Chinesesimp>悄悄地</Chinesesimp>
 				<Chinese>悄悄地</Chinese>
 				<Polish>Czajenie się</Polish>
 				<Czech>Plížení</Czech>
@@ -466,7 +498,7 @@
 				<French>Marcher</French>
 				<Korean>걷다</Korean>
 				<Japanese>歩く</Japanese>
-				<Chineseimp>走路</Chineseimp>
+				<Chinesesimp>走路</Chinesesimp>
 				<Chinese>走路</Chinese>
 				<Polish>Chodzenie</Polish>
 				<Czech>Chůze</Czech>
@@ -483,7 +515,7 @@
 				<French>Ne jamais détecter le mouvement</French>
 				<Korean>결코 움직임을 감지하지 마십시오</Korean>
 				<Japanese>決して動きを検出しない</Japanese>
-				<Chineseimp>绝对不检测运动</Chineseimp>
+				<Chinesesimp>绝对不检测运动</Chinesesimp>
 				<Chinese>絕對不檢測運動</Chinese>
 				<Polish>Nigdy nie wykrywaj ruchu</Polish>
 				<Czech>Nikdy detekovat pohyb</Czech>
@@ -504,7 +536,7 @@
 				<French>Activer l'interface utilisateur</French>
 				<Korean>UI 활성화</Korean>
 				<Japanese>UIを有効にする</Japanese>
-				<Chineseimp>启用用户界面</Chineseimp>
+				<Chinesesimp>启用用户界面</Chinesesimp>
 				<Chinese>啟用使用者介面</Chinese>
 				<Polish>Włącz UI</Polish>
 				<Czech>Aktivovat UI</Czech>
@@ -521,7 +553,7 @@
 				<French>Cela contrôle si le message 'Caché' peut être affiché pour vous aider à savoir quand vous êtes vulnérable.</French>
 				<Korean>이것은 '숨김' 메시지가 표시될 수 있는지 제어하여 취약할 때 알림을 도와줍니다.</Korean>
 				<Japanese>これは、あなたが脆弱なときに「隠れている」というメッセージが描画されるかどうかを制御します。</Japanese>
-				<Chineseimp>这控制着是否可以绘制“隐藏”消息，以帮助您知道何时处于脆弱状态。</Chineseimp>
+				<Chinesesimp>这控制着是否可以绘制“隐藏”消息，以帮助您知道何时处于脆弱状态。</Chinesesimp>
 				<Chinese>這控制著是否可以繪製“隱藏”消息，以幫助您知道何時處於脆弱狀態。</Chinese>
 				<Polish>To kontroluje, czy wiadomość „Ukryte” może być wyświetlana, aby pomóc Ci wiedzieć, kiedy jesteś podatny na atak.</Polish>
 				<Czech>To řídí, zda může být zobrazena zpráva „Skryto“, aby vám pomohla vědět, kdy jste zranitelní.</Czech>
@@ -538,7 +570,7 @@
 				<French>Activer l'estompage de l'interface utilisateur</French>
 				<Korean>UI 페이드 기능 활성화</Korean>
 				<Japanese>UIフェードを有効にする</Japanese>
-				<Chineseimp>启用UI淡出</Chineseimp>
+				<Chinesesimp>启用UI淡出</Chinesesimp>
 				<Chinese>啟用UI淡出</Chinese>
 				<Polish>Włącz zanikanie interfejsu użytkownika</Polish>
 				<Czech>Povolit vyblednutí uživatelského rozhraní</Czech>
@@ -555,7 +587,7 @@
 				<French>Cela contrôle le temps nécessaire pour que le texte disparaisse. Si réglé sur 0, le texte ne disparaîtra pas.</French>
 				<Korean>이 설정은 텍스트가 사라지는 데 걸리는 시간을 제어합니다. 0으로 설정하면 텍스트가 사라지지 않습니다.</Korean>
 				<Japanese>これはテキストが消えるまでの時間を制御します。0に設定すると、テキストは消えません。</Japanese>
-				<Chineseimp>该选项控制文本消失所需的时间。如果设置为0，文本将不会消失。</Chineseimp>
+				<Chinesesimp>该选项控制文本消失所需的时间。如果设置为0，文本将不会消失。</Chinesesimp>
 				<Chinese>該選項控制文本消失所需的時間。如果設置為0，文本將不會消失。</Chinese>
 				<Polish>To kontroluje czas, po którym tekst zanika. Jeśli ustawione na 0, tekst nie zniknie.</Polish>
 				<Czech>Toto řídí dobu, za kterou text zmizí. Pokud je nastaveno na 0, text nezmizí.</Czech>
@@ -572,7 +604,7 @@
 				<French>Position X de l'UI</French>
 				<Korean>UI X 위치</Korean>
 				<Japanese>UIのX位置</Japanese>
-				<Chineseimp>用户界面X位置</Chineseimp>
+				<Chinesesimp>用户界面X位置</Chinesesimp>
 				<Chinese>使用者介面X位置</Chinese>
 				<Polish>Pozycja X UI</Polish>
 				<Czech>Pozice X uživatelského rozhraní</Czech>
@@ -589,7 +621,7 @@
 				<French>Cela contrôle la position X de l'UI, Gauche/Droite.</French>
 				<Korean>이것은 UI의 X 위치, 왼쪽/오른쪽을 제어합니다.</Korean>
 				<Japanese>これは、UIのX位置を制御します。左/右。</Japanese>
-				<Chineseimp>这控制用户界面X位置，左/右。</Chineseimp>
+				<Chinesesimp>这控制用户界面X位置，左/右。</Chinesesimp>
 				<Chinese>這控制使用者介面X位置，左/右。</Chinese>
 				<Polish>To kontroluje pozycję X UI, Lewo/Prawo.</Polish>
 				<Czech>To řídí pozici X uživatelského rozhraní, vlevo/vpravo.</Czech>
@@ -606,7 +638,7 @@
 				<French>Position Y de l'UI</French>
 				<Korean>UI Y 위치</Korean>
 				<Japanese>UIのY位置</Japanese>
-				<Chineseimp>用户界面Y位置</Chineseimp>
+				<Chinesesimp>用户界面Y位置</Chinesesimp>
 				<Chinese>使用者介面Y位置</Chinese>
 				<Polish>Pozycja Y UI</Polish>
 				<Czech>Pozice Y uživatelského rozhraní</Czech>
@@ -623,7 +655,7 @@
 				<French>Cela contrôle la position Y de l'UI, Haut/Bas.</French>
 				<Korean>이것은 UI의 Y 위치, 위/아래를 제어합니다.</Korean>
 				<Japanese>これは、UIのY位置を制御します。上/下。</Japanese>
-				<Chineseimp>这控制用户界面Y位置，上/下。</Chineseimp>
+				<Chinesesimp>这控制用户界面Y位置，上/下。</Chinesesimp>
 				<Chinese>這控制使用者介面Y位置，上/下。</Chinese>
 				<Polish>To kontroluje pozycję Y UI, W górę/W dół.</Polish>
 				<Czech>To řídí pozici Y uživatelského rozhraní, nahoru/dolů.</Czech>
@@ -640,7 +672,7 @@
 				<French>Taille du texte HUD</French>
 				<Korean>HUD 텍스트 크기</Korean>
 				<Japanese>HUDテキストサイズ</Japanese>
-				<Chineseimp>HUD文本大小</Chineseimp>
+				<Chinesesimp>HUD文本大小</Chinesesimp>
 				<Chinese>HUD文字大小</Chinese>
 				<Polish>Rozmiar tekstu HUD</Polish>
 				<Czech>Velikost textu HUD</Czech>
@@ -657,7 +689,7 @@
 				<French>Cela contrôle la taille du texte sur l'interface HUD.</French>
 				<Korean>이것은 HUD의 텍스트 크기를 제어합니다.</Korean>
 				<Japanese>これはHUD上のテキストのサイズを制御します。</Japanese>
-				<Chineseimp>这控制着HUD上文本的大小。</Chineseimp>
+				<Chinesesimp>这控制着HUD上文本的大小。</Chinesesimp>
 				<Chinese>這控制著HUD上文字的大小。</Chinese>
 				<Polish>To kontroluje rozmiar tekstu na HUD.</Polish>
 				<Czech>To řídí velikost textu na HUD.</Czech>
@@ -674,7 +706,7 @@
 				<French>Couleur de l'UI (Caché)</French>
 				<Korean>UI 색상 (숨김)</Korean>
 				<Japanese>UIの色（隠し）</Japanese>
-				<Chineseimp>用户界面颜色（隐藏）</Chineseimp>
+				<Chinesesimp>用户界面颜色（隐藏）</Chinesesimp>
 				<Chinese>使用者介面顏色（隱藏）</Chinese>
 				<Polish>Kolor UI (Ukryty)</Polish>
 				<Czech>Barva UI (Skryto)</Czech>
@@ -691,7 +723,7 @@
 				<French>Cela contrôle la couleur de l'UI lorsqu'elle est cachée.</French>
 				<Korean>이것은 숨겨져 있을 때 UI 색상을 제어합니다.</Korean>
 				<Japanese>これは、隠されているときのUIの色を制御します。</Japanese>
-				<Chineseimp>这控制隐藏时的用户界面颜色。</Chineseimp>
+				<Chinesesimp>这控制隐藏时的用户界面颜色。</Chinesesimp>
 				<Chinese>這控制隱藏時的使用者介面顏色。</Chinese>
 				<Polish>To kontroluje kolor UI, gdy jest ukryty.</Polish>
 				<Czech>To řídí barvu uživatelského rozhraní, když je skryto.</Czech>
@@ -708,7 +740,7 @@
 				<French>Couleur de l'UI (Révélé)</French>
 				<Korean>UI 색상 (표시됨)</Korean>
 				<Japanese>UIの色（表示）</Japanese>
-				<Chineseimp>用户界面颜色（显示）</Chineseimp>
+				<Chinesesimp>用户界面颜色（显示）</Chinesesimp>
 				<Chinese>使用者介面顏色（顯示）</Chinese>
 				<Polish>Kolor UI (Odkryty)</Polish>
 				<Czech>Barva UI (Odhaleno)</Czech>
@@ -725,7 +757,7 @@
 				<French>Cela contrôle la couleur de l'UI lorsqu'elle est révélée.</French>
 				<Korean>이것은 표시될 때 UI 색상을 제어합니다.</Korean>
 				<Japanese>これは、表示されているときのUIの色を制御します。</Japanese>
-				<Chineseimp>这控制显示时的用户界面颜色。</Chineseimp>
+				<Chinesesimp>这控制显示时的用户界面颜色。</Chinesesimp>
 				<Chinese>這控制顯示時的使用者介面顏色。</Chinese>
 				<Polish>To kontroluje kolor UI, gdy jest odkryty.</Polish>
 				<Czech>To řídí barvu uživatelského rozhraní, když je odhaleno.</Czech>
@@ -742,7 +774,7 @@
 				<French>Activer le fondu de l'interface utilisateur</French>
 				<Korean>UI 페이딩 활성화</Korean>
 				<Japanese>UIフェードを有効にする</Japanese>
-				<Chineseimp>启用用户界面渐隐</Chineseimp>
+				<Chinesesimp>启用用户界面渐隐</Chinesesimp>
 				<Chinese>啟用使用者介面漸隱</Chinese>
 				<Polish>Włącz przejrzystość UI</Polish>
 				<Czech>Aktivovat vyblednutí UI</Czech>
