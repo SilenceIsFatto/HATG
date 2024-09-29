@@ -8,7 +8,7 @@
     ["$STR_HATG_UI_Enable", "$STR_HATG_UI_Enable_info"],
     SETTING_HEADER_GENERAL, 
     true,
-    false,
+    1,
     {
         params ["_value"];
 
@@ -22,7 +22,7 @@
     ["$STR_HATG_UI_Enable_Fading", "$STR_HATG_UI_Enable_Fading_info"],
     SETTING_HEADER_GENERAL, 
     [0, 15, 0, 0],
-    2,
+    1,
     {
         params ["_value"];
 

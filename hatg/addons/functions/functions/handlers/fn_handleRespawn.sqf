@@ -25,7 +25,9 @@ private _ehRespawn = _unit addEventHandler ["Respawn", {
 
     ["hatg_mirror_disable", true, _corpse] call HATG_fnc_setVariable;
     [_corpse] call HATG_fnc_deleteMirror;
-    [_unit] call HATG_fnc_addHandlers;
+    [_unit, true] call HATG_fnc_addHandlers;
+
+    _unit setVariable ["hatg_mirror_cooldown", false];
 }];
 
 _ehRespawn;

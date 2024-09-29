@@ -37,6 +37,7 @@ class CfgFunctions
             class handleStance {};
             class handleUnitJoined {};
             class isNight {};
+            class isOnFloor {};
             class onFired {};
             class onStance {};
             class surfaceIsGrass {};

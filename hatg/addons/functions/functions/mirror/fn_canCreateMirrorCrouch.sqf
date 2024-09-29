@@ -33,6 +33,8 @@ private _surfaceIsGrass = [_unit] call HATG_fnc_surfaceIsGrass;
 
 private _unitInVehicle = !(isNull objectParent _unit);
 
+private _isOnFloor = [_unit] call HATG_fnc_isOnFloor;
+
 private _units = [_unit, "CROUCH"] call HATG_fnc_getNearbyUnits;
 private _closeUnits = _units#1;
 
@@ -42,6 +44,7 @@ if (_cooldown) exitWith {false};
 if !(_surfaceIsGrass) exitWith {false};
 if (_unitInVehicle) then {false};
 if (_closeUnits) exitWith {false};
+if !(_isOnFloor) exitWith {false};
 if (_movementSpeed > hatg_setting_movement_crouch) exitWith {false};
 
 true
