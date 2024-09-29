@@ -46,6 +46,20 @@
 ] call CBA_fnc_addSetting;
 
 [
+    "hatg_setting_distance_height",
+    "SLIDER",
+    ["$STR_HATG_Height_Before_Detection", "$STR_HATG_Height_Before_Detection_info"],
+    SETTING_HEADER_DETECTION,
+    [-1, 100, 2, 0],
+    true,
+    {
+        params ["_value"];
+
+        missionNamespace setVariable ["hatg_setting_distance_height", round(_value), true];
+    }
+] call CBA_fnc_addSetting;
+
+[
     "hatg_setting_distance_close_multiplier",
     "SLIDER",
     ["$STR_HATG_Detection_Distance_multiplier", "$STR_HATG_Detection_Distance_multiplier_info"],
