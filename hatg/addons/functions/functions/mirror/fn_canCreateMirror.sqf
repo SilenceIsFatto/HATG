@@ -44,7 +44,7 @@ private _closeUnits = _units#1;
 
 if (_cooldown) exitWith {false};
 if !(_surfaceIsGrass) exitWith {false};
-if (_unitInVehicle) then {false};
+if (_unitInVehicle) exitWith {false};
 if (_isOnRoad) exitWith {false};
 if !(_isOnFloor) exitWith {false};
 if (_closeUnits) exitWith {false};
