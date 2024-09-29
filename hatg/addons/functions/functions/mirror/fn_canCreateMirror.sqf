@@ -40,7 +40,7 @@ private _isOnRoad = isOnRoad _unit;
 
 private _isOnFloor = [_unit] call HATG_fnc_isOnFloor;
 
-private _units = [_unit] call HATG_fnc_getNearbyUnits;
+private _units = [_unit, _stance] call HATG_fnc_getNearbyUnits;
 private _closeUnits = _units#1;
 
 [format["Cooldown? %1, Is Grass? %2, Is On Road? %3, Close Units? %4, In Vehicle? %5 Is On Floor? %6 Stance? %7", _cooldown, _surfaceIsGrass, _isOnRoad, _closeUnits, _unitInVehicle, _isOnFloor, _stance], 3, _fnc_scriptName] call HATG_fnc_log;
