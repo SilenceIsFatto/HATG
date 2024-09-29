@@ -30,6 +30,22 @@
     }
 ] call CBA_fnc_addSetting;
 
+private _fontNames = ["PuristaBold", "PuristaLight", "PuristaMedium", "PuristaSemibold", "Caveat", "EtelkaMonospacePro", "EtelkaMonospaceProBold", "EtelkaNarrowMediumPro", "LCD14", "LucidaConsoleB", "RobotoCondensed", "RobotoCondensedBold", "RobotoCondensedLight", "TahomaB"];
+[
+    "hatg_setting_ui_font",
+    "LIST",
+    ["$STR_HATG_UI_Font", "$STR_HATG_UI_Font_info"],
+    SETTING_HEADER_GENERAL,
+    [_fontNames, _fontNames, 0],
+    2,
+    {
+        params ["_value"];
+
+
+        missionNamespace setVariable ["hatg_setting_ui_font", _value, true];
+    }
+] call CBA_fnc_addSetting;
+
 [
     "hatg_setting_ui_x",
     "SLIDER",

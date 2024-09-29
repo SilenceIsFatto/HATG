@@ -562,6 +562,40 @@
 				<Portuguese>Isso controla o tempo que o texto leva para desaparecer. Se definido como 0, o texto não desaparecerá.</Portuguese>
 				<Turkish>Bu, metnin solması için gereken süreyi kontrol eder. 0 olarak ayarlanırsa, metin solmaz.</Turkish>
 			</Key>
+			<Key ID="STR_HATG_UI_Font">
+				<Original>UI Font</Original>
+				<English>UI Font</English>
+				<Russian>Шрифт интерфейса</Russian>
+				<German>UI-Schriftart</German>
+				<Italian>Carattere dell'interfaccia</Italian>
+				<Spanish>Fuente de la interfaz</Spanish>
+				<French>Police de l'interface utilisateur</French>
+				<Korean>UI 글꼴</Korean>
+				<Japanese>UIフォント</Japanese>
+				<Chineseimp>UI字体</Chineseimp>
+				<Chinese>UI字體</Chinese>
+				<Polish>Czcionka interfejsu</Polish>
+				<Czech>Písmo uživatelského rozhraní</Czech>
+				<Portuguese>Fonte da interface</Portuguese>
+				<Turkish>UI Yazı Tipi</Turkish>
+			</Key>
+			<Key ID="STR_HATG_UI_Font_info">
+				<Original>This setting controls the font that will be used for the ui.</Original>
+				<English>This setting controls the font that will be used for the ui.</English>
+				<Russian>Этот параметр управляет шрифтом, который будет использоваться для интерфейса.</Russian>
+				<German>Diese Einstellung steuert die Schriftart, die für die Benutzeroberfläche verwendet wird.</German>
+				<Italian>Questa impostazione controlla il carattere che verrà utilizzato per l'interfaccia.</Italian>
+				<Spanish>Esta configuración controla la fuente que se usará para la interfaz.</Spanish>
+				<French>Ce paramètre contrôle la police qui sera utilisée pour l'interface utilisateur.</French>
+				<Korean>이 설정은 UI에 사용할 글꼴을 제어합니다.</Korean>
+				<Japanese>この設定は、UIに使用されるフォントを制御します。</Japanese>
+				<Chineseimp>该设置控制UI使用的字体。</Chineseimp>
+				<Chinese>該設置控制UI使用的字體。</Chinese>
+				<Polish>To ustawienie kontroluje czcionkę, która będzie używana w interfejsie.</Polish>
+				<Czech>Toto nastavení určuje písmo, které bude použito pro uživatelské rozhraní.</Czech>
+				<Portuguese>Essa configuração controla a fonte que será usada na interface.</Portuguese>
+				<Turkish>Bu ayar, UI'de kullanılacak yazı tipini kontrol eder.</Turkish>
+			</Key>
 			<Key ID="STR_HATG_UI_Position_X">
 				<Original>UI X Position</Original>
 				<English>UI X Position</English>
