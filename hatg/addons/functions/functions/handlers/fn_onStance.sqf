@@ -29,13 +29,8 @@ private _stance = stance _unit;
 // Honestly could probably merge the 2 ifs below into one, just need to handle the _canCreateMirror(Crouch)
 if !(_stance in ["PRONE", "CROUCH"]) exitWith {[_unit] call HATG_fnc_deleteMirror; false};
 
-if (_stance isEqualTo "PRONE" && {[_unit] call HATG_fnc_canCreateMirror}) exitWith { // Originally took 2.2ms to run with 119 AI, got it down to ~0.6ms. Still not particularly great but almost 4x faster.
+if ([_unit, _stance] call HATG_fnc_canCreateMirror) exitWith { // Originally took 2.2ms to run with 119 AI, got it down to ~0.6ms. Still not particularly great but almost 4x faster.
     [_unit] call HATG_fnc_createMirror;
-    false;
-};
-
-if (_stance isEqualTo "CROUCH" && {[_unit] call HATG_fnc_canCreateMirrorCrouch}) exitWith {
-    [_unit, "CROUCH"] call HATG_fnc_createMirror;
     false;
 };
 
