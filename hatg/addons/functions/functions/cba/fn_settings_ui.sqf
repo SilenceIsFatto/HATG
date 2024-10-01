@@ -35,7 +35,7 @@ private _fontNames = ["PuristaBold", "PuristaLight", "PuristaMedium", "PuristaSe
     "hatg_setting_ui_font",
     "LIST",
     ["$STR_HATG_UI_Font", "$STR_HATG_UI_Font_info"],
-    SETTING_HEADER_GENERAL,
+    SETTING_HEADER_UI,
     [_fontNames, _fontNames, 0],
     2,
     {
