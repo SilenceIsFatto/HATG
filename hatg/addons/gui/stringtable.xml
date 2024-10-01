@@ -265,6 +265,23 @@
 				<Portuguese>Supressores (Lista negra)</Portuguese>
 				<Turkish>Susturucular (Kara liste)</Turkish>
 			</Key>
+			<Key ID="STR_HATG_Suppressors_integral">
+				<Original>Suppressors (Integral)</Original>
+				<English>Suppressors (Integral)</English>
+				<Czech>Tlumiče (Integrální)</Czech>
+				<French>Silencieux (Intégré)</French>
+				<German>Schalldämpfer (Integral)</German>
+				<Italian>Silenziatori (Integrato)</Italian>
+				<Polish>Tłumiki (Zintegrowany)</Polish>
+				<Russian>Глушители (Интегрированные)</Russian>
+				<Spanish>Silenciadores (Integral)</Spanish>
+				<Korean>소음기 (일체형)</Korean>
+				<Japanese>サプレッサー（インテグラル）</Japanese>
+				<Chinesesimp>抑制器 (集成)</Chinesesimp>
+				<Chinese>抑制器 (整合)</Chinese>
+				<Portuguese>Supressores (Integral)</Portuguese>
+				<Turkish>Bastırıcılar (Entegre)</Turkish>
+			</Key>
 			<Key ID="STR_HATG_Ghillies_blacklist">
 				<Original>Ghillies (Blacklist)</Original>
 				<English>Ghillies (Blacklist)</English>

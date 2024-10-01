@@ -1,7 +1,7 @@
 #include "..\..\script_component.hpp"
 
-#define SETTING_HEADER_DETECTION [SETTING_HEADER, QUOTE(Detection)]
-#define SETTING_HEADER_DETECTION_STEALTH [SETTING_HEADER, QUOTE(Stealth)]
+#define SETTING_HEADER_DETECTION [SETTING_HEADER_QUOTE, QUOTE(Detection)]
+#define SETTING_HEADER_DETECTION_STEALTH [SETTING_HEADER_QUOTE, QUOTE(Stealth)]
 
 [
     "hatg_setting_surfaces",
