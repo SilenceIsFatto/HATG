@@ -28,7 +28,9 @@ private _ehUnitJoined = _group addEventHandler ["UnitJoined", {
     diag_log _group;
     diag_log _newUnit;
 
-    [_newUnit] call HATG_fnc_addHandlers;
+    if !(isPlayer _newUnit) then {
+        [_newUnit] call HATG_fnc_addHandlers;
+    };
 }];
 
 _ehUnitJoined;

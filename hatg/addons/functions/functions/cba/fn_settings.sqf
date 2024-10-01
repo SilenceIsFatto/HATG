@@ -1,7 +1,8 @@
 #include "..\..\script_component.hpp"
 
-#define SETTING_HEADER QUOTE(Hide Among The Grass)
-#define SETTING_HEADER_DEBUG [SETTING_HEADER, QUOTE(Debug)]
+#define SETTING_HEADER Hide Among The Grass
+#define SETTING_HEADER_QUOTE QUOTE(SETTING_HEADER)
+#define SETTING_HEADER_DEBUG [SETTING_HEADER_QUOTE, QUOTE(Debug)]
 
 #include "fn_settings_detection.sqf"
 #include "fn_settings_equipment.sqf"

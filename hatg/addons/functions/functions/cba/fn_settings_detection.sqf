@@ -1,7 +1,7 @@
 #include "..\..\script_component.hpp"
 
-#define SETTING_HEADER_DETECTION [SETTING_HEADER, QUOTE(Detection)]
-#define SETTING_HEADER_DETECTION_STEALTH [SETTING_HEADER, QUOTE(Stealth)]
+#define SETTING_HEADER_DETECTION [SETTING_HEADER_QUOTE, QUOTE(Detection)]
+#define SETTING_HEADER_DETECTION_STEALTH [SETTING_HEADER_QUOTE, QUOTE(Stealth)]
 
 [
     "hatg_setting_surfaces",
@@ -36,12 +36,26 @@
     "SLIDER",
     ["$STR_HATG_Detection_Distance", "$STR_HATG_Detection_Distance_info"],
     SETTING_HEADER_DETECTION,
-    [0, 100, 40, 0],
+    [0, 100, 20, 0],
     true,
     {
         params ["_value"];
 
         missionNamespace setVariable ["hatg_setting_distance_close", round(_value), true];
+    }
+] call CBA_fnc_addSetting;
+
+[
+    "hatg_setting_distance_height",
+    "SLIDER",
+    ["$STR_HATG_Height_Before_Detection", "$STR_HATG_Height_Before_Detection_info"],
+    SETTING_HEADER_DETECTION,
+    [-1, 100, 2, 0],
+    true,
+    {
+        params ["_value"];
+
+        missionNamespace setVariable ["hatg_setting_distance_height", round(_value), true];
     }
 ] call CBA_fnc_addSetting;
 

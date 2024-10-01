@@ -4,7 +4,6 @@ private _allowedShots = ["hatg_setting_distance_shots", -1] call HATG_fnc_getVar
 
 private _hasGhillie = [_unit] call HATG_fnc_hasGhillie;
 private _hasSuppressor = [_unit] call HATG_fnc_hasSuppressor;
-private _isNight = call HATG_fnc_isNight;
 
 private _allowedShotsRange = ["hatg_mirror_allowedShots", -1, _unit] call HATG_fnc_getVariable;
 
@@ -19,10 +18,6 @@ if (_allowedShotsRange isEqualTo -1) then {
         _allowedShotsRange = _allowedShotsRange + round(_allowedShots*2);
     };
 
-    if (_isNight) then {
-        _allowedShotsRange = _allowedShotsRange + round(random [_allowedShots, _allowedShots+2, _allowedShots+4]);
-    };
-
     ["hatg_mirror_allowedShots", _allowedShotsRange, _unit] call HATG_fnc_setVariable;
 };
 
@@ -31,6 +26,5 @@ if (_allowedShotsRange isEqualTo -1) then {
 if (_allowedShots isEqualTo -1) exitWith {true};
 if (_unitShots >= _allowedShotsRange) exitWith {false};
 if (_hasSuppressor) exitWith {true};
-if (_isNight) exitWith {true};
 
 false;
