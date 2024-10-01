@@ -26,6 +26,5 @@ if (_allowedShotsRange isEqualTo -1) then {
 if (_allowedShots isEqualTo -1) exitWith {true};
 if (_unitShots >= _allowedShotsRange) exitWith {false};
 if (_hasSuppressor) exitWith {true};
-if (_isNight) exitWith {true};
 
 false;

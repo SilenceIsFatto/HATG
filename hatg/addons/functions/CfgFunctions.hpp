@@ -7,6 +7,16 @@ class CfgFunctions
             file = QPATHTOFOLDER(functions\cba);
             class settings {};
         };
+        class conditions 
+        {
+            file = QPATHTOFOLDER(functions\conditions);
+            class canStayHidden {};
+            class getNearbyUnits {};
+            class isInBuilding {};
+            class isNight {};
+            class isOnFloor {};
+            class surfaceIsGrass {};
+        };
         class debug 
         {
             file = QPATHTOFOLDER(functions\debug);
@@ -28,19 +38,14 @@ class CfgFunctions
         {
             file = QPATHTOFOLDER(functions\handlers);
             class addHandlers {};
-            class canStayHidden {};
-            class getNearbyUnits {};
             class handleDamage {};
             class handleFired {};
             class handleGroupCreated {};
             class handleRespawn {};
             class handleStance {};
             class handleUnitJoined {};
-            class isNight {};
-            class isOnFloor {};
             class onFired {};
             class onStance {};
-            class surfaceIsGrass {};
         };
         class init 
         {
