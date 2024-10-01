@@ -59,7 +59,6 @@ class CfgFunctions
         {
             file = QPATHTOFOLDER(functions\mirror);
             class canCreateMirror {};
-            class canCreateMirrorCrouch {};
             class cooldown {};
             class createMirror {};
             class deleteMirror {};

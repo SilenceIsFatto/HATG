@@ -29,27 +29,24 @@ if (_unit isEqualTo ObjNull) exitWith {false};
 private _mirror = [_unit] call HATG_fnc_getMirror;
 
 private _cooldown = _unit getVariable ["hatg_mirror_cooldown", false];
+if (_cooldown) exitWith {["Cooldown Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
 
 private _surfaceIsGrass = [_unit] call HATG_fnc_surfaceIsGrass;
+if !(_surfaceIsGrass) exitWith {["Surface Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
 
 private _unitInVehicle = !(isNull objectParent _unit);
-
-private _movementSpeed = speed _unit;
+if (_unitInVehicle) exitWith {["In Vehicle Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
 
 private _isOnRoad = isOnRoad _unit;
+if (_isOnRoad) exitWith {["On Road Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
 
 private _isOnFloor = [_unit] call HATG_fnc_isOnFloor;
+if !(_isOnFloor) exitWith {["On Floor Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
 
 private _unitsClose = [_unit, _stance] call HATG_fnc_getNearbyUnits;
+if (_unitsClose) exitWith {["Close Units Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
 
-[format["Cooldown? %1, Is Grass? %2, Is On Road? %3, Close Units? %4, In Vehicle? %5 Is On Floor? %6 Stance? %7", _cooldown, _surfaceIsGrass, _isOnRoad, _unitsClose, _unitInVehicle, _isOnFloor, _stance], 3, _fnc_scriptName] call HATG_fnc_log;
-
-if (_cooldown) exitWith {false};
-if !(_surfaceIsGrass) exitWith {false};
-if (_unitInVehicle) exitWith {false};
-if (_isOnRoad) exitWith {false};
-if !(_isOnFloor) exitWith {false};
-if (_unitsClose) exitWith {false};
-if ((_movementSpeed > hatg_setting_movement_crouch) && {_stance isEqualTo "CROUCH"}) exitWith {false};
+private _movementSpeed = speed _unit;
+if (_stance isEqualTo "CROUCH" && {_movementSpeed > hatg_setting_movement_crouch}) exitWith {["Movement Speed Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
 
 true
