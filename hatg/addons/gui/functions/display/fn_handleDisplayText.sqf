@@ -29,7 +29,7 @@ if (["hatg_mirror", ObjNull, _unit] call HATG_fnc_getVariable isNotEqualTo ObjNu
 
 _colour = (_colour call BIS_fnc_colorRGBAtoHTML);
 
-private _hiddenText = format ["<t font ='PuristaBold' align = 'center' size='%2' color='%1'>" + _statusText + "</t>", _colour, _textSize];
+private _hiddenText = format ["<t font ='%3' align = 'center' size='%2' color='%1'>" + _statusText + "</t>", _colour, _textSize, hatg_setting_ui_font];
 _displayHidden ctrlSetStructuredText (parseText _hiddenText);
 _displayHidden ctrlSetFade 0;
 _displayHidden ctrlCommit 0;
