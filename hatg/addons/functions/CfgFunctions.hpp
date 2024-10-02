@@ -12,9 +12,11 @@ class CfgFunctions
             file = QPATHTOFOLDER(functions\conditions);
             class canStayHidden {};
             class getNearbyUnits {};
+            class isFoggy {};
             class isInBuilding {};
             class isNight {};
             class isOnFloor {};
+            class isRaining {};
             class surfaceIsGrass {};
         };
         class debug 

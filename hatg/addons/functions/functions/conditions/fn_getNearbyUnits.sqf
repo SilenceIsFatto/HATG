@@ -28,11 +28,20 @@ private _distanceNearby = 100;
 private _distanceClose = ["hatg_setting_distance_close", -1] call HATG_fnc_getVariable;
 private _distanceCloseMultiplier = ["hatg_setting_distance_close_multiplier", -1] call HATG_fnc_getVariable;
 
+// Can't think of a better way to do these if statements, there will be a more efficient way. Brain doesn't brain rn
 if (_stance == "CROUCH") then {
     _distanceClose = _distanceClose * _distanceCloseMultiplier;
 };
 
 if (call HATG_fnc_isNight) then {
+    _distanceClose = _distanceClose / 2;
+};
+
+if (call HATG_fnc_isRaining) then {
+    _distanceClose = _distanceClose / 2;
+};
+
+if (call HATG_fnc_isFoggy) then {
     _distanceClose = _distanceClose / 2;
 };
 
