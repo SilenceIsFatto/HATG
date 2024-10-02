@@ -108,6 +108,40 @@
 				<Portuguese>Isso controla as superfícies em que você precisa estar para ficar escondido. Por padrão, você precisa estar na 'grama' para permanecer escondido. Se definido como desligado, você permanecerá escondido independentemente do terreno em que estiver. (outros fatores ainda se aplicam)</Portuguese>
 				<Turkish>Gizlenmek için üzerinde olmanız gereken yüzeyleri kontrol eder. Varsayılan olarak, gizli kalmak için 'ot' üzerinde olmalısınız. Kapatıldığında, bulunduğunuz araziden bağımsız olarak gizli kalacaksınız. (diğer faktörler hala geçerlidir)</Turkish>
 			</Key>
+			<Key ID="STR_HATG_building_requirements">
+				<Original>Enable Hiding In Buildings</Original>
+				<English>Enable Hiding In Buildings</English>
+				<Czech>Povolit schovávání v budovách</Czech>
+				<French>Activer la dissimulation dans les bâtiments</French>
+				<German>Verstecken in Gebäuden aktivieren</German>
+				<Italian>Abilita il nascondersi negli edifici</Italian>
+				<Polish>Włącz ukrywanie się w budynkach</Polish>
+				<Russian>Включить скрытие в зданиях</Russian>
+				<Spanish>Habilitar el escondite en edificios</Spanish>
+				<Korean>건물 내 숨기기 활성화</Korean>
+				<Japanese>建物内に隠れることを有効にする</Japanese>
+				<Chinesesimp>启用在建筑物中隐藏</Chinesesimp>
+				<Chinese>啟用在建築物中隱藏</Chinese>
+				<Portuguese>Ativar esconderijo em edifícios</Portuguese>
+				<Turkish>Binalarda gizlenmeyi etkinleştir</Turkish>
+			</Key>
+			<Key ID="STR_HATG_building_requirements_info">
+				<Original>This controls if units can hide in buildings (under a roof).</Original>
+				<English>This controls if units can hide in buildings (under a roof).</English>
+				<Czech>To určuje, zda se jednotky mohou skrývat v budovách (pod střechou).</Czech>
+				<French>Cela contrôle si les unités peuvent se cacher dans les bâtiments (sous un toit).</French>
+				<German>Dies steuert, ob Einheiten sich in Gebäuden verstecken können (unter einem Dach).</German>
+				<Italian>Questo controlla se le unità possono nascondersi negli edifici (sotto un tetto).</Italian>
+				<Polish>To kontroluje, czy jednostki mogą się ukrywać w budynkach (pod dachem).</Polish>
+				<Russian>Это контролирует, могут ли подразделения скрываться в зданиях (под крышей).</Russian>
+				<Spanish>Esto controla si las unidades pueden esconderse en edificios (bajo un techo).</Spanish>
+				<Korean>유닛이 건물 내에서 숨을 수 있는지 여부를 제어합니다 (지붕 아래).</Korean>
+				<Japanese>これにより、ユニットが建物内（屋根の下）に隠れることができるかどうかが制御されます。</Japanese>
+				<Chinesesimp>这控制单位是否可以在建筑物内（在屋顶下）隐藏。</Chinesesimp>
+				<Chinese>這控制單位是否可以在建築物內（在屋頂下）隱藏。</Chinese>
+				<Portuguese>Isso controla se as unidades podem se esconder em edifícios (sob um telhado).</Portuguese>
+				<Turkish>Bu, birimlerin binalarda (çatının altında) gizlenip gizlenemeyeceğini kontrol eder.</Turkish>
+			</Key>
 			<Key ID="STR_HATG_Detection_Cooldown">
 				<Original>Detection Cooldown</Original>
 				<English>Detection Cooldown</English>

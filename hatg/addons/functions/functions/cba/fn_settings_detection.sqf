@@ -18,6 +18,20 @@
 ] call CBA_fnc_addSetting;
 
 [
+    "hatg_setting_building",
+    "CHECKBOX",
+    ["$STR_HATG_building_requirements", "$STR_HATG_building_requirements_info"],
+    SETTING_HEADER_DETECTION, 
+    true,
+    true,
+    {
+        params ["_value"];
+
+        missionNamespace setVariable ["hatg_setting_building", _value, true];
+    }
+] call CBA_fnc_addSetting;
+
+[
     "hatg_setting_cooldown",
     "SLIDER",
     ["$STR_HATG_Detection_Cooldown", "$STR_HATG_Detection_Cooldown_info"],

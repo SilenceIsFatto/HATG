@@ -30,6 +30,8 @@ private _endPos = [_eyePos#0, _eyePos#1, _endPosHeight];
 
 private _intersectObjects = lineIntersectsWith [_eyePos, _endPos, _unit, objNull, true];
 
+if (hatg_setting_building isEqualTo false) exitWith {false};
+
 private _isBuilding = if (_intersectObjects findIf {_x isKindOf "Building"} != -1) then {true} else {false};
 
 if (isNil "_isBuilding") then {_isBuilding = false};
