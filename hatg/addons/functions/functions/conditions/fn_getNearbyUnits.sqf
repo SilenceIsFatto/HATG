@@ -10,8 +10,8 @@
         _stance <STRING>
     
     Dependencies:
-        missionNamespace variables:
-        > "hatg_setting_distance_close" <INT>
+        global variables:
+        > hatg_setting_distance_close <INT>
     
     Usage:
         [player] call HATG_fnc_getNearbyUnits;
@@ -25,8 +25,8 @@ params ["_unit", ["_stance", "PRONE"]];
 private _unitSide = side _unit;
 
 private _distanceNearby = 100;
-private _distanceClose = ["hatg_setting_distance_close", -1] call HATG_fnc_getVariable;
-private _distanceCloseMultiplier = ["hatg_setting_distance_close_multiplier", -1] call HATG_fnc_getVariable;
+private _distanceClose = hatg_setting_distance_close;
+private _distanceCloseMultiplier = hatg_setting_distance_close_multiplier;
 
 // Can't think of a better way to do these if statements, there will be a more efficient way. Brain doesn't brain rn
 if (_stance == "CROUCH") then {

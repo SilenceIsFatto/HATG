@@ -1,6 +1,6 @@
 params ["_unit", "_unitShots"];
 
-private _allowedShots = ["hatg_setting_distance_shots", -1] call HATG_fnc_getVariable;
+private _allowedShots = hatg_setting_distance_shots;
 
 private _hasGhillie = [_unit] call HATG_fnc_hasGhillie;
 private _hasSuppressor = [_unit] call HATG_fnc_hasSuppressor;

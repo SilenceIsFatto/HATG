@@ -9,7 +9,7 @@
         _unit <OBJECT>
     
     Dependencies:
-        missionNamespace variables:
+        global variables:
         > "hatg_setting_cooldown" <INT>
         > "hatg_setting_distance_reset" <INT>
         > "hatg_setting_distance_shots" <INT>
@@ -26,8 +26,8 @@
 
 params ["_unit"];
     
-private _cooldown = ["hatg_setting_cooldown", -1] call HATG_fnc_getVariable;
-private _resetDistance = ["hatg_setting_distance_reset", -1] call HATG_fnc_getVariable;
+private _cooldown = hatg_setting_cooldown;
+private _resetDistance = hatg_setting_distance_reset;
 
 // Get the unit "information", shots and position
 private _unitInformation = ["hatg_mirror_unitInformation", [], _unit] call HATG_fnc_getVariable;

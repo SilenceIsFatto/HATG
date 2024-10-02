@@ -18,7 +18,9 @@
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_debug", _value, true];
+        // missionNamespace setVariable ["hatg_setting_debug", _value, true];
+        hatg_setting_debug = _value;
+        publicVariable "hatg_setting_debug";
     }
 ] call CBA_fnc_addSetting;
 
@@ -32,7 +34,9 @@
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_debug_surface", _value, true];
+        // missionNamespace setVariable ["hatg_setting_debug_surface", _value, true];
+        hatg_setting_debug_surface = _value;
+        publicVariable "hatg_setting_debug_surface";
     }
 ] call CBA_fnc_addSetting;
 
@@ -46,7 +50,9 @@
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_debug_conditions", _value, true];
+        // missionNamespace setVariable ["hatg_setting_debug_conditions", _value, true];
+        hatg_setting_debug_conditions = _value;
+        publicVariable "hatg_setting_debug_conditions";
     }
 ] call CBA_fnc_addSetting;
 
@@ -60,6 +66,8 @@
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_debug_detection", _value, true];
+        // missionNamespace setVariable ["hatg_setting_debug_detection", _value, true];
+        hatg_setting_debug_detection = _value;
+        publicVariable "hatg_setting_debug_detection";
     }
 ] call CBA_fnc_addSetting;
