@@ -9,7 +9,7 @@ disableSerialization;
 
 #define IDC_HIDDENTEXT 10000
 
-private _id = ["layer" + _displayName] call BIS_fnc_rscLayer;
+private _id = ["HATG_layer" + _displayName] call BIS_fnc_rscLayer;
 _id cutRsc [_displayName, "PLAIN", 0, false, true];
 private _display = uiNamespace getVariable _displayName;
 

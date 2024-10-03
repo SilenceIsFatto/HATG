@@ -21,7 +21,9 @@ private _defaultGhilliesBlacklist = str(_defaultGhillies#1);
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_equipment_suppressor_whitelist", _value, true];
+        // missionNamespace setVariable ["hatg_setting_equipment_suppressor_whitelist", _value, true];
+        hatg_setting_equipment_suppressor_whitelist = _value;
+        publicVariable "hatg_setting_equipment_suppressor_whitelist";
     }
 ] call CBA_fnc_addSetting;
 
@@ -35,7 +37,9 @@ private _defaultGhilliesBlacklist = str(_defaultGhillies#1);
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_equipment_suppressor_blacklist", _value, true];
+        // missionNamespace setVariable ["hatg_setting_equipment_suppressor_blacklist", _value, true];
+        hatg_setting_equipment_suppressor_blacklist = _value;
+        publicVariable "hatg_setting_equipment_suppressor_blacklist";
     }
 ] call CBA_fnc_addSetting;
 
@@ -49,7 +53,9 @@ private _defaultGhilliesBlacklist = str(_defaultGhillies#1);
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_equipment_suppressor_integral", _value, true];
+        // missionNamespace setVariable ["hatg_setting_equipment_suppressor_integral", _value, true];
+        hatg_setting_equipment_suppressor_integral = _value;
+        publicVariable "hatg_setting_equipment_suppressor_integral";
     }
 ] call CBA_fnc_addSetting;
 
@@ -63,7 +69,9 @@ private _defaultGhilliesBlacklist = str(_defaultGhillies#1);
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_equipment_ghillie_whitelist", _value, true];
+        // missionNamespace setVariable ["hatg_setting_equipment_ghillie_whitelist", _value, true];
+        hatg_setting_equipment_ghillie_whitelist = _value;
+        publicVariable "hatg_setting_equipment_ghillie_whitelist";
     }
 ] call CBA_fnc_addSetting;
 
@@ -77,6 +85,8 @@ private _defaultGhilliesBlacklist = str(_defaultGhillies#1);
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_equipment_ghillie_blacklist", _value, true];
+        // missionNamespace setVariable ["hatg_setting_equipment_ghillie_blacklist", _value, true];
+        hatg_setting_equipment_ghillie_blacklist = _value;
+        publicVariable "hatg_setting_equipment_ghillie_blacklist";
     }
 ] call CBA_fnc_addSetting;

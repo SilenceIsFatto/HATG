@@ -11,7 +11,7 @@ private _textSize = hatg_setting_ui_textsize;
 private _displayColourHidden = hatg_setting_ui_colour_hidden;
 private _displayColourRevealed = hatg_setting_ui_colour_revealed;
 
-if !(["hatg_setting_ui", false] call HATG_fnc_getVariable) exitWith {
+if !(hatg_setting_ui) exitWith {
     if (ctrlText _displayHidden isEqualTo "") exitWith {};
     
     private _hiddenText = "";

@@ -13,7 +13,7 @@
         _unit Namespace variables:
         > "hatg_mirror_cooldown"
 
-        missionNamespace variables:
+        global variables:
         > "hatg_setting_cooldown"
     
     Usage:
@@ -35,7 +35,7 @@ _unit setVariable ["hatg_mirror_cooldown", true];
 ["Set cooldown to true", 1, _fnc_scriptName] call HATG_fnc_log;
 
 if (_cooldown isEqualTo -1) then {
-    _cooldown = ["hatg_setting_cooldown", -1] call HATG_fnc_getVariable;
+    _cooldown = hatg_setting_cooldown;
 };
 
 [

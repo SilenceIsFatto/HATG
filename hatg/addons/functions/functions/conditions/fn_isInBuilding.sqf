@@ -9,7 +9,7 @@
         _unit <OBJECT>
     
     Dependencies:
-        N/A
+        hatg_setting_building <BOOL>
     
     Usage:
         [player] call HATG_fnc_isInBuilding;

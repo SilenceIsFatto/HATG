@@ -1,6 +1,6 @@
-private _suppressorsWhitelist = ["hatg_setting_equipment_suppressor_whitelist", []] call HATG_fnc_getVariable;
-private _suppressorsBlacklist = ["hatg_setting_equipment_suppressor_blacklist", []] call HATG_fnc_getVariable;
-private _suppressorsIntegral = ["hatg_setting_equipment_suppressor_integral", []] call HATG_fnc_getVariable;
+private _suppressorsWhitelist = hatg_setting_equipment_suppressor_whitelist;
+private _suppressorsBlacklist = hatg_setting_equipment_suppressor_blacklist;
+private _suppressorsIntegral = hatg_setting_equipment_suppressor_integral;
 
 try {
     _suppressorsWhitelist = parseSimpleArray _suppressorsWhitelist;

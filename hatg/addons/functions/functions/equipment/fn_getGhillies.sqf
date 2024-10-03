@@ -1,5 +1,5 @@
-private _ghilliesWhitelist = ["hatg_setting_equipment_ghillie_whitelist", []] call HATG_fnc_getVariable;
-private _ghilliesBlacklist = ["hatg_setting_equipment_ghillie_blacklist", []] call HATG_fnc_getVariable;
+private _ghilliesWhitelist = hatg_setting_equipment_ghillie_whitelist;
+private _ghilliesBlacklist = hatg_setting_equipment_ghillie_blacklist;
 
 try {
     _ghilliesWhitelist = parseSimpleArray _ghilliesWhitelist;

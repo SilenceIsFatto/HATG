@@ -1,6 +1,6 @@
 params ["_unit"];
 
-private _allowedHeight = ["hatg_setting_distance_height", 2] call HATG_fnc_getVariable;
+private _allowedHeight = hatg_setting_distance_height;
 
 if (_allowedHeight isEqualTo -1) exitWith {true};
 

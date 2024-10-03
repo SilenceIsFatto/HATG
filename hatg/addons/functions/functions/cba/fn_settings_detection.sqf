@@ -13,7 +13,9 @@
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_surfaces", _value, true];
+        // missionNamespace setVariable ["hatg_setting_surfaces", _value, true];
+        hatg_setting_surfaces = _value;
+        publicVariable "hatg_setting_surfaces";
     }
 ] call CBA_fnc_addSetting;
 
@@ -27,7 +29,9 @@
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_building", _value, true];
+        // missionNamespace setVariable ["hatg_setting_building", _value, true];
+        hatg_setting_building = _value;
+        publicVariable "hatg_setting_building";
     }
 ] call CBA_fnc_addSetting;
 
@@ -41,7 +45,9 @@
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_cooldown", round(_value), true];
+        // missionNamespace setVariable ["hatg_setting_cooldown", round(_value), true];
+        hatg_setting_cooldown = _value;
+        publicVariable "hatg_setting_cooldown";
     }
 ] call CBA_fnc_addSetting;
 
@@ -55,7 +61,9 @@
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_distance_close", round(_value), true];
+        // missionNamespace setVariable ["hatg_setting_distance_close", round(_value), true];
+        hatg_setting_distance_close = _value;
+        publicVariable "hatg_setting_distance_close";
     }
 ] call CBA_fnc_addSetting;
 
@@ -69,7 +77,9 @@
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_distance_height", round(_value), true];
+        // missionNamespace setVariable ["hatg_setting_distance_height", round(_value), true];
+        hatg_setting_distance_height = _value;
+        publicVariable "hatg_setting_distance_height";
     }
 ] call CBA_fnc_addSetting;
 
@@ -83,7 +93,9 @@
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_distance_close_multiplier", _value, true];
+        // missionNamespace setVariable ["hatg_setting_distance_close_multiplier", _value, true];
+        hatg_setting_distance_close_multiplier = _value;
+        publicVariable "hatg_setting_distance_close_multiplier";
     }
 ] call CBA_fnc_addSetting;
 
@@ -97,7 +109,9 @@
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_distance_reset", round(_value), true];
+        // missionNamespace setVariable ["hatg_setting_distance_reset", round(_value), true];
+        hatg_setting_distance_reset = _value;
+        publicVariable "hatg_setting_distance_reset";
     }
 ] call CBA_fnc_addSetting;
 
@@ -111,7 +125,9 @@
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_distance_shots", round(_value), true];
+        // missionNamespace setVariable ["hatg_setting_distance_shots", round(_value), true];
+        hatg_setting_distance_shots = _value;
+        publicVariable "hatg_setting_distance_shots";
     }
 ] call CBA_fnc_addSetting;
 
@@ -125,6 +141,8 @@
     {
         params ["_value"];
 
-        missionNamespace setVariable ["hatg_setting_movement_crouch", _value, true];
+        // missionNamespace setVariable ["hatg_setting_movement_crouch", _value, true];
+        hatg_setting_movement_crouch = _value;
+        publicVariable "hatg_setting_movement_crouch";
     }
 ] call CBA_fnc_addSetting;
