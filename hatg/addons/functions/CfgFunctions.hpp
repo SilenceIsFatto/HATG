@@ -22,6 +22,7 @@ class CfgFunctions
         class debug 
         {
             file = QPATHTOFOLDER(functions\debug);
+            class batchTesting {};
             class isDebug {};
             class log {};
         };
