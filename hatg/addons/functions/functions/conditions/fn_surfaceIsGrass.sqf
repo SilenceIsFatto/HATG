@@ -29,7 +29,9 @@ private _surfaceTexture = toLowerANSI (surfaceTexture _pos);
 [_surface, 2, _fnc_scriptName] call HATG_fnc_log;
 [_surfaceTexture, 2, _fnc_scriptName] call HATG_fnc_log;
 
+private _surfacesNames = ["grass", "forest", "thorn", "field"];
+
 if !(hatg_setting_surfaces) exitWith {true}; // If the setting to ignore surfaces is off, return true
-if ("grass" in _surface || {"grass" in _surfaceTexture}) exitWith {true};
+if (_surfacesNames findIf {_x in _surface || {_x in _surfaceTexture}} isNotEqualTo -1) exitWith {true};
 
 false;
