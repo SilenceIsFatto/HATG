@@ -43,11 +43,13 @@ class CfgFunctions
             class addHandlers {};
             class handleDamage {};
             class handleFired {};
+            class handleFiredNear {};
             class handleGroupCreated {};
             class handleRespawn {};
             class handleStance {};
             class handleUnitJoined {};
             class onFired {};
+            class onFiredNear {};
             class onStance {};
         };
         class init 

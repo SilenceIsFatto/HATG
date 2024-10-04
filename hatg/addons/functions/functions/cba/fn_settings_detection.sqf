@@ -36,6 +36,22 @@
 ] call CBA_fnc_addSetting;
 
 [
+    "hatg_setting_reveal_nearby",
+    "CHECKBOX",
+    ["$STR_HATG_reveal_nearby", "$STR_HATG_reveal_nearby_info"],
+    SETTING_HEADER_DETECTION, 
+    true,
+    true,
+    {
+        params ["_value"];
+
+        // missionNamespace setVariable ["hatg_setting_reveal_nearby", _value, true];
+        hatg_setting_reveal_nearby = _value;
+        publicVariable "hatg_setting_reveal_nearby";
+    }
+] call CBA_fnc_addSetting;
+
+[
     "hatg_setting_cooldown",
     "SLIDER",
     ["$STR_HATG_Detection_Cooldown", "$STR_HATG_Detection_Cooldown_info"],
