@@ -4,9 +4,25 @@
     <i>A performance-focused and lightweight solution to stealth in Arma 3.</i>
   </p>
 
-  ### ***"What features does this mod offer?"***
+  # ***"What features does this mod offer?"***
 
-  ### ***"Why does this exist?"***
+  The ability to hide among the grass.
+
+  The ability to revamp your stealth gameplay. Ever wanted a ghillie suit to actually stop the AI from seeing you? Now it does.
+
+  A logical and simplistic approach to concealment. Shooting from afar with a suppressor? You'll remain hidden for longer.
+
+  A minimalistic UI to help you know when you are hidden or not. This can be toggled off.
+
+  Environmental consideration. During the night or if it is raining/foggy, detection distance will be lowered.
+
+  Flexible CBA settings, allowing you to change just about anything in the mod.
+
+  Singleplayer support. Your AI squad will have the same stealth possibilities as you do! (Only in SP)
+
+  Localization. Note: Only English and Russian have been translated by humans. Feel free to check out our github at the bottom of the page and fix any translation errors!
+
+  # ***"Why does this exist?"***
 
   I noticed that the only real available mod that "solves" this problem, ACSTG AI Cannot See Through Grass, is very... questionable. It spams the server with creation/deletion requests and creates a ton of threads that clog the scheduler, causing massive slowdown especially as time goes on.
 
@@ -14,7 +30,7 @@
 
   If you value your performance, this mod is for you.
 
-  ### ***"How is this different to ACSTG"***
+  # ***"How is this different to ACSTG"***
 
   The main difference is that this mod is *faster* and *better for performance*.
 

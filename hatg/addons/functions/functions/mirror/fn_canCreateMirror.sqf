@@ -26,8 +26,6 @@ params [
 
 if (_unit isEqualTo ObjNull) exitWith {false};
 
-private _mirror = [_unit] call HATG_fnc_getMirror;
-
 private _unitInVehicle = !(isNull objectParent _unit);
 if (_unitInVehicle) exitWith {["In Vehicle Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
 
