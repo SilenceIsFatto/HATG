@@ -38,6 +38,6 @@ if (_level == 2 && {hatg_setting_debug_surface isEqualTo false}) exitWith {nil};
 if (_level == 3 && {hatg_setting_debug_conditions isEqualTo false}) exitWith {nil};
 if (_level == 4 && {hatg_setting_debug_detection isEqualTo false}) exitWith {nil};
 
-if (_server) exitWith {[_message, _level, _script, false] remoteExec ["HATG_fnc_log", 2]};
+if (_server) exitWith {[_message, _level, _script, false] remoteExecCall ["HATG_fnc_log", 2]};
 
 diag_log _logMessage;

@@ -29,4 +29,4 @@ if ([_firer] call HATG_fnc_canCreateMirror) exitWith {["Failed 'Fired' Can Creat
 
 [format["%1 was caught in a 'fired' event. %2 was the firer. Giving them a cooldown.", name _unit, name _firer], 4, _fnc_scriptName] call HATG_fnc_log;
 
-[_unit] remoteExec ["HATG_fnc_cooldown", 0]; // Needs to be broadcasted, otherwise remote clients won't recieve the cooldown
+[_unit] remoteExecCall ["HATG_fnc_cooldown", 0]; // Needs to be broadcasted, otherwise remote clients won't recieve the cooldown
