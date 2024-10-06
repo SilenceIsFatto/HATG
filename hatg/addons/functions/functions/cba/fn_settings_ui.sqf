@@ -7,8 +7,8 @@
     "CHECKBOX",
     ["$STR_HATG_UI_Enable", "$STR_HATG_UI_Enable_info"],
     SETTING_HEADER_UI, 
-    true,
-    1,
+    false,
+    0,
     {
         params ["_value"];
 
@@ -21,7 +21,7 @@
     "SLIDER",
     ["$STR_HATG_UI_Enable_Fading", "$STR_HATG_UI_Enable_Fading_info"],
     SETTING_HEADER_UI, 
-    [0, 15, 0, 0],
+    [0, 15, 0, 2],
     2,
     {
         params ["_value"];

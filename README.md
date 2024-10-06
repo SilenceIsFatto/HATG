@@ -12,7 +12,7 @@
 
   A logical and simplistic approach to concealment. Shooting from afar with a suppressor? You'll remain hidden for longer.
 
-  A minimalistic UI to help you know when you are hidden or not. This can be toggled off.
+  A minimalistic UI to help you know when you are hidden or not. This is OFF by default.
 
   Environmental consideration. During the night or if it is raining/foggy, detection distance will be lowered.
 
