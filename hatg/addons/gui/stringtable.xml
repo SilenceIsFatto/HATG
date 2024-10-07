@@ -2,6 +2,40 @@
 <Project name="HATG">
 	<Package name="Debug">
 		<Container name="Settings">
+			<Key ID="STR_HATG_Simple">
+				<Original>'Simple' Mode</Original>
+				<English>'Simple' Mode</English>
+				<Czech>Režim 'Jednoduchý'</Czech>
+				<French>Mode 'Simple'</French>
+				<German>'Einfacher' Modus</German>
+				<Italian>Modalità 'Semplice'</Italian>
+				<Polish>Tryb 'Prosty'</Polish>
+				<Russian>Режим 'Простой'</Russian>
+				<Spanish>Modo 'Simple'</Spanish>
+				<Korean>'간단한' 모드</Korean>
+				<Japanese>'シンプル' モード</Japanese>
+				<Chinesesimp>'简单' 模式</Chinesesimp>
+				<Chinese>'簡單' 模式</Chinese>
+				<Portuguese>Modo 'Simples'</Portuguese>
+				<Turkish>'Basit' Mod</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Simple_info">
+				<Original>This setting overwrites every other setting. It is intended as a more 'arcade' experience. Do not change other settings with this setting enabled, they will be overwritten on the next game restart.</Original>
+				<English>This setting overwrites every other setting. It is intended as a more 'arcade' experience. Do not change other settings with this setting enabled, they will be overwritten on the next game restart.</English>
+				<Czech>Toto nastavení přepíše všechna ostatní nastavení. Je určeno pro více „arkádový“ zážitek. Neměňte jiná nastavení, pokud je toto nastavení povoleno, budou přepsána při příštím restartu hry.</Czech>
+				<French>Ce paramètre remplace tous les autres paramètres. Il est destiné à une expérience plus « arcade ». Ne modifiez pas d'autres paramètres avec ce paramètre activé, ils seront écrasés lors du prochain redémarrage du jeu.</French>
+				<German>Diese Einstellung überschreibt alle anderen Einstellungen. Sie ist für eine eher „arcade“-artige Erfahrung gedacht. Ändern Sie keine anderen Einstellungen, wenn diese Einstellung aktiviert ist, da sie beim nächsten Neustart des Spiels überschrieben werden.</German>
+				<Italian>Questa impostazione sovrascrive tutte le altre impostazioni. È pensato per un'esperienza più 'arcade'. Non cambiare altre impostazioni con questa impostazione abilitata, saranno sovrascritte al prossimo riavvio del gioco.</Italian>
+				<Polish>To ustawienie nadpisuje wszystkie inne ustawienia. Jest przeznaczone do bardziej „zręcznościowego” doświadczenia. Nie zmieniaj innych ustawień przy włączonym tym ustawieniu, zostaną one nadpisane przy następnym uruchomieniu gry.</Polish>
+				<Russian>Этот параметр заменяет все остальные параметры. Он предназначен для более «аркадного» опыта. Не изменяйте другие настройки, если этот параметр включен, они будут перезаписаны при следующем перезапуске игры.</Russian>
+				<Spanish>Esta configuración sobrescribe todas las demás configuraciones. Está destinada a una experiencia más 'arcade'. No cambies otras configuraciones con esta configuración activada, se sobrescribirán en el próximo reinicio del juego.</Spanish>
+				<Korean>이 설정은 다른 모든 설정을 덮어씁니다. 보다 '아케이드' 경험을 위해 설계되었습니다. 이 설정이 활성화된 상태에서 다른 설정을 변경하지 마세요. 다음 게임 재시작 시 덮어씌워집니다.</Korean>
+				<Japanese>この設定は他のすべての設定を上書きします。 より「アーケード」な体験を意図しています。 この設定が有効な状態で他の設定を変更しないでください。それらは次のゲーム再起動時に上書きされます。</Japanese>
+				<Chinesesimp>此设置会覆盖所有其他设置。它旨在提供更“街机”式的体验。启用此设置时，请勿更改其他设置，它们将在下次重新启动游戏时被覆盖。</Chinesesimp>
+				<Chinese>此設定會覆蓋所有其他設定。它旨在提供更“街機”式的體驗。啟用此設定時，請勿更改其他設定，它們將在下次重新啟動遊戲時被覆蓋。</Chinese>
+				<Portuguese>Esta configuração sobrescreve todas as outras. É destinada a uma experiência mais 'arcade'. Não altere outras configurações com esta opção ativada, pois elas serão sobrescritas no próximo reinício do jogo.</Portuguese>
+				<Turkish>Bu ayar diğer tüm ayarların üzerine yazar. Daha 'atari' tarzı bir deneyim için tasarlanmıştır. Bu ayar etkinleştirildiğinde diğer ayarları değiştirmeyin; bunlar, oyunun bir sonraki yeniden başlatılmasında üzerine yazılacaktır.</Turkish>
+			</Key>
 			<Key ID="STR_HATG_Debug">
 				<Original>Debug Mode</Original>
 				<English>Debug Mode</English>

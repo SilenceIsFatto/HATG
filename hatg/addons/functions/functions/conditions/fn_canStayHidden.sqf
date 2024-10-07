@@ -16,6 +16,8 @@ if (_allowedShotsRange isEqualTo -1) then {
 
     if (_hasSuppressor) then {
         _allowedShotsRange = _allowedShotsRange + round(_allowedShots*2);
+    } else {
+        _allowedShotsRange = round (_allowedShotsRange / 2);
     };
 
     ["hatg_mirror_allowedShots", _allowedShotsRange, _unit] call HATG_fnc_setVariable;
@@ -24,7 +26,6 @@ if (_allowedShotsRange isEqualTo -1) then {
 [format["Has Ghillie? %1, Has Suppressor? %2, Is Night? %3, Allowed Shots: %4, Current Shots: %5", _hasGhillie, _hasSuppressor, _isNight, _allowedShotsRange, _unitShots], 4, _fnc_scriptName] call HATG_fnc_log;
 
 if (_allowedShots isEqualTo -1) exitWith {true};
-if (_unitShots >= _allowedShotsRange) exitWith {false};
-if (_hasSuppressor) exitWith {true};
+if (_unitShots < _allowedShotsRange) exitWith {true};
 
 false;

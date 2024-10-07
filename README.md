@@ -32,7 +32,7 @@
 
   # ***"How is this different to ACSTG"***
 
-  The main difference is that this mod is *faster* and *better for performance*.
+  The main difference is that HATG is *faster* and *better for performance*.
 
   From quick code performance testing, ACSTG takes around 1ms to run with no AI present. With 100 AI present, this can skyrocket to 2-6ms. That's the main loop that runs every second or so (I couldn't test the entire thing due to its heavy use of threads and scheduling, made the performance results inaccurate. If anything the loop may actually take longer.). It also floods the server network with creation/deletion requests, which is then passed on to every connected client.
 
@@ -44,5 +44,4 @@
   HATG works by creating a single box and attaching it to you to prevent the AI from seeing **you** - not 100m infront of you. These are called "mirrors" due to how they work. These "mirrors" metaphorically reflect the environment around you so the AI doesn't notice you're there. It doesn't matter how many AI there are, there will only be 1 box created per player. This is much better for both the scheduler and network as very few threads and network requests are ever made, compared to ACSTG which could make hundreds ***every second***.
   
   Under the same conditions as the example above, this time with HATG, only 10 objects will be made *at most*.
-
 </div>
