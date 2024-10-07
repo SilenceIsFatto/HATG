@@ -9,6 +9,14 @@ Details:
 ### Why was this change necessary?
 Details:
 
+### Does this pull request change core HATG functionality?
+1. [ ] No
+2. [ ] Yes
+
+**If yes, what core functionality does it change and why?**
+
+**[HATG Automated Testing Result](https://github.com/SilenceIsFatto/HATG/blob/main/hatg/addons/functions/functions/debug/fn_batchTesting.sqf):**
+
 ## Does this PR resolve any open issues?
 1. [ ] No
 2. [ ] Yes
