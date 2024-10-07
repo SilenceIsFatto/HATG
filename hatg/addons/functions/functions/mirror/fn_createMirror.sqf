@@ -38,7 +38,7 @@ private _mirror = _mirrorType createVehicle [0,0,0];
 _mirror setPosATL getPosATL _unit;
 _mirror attachTo [_unit, [0,0,0]];
 
-["hatg_mirror", _mirror, _unit] call HATG_fnc_setVariable;
+_unit setVariable ["hatg_mirror", _mirror, true];
 
 if (isPlayer _unit) then {
     [_unit] call HATG_fnc_handleDisplayText;

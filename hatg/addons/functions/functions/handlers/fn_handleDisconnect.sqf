@@ -23,7 +23,11 @@ private _ehHandleDisconnect = addMissionEventHandler ["HandleDisconnect", {
     
     if !(isMultiplayer) exitWith {};
 
-    [_unit] call HATG_fnc_deleteMirror;
+    private _mirror = [_unit] call HATG_fnc_getMirror;
+
+    if (_mirror isNotEqualTo ObjNull) then {
+        deleteVehicle _mirror;
+    };
 
     false;
 }];
