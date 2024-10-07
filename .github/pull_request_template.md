@@ -17,6 +17,10 @@ Details:
 
 **[HATG Automated Testing Result](https://github.com/SilenceIsFatto/HATG/blob/main/hatg/addons/functions/functions/debug/fn_batchTesting.sqf):**
 
+```
+Paste Below
+```
+
 ## Does this PR resolve any open issues?
 1. [ ] No
 2. [ ] Yes
