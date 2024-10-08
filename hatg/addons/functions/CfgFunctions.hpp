@@ -42,6 +42,7 @@ class CfgFunctions
             file = QPATHTOFOLDER(functions\handlers);
             class addHandlers {};
             class handleDamage {};
+            class handleDisconnect {};
             class handleFired {};
             class handleFiredNear {};
             class handleGroupCreated {};

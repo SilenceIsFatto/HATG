@@ -1,4 +1,8 @@
-if (isServer) then {missionNamespace setVariable ["hatg_serverActivated", true, true]};
+if (isServer) then {
+    missionNamespace setVariable ["hatg_serverActivated", true, true];
+
+    call HATG_fnc_handleDisconnect;
+};
 
 call HATG_fnc_settings;
 

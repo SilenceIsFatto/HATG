@@ -21,26 +21,30 @@
 
         // This is mostly intended for singleplayer
         hatg_setting_simple = _value;
-        hatg_setting_surfaces = false;
-        hatg_setting_reveal_nearby = false;
-        hatg_setting_cooldown = 5;
-        hatg_setting_distance_close = 10;
-        hatg_setting_distance_height = 2;
-        hatg_setting_distance_close_multiplier = 0;
-        hatg_setting_distance_reset = -1;
-        hatg_setting_distance_shots = -1;
-        hatg_setting_movement_crouch = 20;
-        publicVariable "hatg_setting_simple";
-        publicVariable "hatg_setting_surfaces";
-        publicVariable "hatg_setting_reveal_nearby";
-        publicVariable "hatg_setting_cooldown";
-        publicVariable "hatg_setting_distance_close";
-        publicVariable "hatg_setting_distance_height";
-        publicVariable "hatg_setting_distance_close_multiplier";
-        publicVariable "hatg_setting_distance_reset";
-        publicVariable "hatg_setting_distance_shots";
-        publicVariable "hatg_setting_movement_crouch";
-    }
+
+        if (_value isEqualTo true) then {
+            hatg_setting_surfaces = false;
+            hatg_setting_reveal_nearby = false;
+            hatg_setting_cooldown = 5;
+            hatg_setting_distance_close = 10;
+            hatg_setting_distance_height = 2;
+            hatg_setting_distance_close_multiplier = 0;
+            hatg_setting_distance_reset = -1;
+            hatg_setting_distance_shots = -1;
+            hatg_setting_movement_crouch = 20;
+            publicVariable "hatg_setting_simple";
+            publicVariable "hatg_setting_surfaces";
+            publicVariable "hatg_setting_reveal_nearby";
+            publicVariable "hatg_setting_cooldown";
+            publicVariable "hatg_setting_distance_close";
+            publicVariable "hatg_setting_distance_height";
+            publicVariable "hatg_setting_distance_close_multiplier";
+            publicVariable "hatg_setting_distance_reset";
+            publicVariable "hatg_setting_distance_shots";
+            publicVariable "hatg_setting_movement_crouch";
+        };
+    },
+    true
 ] call CBA_fnc_addSetting;
 
 [

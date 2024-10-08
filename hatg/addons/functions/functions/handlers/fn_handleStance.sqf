@@ -22,7 +22,7 @@ params ["_unit"];
 
 // I couldn't find an event handler specifically for stances and I didn't want to use an event handler for general anim changes, so this is what it is
 
-while {alive _unit} do
+while {alive _unit || {!(isNil "_unit")}} do
 {
     private _exit = [_unit] call HATG_fnc_onStance;
 

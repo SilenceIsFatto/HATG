@@ -34,7 +34,7 @@ if (_mirror isEqualTo ObjNull) exitWith {false}; // if mirror is still ObjNull t
 [format["Deleting a mirror at position (ATL: %1)", getPosATL _mirror], 1, _fnc_scriptName] call HATG_fnc_log;
 
 deleteVehicle _mirror;
-_unit setVariable ["hatg_mirror", ObjNull];
+_unit setVariable ["hatg_mirror", ObjNull, true];
 
 if (isPlayer _unit) then {
     [_unit] call HATG_fnc_handleDisplayText;
