@@ -87,7 +87,7 @@ private _logSettings = _settings apply {_logMessages pushBack _x};
 
 		_unit setPosATL _pos;
 
-		private _result = [_unit] call HATG_fnc_canCreateMirror;
+		private _result = [_unit, (stance _unit)] call HATG_fnc_canCreateMirror;
 
 		private _isResultExpected = if (_expectedResult isEqualTo _result) then {true} else {false};
 

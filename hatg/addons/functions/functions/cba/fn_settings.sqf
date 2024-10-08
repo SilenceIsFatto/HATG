@@ -23,8 +23,7 @@
         hatg_setting_simple = _value;
 
         publicVariable "hatg_setting_simple";
-    },
-    true
+    }
 ] call CBA_fnc_addSetting;
 
 [

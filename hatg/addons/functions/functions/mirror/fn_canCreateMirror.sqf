@@ -3,15 +3,13 @@
         Silence
     
     Description:
-        Checks if a mirror can be created
+        Checks if a mirror can be created, also takes stance into account
     
     Params:
         _unit <OBJECT> <Default: ObjNull>
+        _stance <STRING> <Default: "PRONE">
     
     Dependencies:
-        global vars:
-        > hatg_setting_simple
-
         _unit Namespace variables:
         > "hatg_mirror_cooldown"
     
@@ -36,8 +34,8 @@ private _cooldown = _unit getVariable ["hatg_mirror_cooldown", false];
 if (_cooldown) exitWith {["Cooldown Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
 
 private _movementSpeed = speed _unit;
-if (_stance isNotEqualTo "PRONE" && {_movementSpeed > hatg_setting_movement_crouch}) exitWith {["Movement Speed Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
-if (_stance isEqualTo "STAND" && {!([_unit] call HATG_fnc_isInBuilding)}) exitWith {["Stand Building Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
+if (_stance isEqualTo "CROUCH" && {_movementSpeed > hatg_setting_movement_crouch}) exitWith {["Movement Speed Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
+if (_stance isEqualTo "STAND" && {[_unit] call HATG_fnc_isInBuilding isEqualTo false}) exitWith {["Stand Building Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
 
 private _surfaceIsGrass = [_unit] call HATG_fnc_surfaceIsGrass;
 if !(_surfaceIsGrass) exitWith {["Surface Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};

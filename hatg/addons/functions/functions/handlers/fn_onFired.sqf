@@ -39,7 +39,7 @@ if (_unitInformation isNotEqualTo []) then {
     _unitPos = _unitInformation#1;
 };
 
-if (_unit distance2D _unitPos >= _resetDistance || {_resetDistance isEqualTo -1}) then {
+if (_unit distance2D _unitPos >= _resetDistance || {_resetDistance isEqualTo -1 || {hatg_setting_simple}}) then {
     private _unitPosUpdated = getPosATL _unit;
     
     ["hatg_mirror_unitInformation", [0, _unitPosUpdated], _unit] call HATG_fnc_setVariable;
