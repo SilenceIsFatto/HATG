@@ -31,7 +31,8 @@ private _surfaceTexture = toLowerANSI (surfaceTexture _pos);
 
 private _surfacesNames = ["grass", "forest", "thorn", "field", "hlina", "trava"];
 
-if !(hatg_setting_surfaces) exitWith {true}; // If the setting to ignore surfaces is off, return true
+if !(hatg_setting_surfaces) exitWith {true};
+if (hatg_setting_simple) exitWith {true};
 if ([_unit] call HATG_fnc_isInBuilding) exitWith {true};
 if (nearestTerrainObjects [_unit, ["bush"], 3, false, true] isNotEqualTo []) exitWith {true};
 if (_surfacesNames findIf {_x in _surface || {_x in _surfaceTexture}} isNotEqualTo -1) exitWith {true};

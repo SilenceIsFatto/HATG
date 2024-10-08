@@ -25,8 +25,9 @@ if !(alive _unit) exitWith {true};
 if (["hatg_mirror_disable", false, _unit] call HATG_fnc_getVariable isEqualTo true) exitWith {true};
 
 private _stance = stance _unit;
+private _stances = ["PRONE", "CROUCH", "STAND"];
 
-if !(_stance in ["PRONE", "CROUCH"]) exitWith {[_unit] call HATG_fnc_deleteMirror; false};
+if !(_stance in _stances) exitWith {[_unit] call HATG_fnc_deleteMirror; false};
 
 if ([_unit, _stance] call HATG_fnc_canCreateMirror) exitWith {
     [_unit] call HATG_fnc_createMirror;

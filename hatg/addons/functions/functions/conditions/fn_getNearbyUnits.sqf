@@ -27,12 +27,16 @@ private _distanceClose = hatg_setting_distance_close;
 private _distanceCloseMultiplier = hatg_setting_distance_close_multiplier;
 
 // Can't think of a better way to do these if statements, there will be a more efficient way. Brain doesn't brain rn
+if (hatg_setting_simple) then {
+    _distanceClose = 10;
+};
+
 if (_stance == "CROUCH") then {
-    _distanceClose = _distanceClose * _distanceCloseMultiplier; // 20 * 2 = 40 (default settings)
+    _distanceClose = _distanceClose * _distanceCloseMultiplier;
 };
 
 if (_stance == "STAND") then {
-    _distanceClose = _distanceClose * (_distanceCloseMultiplier * 2); // 20 * 4 = 80 (default settings)
+    _distanceClose = _distanceClose * (_distanceCloseMultiplier * 2);
 };
 
 // Can't exactly merge these into 1 statement since the effects are meant to stack

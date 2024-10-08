@@ -9,6 +9,9 @@
         _unit <OBJECT> <Default: ObjNull>
     
     Dependencies:
+        global vars:
+        > hatg_setting_simple
+
         _unit Namespace variables:
         > "hatg_mirror_cooldown"
     
@@ -34,6 +37,7 @@ if (_cooldown) exitWith {["Cooldown Check Failed", 3, _fnc_scriptName] call HATG
 
 private _movementSpeed = speed _unit;
 if (_stance isNotEqualTo "PRONE" && {_movementSpeed > hatg_setting_movement_crouch}) exitWith {["Movement Speed Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
+if (_stance isEqualTo "STAND" && {!([_unit] call HATG_fnc_isInBuilding)}) exitWith {["Stand Building Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
 
 private _surfaceIsGrass = [_unit] call HATG_fnc_surfaceIsGrass;
 if !(_surfaceIsGrass) exitWith {["Surface Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};

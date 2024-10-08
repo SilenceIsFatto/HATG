@@ -72,7 +72,7 @@
     "SLIDER",
     ["$STR_HATG_Detection_Distance", "$STR_HATG_Detection_Distance_info"],
     SETTING_HEADER_DETECTION,
-    [0, 100, 20, 0],
+    [0, 100, 30, 0],
     true,
     {
         params ["_value"];
