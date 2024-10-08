@@ -23,17 +23,19 @@
 
 params ["_unit", ["_stance", "PRONE"]];
 
-private _unitSide = side _unit;
-
-private _distanceNearby = 100;
 private _distanceClose = hatg_setting_distance_close;
 private _distanceCloseMultiplier = hatg_setting_distance_close_multiplier;
 
 // Can't think of a better way to do these if statements, there will be a more efficient way. Brain doesn't brain rn
 if (_stance == "CROUCH") then {
-    _distanceClose = _distanceClose * _distanceCloseMultiplier;
+    _distanceClose = _distanceClose * _distanceCloseMultiplier; // 20 * 2 = 40 (default settings)
 };
 
+if (_stance == "STAND") then {
+    _distanceClose = _distanceClose * (_distanceCloseMultiplier * 2); // 20 * 4 = 80 (default settings)
+};
+
+// Can't exactly merge these into 1 statement since the effects are meant to stack
 if (call HATG_fnc_isNight) then {
     _distanceClose = _distanceClose / 2;
 };
@@ -50,9 +52,11 @@ if ([_unit] call HATG_fnc_isInBuilding) then {
     _distanceClose = _distanceClose / 2;
 };
 
-if ([_unit] call HATG_fnc_hasGhillie) then {
+if ([_unit] call HATG_fnc_hasGhillie) then { // ghillie should ideally have no benefit if standing
     _distanceClose = _distanceClose / 2;
 };
+
+_distanceClose = _distanceClose max 5;
 
 private _nearbyUnit = _unit findNearestEnemy _unit;
 
@@ -65,7 +69,7 @@ if (_nearbyUnit getVariable ["ACE_isUnconscious", false] isEqualTo true) exitWit
 true;
 
 /*
-The below is an example on why overcomplicating is dumb. The below takes around 0.8ms on average to run with 120 AI. The above L56-63 takes around 0.0250ms at most...
+The below is an example on why overcomplicating is dumb. The below takes around 0.8ms on average to run with 120 AI. The above takes around 0.0250ms at most...
 
 private _nearbyUnits = allUnits select {_x != _unit && {_unitSide getFriend side _x <= 0.5} && {_x distance _unit <= _distanceNearby}};
 private _closeUnits = if (_nearbyUnits findIf {_x distance _unit <= _distanceClose && {_x getVariable ["ACE_isUnconscious", false] isEqualTo false}} != -1) then {true} else {false};
