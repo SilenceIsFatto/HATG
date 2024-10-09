@@ -15,6 +15,12 @@
 
         global variables:
         > "hatg_setting_cooldown"
+
+    Scope:
+        Local
+    
+    Environment:
+        Unscheduled
     
     Usage:
         [player, 10] call HATG_fnc_cooldown;

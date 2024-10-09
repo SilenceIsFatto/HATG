@@ -9,13 +9,13 @@
 		_unit <OBJECT> <Default: ObjNull>
 	
 	Dependencies:
-		hatg_setting_simple
-		hatg_setting_surfaces
-		hatg_setting_building
-		hatg_setting_reveal_nearby
-		hatg_setting_distance_close
-		hatg_setting_distance_close_multiplier
-		hatg_setting_distance_height
+		hatg_setting_simple <BOOL>
+		hatg_setting_surfaces <BOOL>
+		hatg_setting_building <BOOL>
+		hatg_setting_reveal_nearby <BOOL>
+		hatg_setting_distance_close <INT>
+		hatg_setting_distance_close_multiplier <INT>
+		hatg_setting_distance_height <INT>
 
 	Scope:
 		Local

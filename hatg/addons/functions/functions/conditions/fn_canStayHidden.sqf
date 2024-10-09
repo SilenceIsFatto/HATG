@@ -1,3 +1,30 @@
+/*
+    Author:
+        Silence
+    
+    Description:
+        Checks if _unit can stay hidden after firing, handles creating/resetting the allowed shots variable attached to _unit
+    
+    Params:
+        _unit <OBJECT>
+        _unitShots <INT>
+    
+    Dependencies:
+        hatg_setting_distance_shots <INT>
+    
+    Scope:
+        Local
+    
+    Environment:
+        Unscheduled
+    
+    Usage:
+        [player] call HATG_fnc_canStayHidden;
+    
+    Return:
+        true, false <BOOL>
+*/
+
 params ["_unit", "_unitShots"];
 
 private _allowedShots = hatg_setting_distance_shots;

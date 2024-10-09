@@ -10,6 +10,12 @@
     
     Dependencies:
         N/A
+
+    Scope:
+        Local, Remote
+    
+    Environment:
+        Unscheduled
     
     Usage:
         private _mirror = [player] call HATG_fnc_getMirror;

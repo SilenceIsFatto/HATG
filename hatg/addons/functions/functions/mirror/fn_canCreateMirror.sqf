@@ -13,6 +13,12 @@
         _unit Namespace variables:
         > "hatg_mirror_cooldown"
     
+    Scope:
+        Local
+    
+    Environment:
+        Unscheduled
+
     Usage:
         [player] call HATG_fnc_canCreateMirror;
     
