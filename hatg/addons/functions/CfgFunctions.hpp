@@ -11,6 +11,7 @@ class CfgFunctions
         {
             file = QPATHTOFOLDER(functions\conditions);
             class canStayHidden {};
+            class getDetectionDistance {};
             class getNearbyUnits {};
             class isFoggy {};
             class isInBuilding {};

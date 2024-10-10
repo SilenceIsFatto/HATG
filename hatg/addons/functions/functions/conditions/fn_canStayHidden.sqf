@@ -52,6 +52,7 @@ if (_allowedShotsRange isEqualTo -1) then {
 
 [format["Has Ghillie? %1, Has Suppressor? %2, Is Night? %3, Allowed Shots: %4, Current Shots: %5", _hasGhillie, _hasSuppressor, _isNight, _allowedShotsRange, _unitShots], 4, _fnc_scriptName] call HATG_fnc_log;
 
+if (currentWeapon _unit isEqualTo secondaryWeapon _unit) exitWith {false}; // if _unit is not using a launcher
 if (_allowedShots isEqualTo -1 || {hatg_setting_simple}) exitWith {true};
 if (_unitShots < _allowedShotsRange) exitWith {true};
 

@@ -3,16 +3,14 @@
         Silence
     
     Description:
-        Checks if an enemy unit is near _unit, reduces distance dynamically based on multiple factors
+        Checks if an enemy unit is near _unit
     
     Params:
         _unit <OBJECT>
         _stance <STRING>
     
     Dependencies:
-        global variables:
-        > hatg_setting_distance_close <INT>
-        > hatg_setting_distance_close_multiplier <INT>
+        N/A
     
     Usage:
         [player] call HATG_fnc_getNearbyUnits;
@@ -23,45 +21,9 @@
 
 params ["_unit", ["_stance", "PRONE"]];
 
-private _distanceClose = hatg_setting_distance_close;
-private _distanceCloseMultiplier = hatg_setting_distance_close_multiplier;
+private _distanceClose = [_unit, _stance] call HATG_fnc_getDetectionDistance;
 
-// Can't think of a better way to do these if statements, there will be a more efficient way. Brain doesn't brain rn
-if (hatg_setting_simple) then {
-    _distanceClose = 10;
-    _distanceCloseMultiplier = 2;
-};
-
-if (_stance == "CROUCH") then {
-    _distanceClose = _distanceClose * _distanceCloseMultiplier;
-};
-
-if (_stance == "STAND") then {
-    _distanceClose = _distanceClose * (_distanceCloseMultiplier * 2);
-};
-
-// Can't exactly merge these into 1 statement since the effects are meant to stack
-if (call HATG_fnc_isNight) then {
-    _distanceClose = _distanceClose / 2;
-};
-
-if (call HATG_fnc_isRaining) then {
-    _distanceClose = _distanceClose / 2;
-};
-
-if (call HATG_fnc_isFoggy) then {
-    _distanceClose = _distanceClose / 2;
-};
-
-if ([_unit] call HATG_fnc_isInBuilding) then {
-    _distanceClose = _distanceClose / 2;
-};
-
-if ([_unit] call HATG_fnc_hasGhillie) then { // ghillie should ideally have no benefit if standing
-    _distanceClose = _distanceClose / 2;
-};
-
-_distanceClose = _distanceClose max 5;
+[format["Detection Distance: %1", _distanceClose], 3, _fnc_scriptName] call HATG_fnc_log;
 
 private _nearbyUnit = _unit findNearestEnemy _unit;
 
@@ -69,7 +31,7 @@ if (isNil "_nearbyUnit" || {_nearbyUnit isEqualTo ObjNull}) exitWith {false};
 if (_nearbyUnit distance2D _unit >= _distanceClose) exitWith {false};
 if (_nearbyUnit getVariable ["ACE_isUnconscious", false] isEqualTo true) exitWith {false};
 
-[format["Detection Distance: %1, Close Unit? %2", _distanceClose, _nearbyUnit], 4, _fnc_scriptName] call HATG_fnc_log;
+[format["Close Unit? %1", _nearbyUnit], 4, _fnc_scriptName] call HATG_fnc_log;
 
 true;
 
