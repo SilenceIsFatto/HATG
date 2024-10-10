@@ -26,7 +26,7 @@
 
   I noticed that the only real available mod that "solves" this problem, ACSTG AI Cannot See Through Grass, is very... questionable. It spams the server with creation/deletion requests and creates a ton of threads that clog the scheduler, causing massive slowdown especially as time goes on.
 
-  This mod aims to solve that problem by using smarter methods to achieve the same goal. Also, it's licensed under the MIT license(*)!
+  This mod aims to solve that problem by using smarter methods to achieve the same goal. Also, it's licensed under the [APL-SA](https://www.bohemia.net/community/licenses/arma-public-license-share-alike) license(*)!
 
   If you value your performance, this mod is for you.
 
