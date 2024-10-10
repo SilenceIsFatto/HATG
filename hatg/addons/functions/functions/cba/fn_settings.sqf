@@ -27,6 +27,24 @@
 ] call CBA_fnc_addSetting;
 
 [
+    "hatg_setting_mp_ai", // Internal setting name, should always contain a tag! This will be the global variable which takes the value of the setting.
+    "CHECKBOX", // setting type
+    ["$STR_HATG_MP_AI", "$STR_HATG_MP_AI_info"], // Pretty name shown inside the ingame settings menu. Can be stringtable entry.
+    SETTING_HEADER_GENERAL, // Pretty name of the category where the setting can be found. Can be stringtable entry.
+    false,
+    true, // "_isGlobal" flag. Set this to true to always have this setting synchronized between all clients in multiplayer
+    {
+        params ["_value"];
+
+        // This is mostly intended for singleplayer, the mirror will always be active unless you do something to reveal it
+        hatg_setting_mp_ai = _value;
+
+        publicVariable "hatg_setting_mp_ai";
+    },
+    true
+] call CBA_fnc_addSetting;
+
+[
     "hatg_setting_debug",
     "CHECKBOX",
     "$STR_HATG_Debug",

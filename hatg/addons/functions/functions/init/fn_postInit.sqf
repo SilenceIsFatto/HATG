@@ -8,6 +8,6 @@ if (isClass (configFile >> "CfgPatches" >> "HIG_wall")) exitWith {titleText ["HA
 
 call HATG_fnc_createDisplay;
 
-if !(isMultiplayer) then {
+if (hatg_setting_mp_ai || {!isMultiplayer}) then {
     call HATG_fnc_handleGroupCreated;
 };
