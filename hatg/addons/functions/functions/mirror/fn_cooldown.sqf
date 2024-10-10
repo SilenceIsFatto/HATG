@@ -15,6 +15,12 @@
 
         global variables:
         > "hatg_setting_cooldown"
+
+    Scope:
+        Local
+    
+    Environment:
+        Unscheduled
     
     Usage:
         [player, 10] call HATG_fnc_cooldown;
@@ -33,6 +39,10 @@ if (_cooldownOn) exitWith {}; // no need to re-set this variable and open a loop
 
 _unit setVariable ["hatg_mirror_cooldown", true];
 ["Set cooldown to true", 1, _fnc_scriptName] call HATG_fnc_log;
+
+if (hatg_setting_simple) then {
+    _cooldown = 5;
+};
 
 if (_cooldown isEqualTo -1) then {
     _cooldown = hatg_setting_cooldown;

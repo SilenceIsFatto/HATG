@@ -21,13 +21,13 @@
 
 params ["_unit"];
 
-if !(alive _unit) exitWith {true}; // unit is dead
-if (["hatg_mirror_disable", false, _unit] call HATG_fnc_getVariable isEqualTo true) exitWith {true}; // unit has mirrors disabled
+if !(alive _unit) exitWith {true};
+if (["hatg_mirror_disable", false, _unit] call HATG_fnc_getVariable isEqualTo true) exitWith {true};
 
 private _stance = stance _unit;
+private _stances = ["PRONE", "CROUCH", "STAND"];
 
-// Honestly could probably merge the 2 ifs below into one, just need to handle the _canCreateMirror(Crouch)
-if !(_stance in ["PRONE", "CROUCH"]) exitWith {[_unit] call HATG_fnc_deleteMirror; false};
+if !(_stance in _stances) exitWith {[_unit] call HATG_fnc_deleteMirror; false};
 
 if ([_unit, _stance] call HATG_fnc_canCreateMirror) exitWith {
     [_unit] call HATG_fnc_createMirror;

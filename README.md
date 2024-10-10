@@ -1,7 +1,7 @@
 <div align="center">
   <h1>HATG (Hide Among The Grass)</h1>
   <p>
-    <i>A performance-focused and lightweight solution to stealth in Arma 3.</i>
+    <i>A performance-focused solution to stealth in Arma 3.</i>
   </p>
 
   # ***"What features does this mod offer?"***
