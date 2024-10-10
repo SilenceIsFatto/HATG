@@ -48,6 +48,19 @@ if (_allowedShotsRange isEqualTo -1) then {
     };
 
     ["hatg_mirror_allowedShots", _allowedShotsRange, _unit] call HATG_fnc_setVariable;
+    ["hatg_mirror_allowedShotsEquipment", [_hasGhillie, _hasSuppressor], _unit] call HATG_fnc_setVariable;
+} else {
+    private _equipment = ["hatg_mirror_allowedShotsEquipment", [false, false], _unit] call HATG_fnc_getVariable;
+    private _ghillie = _equipment # 0;
+    private _suppressor = _equipment # 1;
+
+    if (_suppressor && {!_hasSuppressor}) then { // if _unit had a suppressor when their shots were set and now they don't, reset shots
+        ["hatg_mirror_allowedShots", 0, _unit] call HATG_fnc_setVariable;
+    };
+
+    if (_ghillie && {!_hasGhillie}) then { // if _unit had a ghillie when their shots were set and now they don't, reset shots
+        ["hatg_mirror_allowedShots", 0, _unit] call HATG_fnc_setVariable;
+    };
 };
 
 [format["Has Ghillie? %1, Has Suppressor? %2, Is Night? %3, Allowed Shots: %4, Current Shots: %5", _hasGhillie, _hasSuppressor, _isNight, _allowedShotsRange, _unitShots], 4, _fnc_scriptName] call HATG_fnc_log;
