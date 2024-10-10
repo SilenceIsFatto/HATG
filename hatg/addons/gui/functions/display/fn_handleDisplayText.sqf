@@ -1,3 +1,4 @@
+#include "..\..\script_component.hpp"
 params ["_unit"];
 
 private _display = call HATG_fnc_getDisplay;
@@ -10,6 +11,9 @@ private _displayHidden = _display#1;
 private _textSize = hatg_setting_ui_textsize;
 private _displayColourHidden = hatg_setting_ui_colour_hidden;
 private _displayColourRevealed = hatg_setting_ui_colour_revealed;
+private _displayImage = QPATHTOFOLDER(data\ui\revealed_ca.paa);
+
+private _colour = _displayColourRevealed;
 
 if !(hatg_setting_ui) exitWith {
     if (ctrlText _displayHidden isEqualTo "") exitWith {};
@@ -18,18 +22,21 @@ if !(hatg_setting_ui) exitWith {
     _displayHidden ctrlSetStructuredText (parseText _hiddenText);
 };
 
-private _hidden = false;
-private _colour = _displayColourRevealed;
-
 if (["hatg_mirror", ObjNull, _unit] call HATG_fnc_getVariable isNotEqualTo ObjNull) then {
-    _hidden = true;
     _colour = _displayColourHidden;
     _statusText = localize "$STR_HATG_Hidden";
+    _displayImage = QPATHTOFOLDER(data\ui\hidden_ca.paa);
 };
 
 _colour = (_colour call BIS_fnc_colorRGBAtoHTML);
 
-private _hiddenText = format ["<t font ='%3' align = 'center' size='%2' color='%1'>" + _statusText + "</t>", _colour, _textSize, hatg_setting_ui_font];
+private _hiddenText = "";
+if (hatg_setting_ui_use_image) then {
+    _hiddenText = format ["<img align='center' color='%3' size='%1' image='%2' /><br />", _textSize * 2, _displayImage, _colour];
+} else {
+    _hiddenText = format ["<t font ='%3' align = 'center' size='%2' color='%1'>" + _statusText + "</t>", _colour, _textSize, hatg_setting_ui_font];
+};
+
 _displayHidden ctrlSetStructuredText (parseText _hiddenText);
 _displayHidden ctrlSetFade 0;
 _displayHidden ctrlCommit 0;
