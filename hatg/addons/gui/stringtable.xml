@@ -36,6 +36,40 @@
 				<Portuguese>Esta configuração sobrescreve todas as outras. É destinada a uma experiência mais 'arcade'. Não altere outras configurações com esta opção ativada, pois elas serão sobrescritas no próximo reinício do jogo.</Portuguese>
 				<Turkish>Bu ayar diğer tüm ayarların üzerine yazar. Daha 'atari' tarzı bir deneyim için tasarlanmıştır. Bu ayar etkinleştirildiğinde diğer ayarları değiştirmeyin; bunlar, oyunun bir sonraki yeniden başlatılmasında üzerine yazılacaktır.</Turkish>
 			</Key>
+			<Key ID="STR_HATG_MP_AI">
+				<Original>Enable AI Support In MP</Original>
+				<English>Enable AI Support In MP</English>
+				<Czech>Povolit podporu AI v MP</Czech>
+				<French>Activer le support de l'IA en MP</French>
+				<German>KI-Unterstützung in MP aktivieren</German>
+				<Italian>Abilita supporto IA in MP</Italian>
+				<Polish>Włącz wsparcie AI w MP</Polish>
+				<Russian>Включить поддержку ИИ в МП</Russian>
+				<Spanish>Habilitar soporte de IA en MP</Spanish>
+				<Korean>MP에서 AI 지원 활성화</Korean>
+				<Japanese>MPでAIサポートを有効にする</Japanese>
+				<Chinesesimp>启用MP中的AI支持</Chinesesimp>
+				<Chinese>啟用MP中的AI支持</Chinese>
+				<Portuguese>Ativar suporte de IA no MP</Portuguese>
+				<Turkish>MP'de AI desteğini etkinleştir</Turkish>
+			</Key>
+			<Key ID="STR_HATG_MP_AI_info">
+				<Original>This setting allows AI in player groups to become 'hidden' in multiplayer.</Original>
+				<English>This setting allows AI in player groups to become 'hidden' in multiplayer.</English>
+				<Czech>Toto nastavení umožňuje AI ve skupinách hráčů stát se „skrytými“ v multiplayeru.</Czech>
+				<French>Ce paramètre permet à l'IA dans les groupes de joueurs de devenir « cachée » en multijoueur.</French>
+				<German>Diese Einstellung ermöglicht es der KI in Spielergruppen, im Mehrspielermodus „versteckt“ zu werden.</German>
+				<Italian>Questa impostazione consente all'IA nei gruppi di giocatori di diventare "nascosta" nel multiplayer.</Italian>
+				<Polish>To ustawienie pozwala, aby AI w grupach graczy stało się „ukryte” w trybie multiplayer.</Polish>
+				<Russian>Этот параметр позволяет ИИ в группах игроков стать «скрытым» в многопользовательском режиме.</Russian>
+				<Spanish>Esta configuración permite que la IA en grupos de jugadores se vuelva "oculta" en el multijugador.</Spanish>
+				<Korean>이 설정은 MP에서 플레이어 그룹의 AI가 '숨김' 상태가 되도록 허용합니다.</Korean>
+				<Japanese>この設定により、プレイヤーグループ内のAIがマルチプレイヤーで「隠れる」ようになります。</Japanese>
+				<Chinesesimp>此设置允许玩家组中的AI在多人游戏中变为“隐藏”。</Chinesesimp>
+				<Chinese>此設置允許玩家組中的AI在多人遊戲中變為「隱藏」。</Chinese>
+				<Portuguese>Essa configuração permite que a IA em grupos de jogadores fique "oculta" no multijogador.</Portuguese>
+				<Turkish>Bu ayar, oyuncu gruplarındaki yapay zekanın çok oyunculu modda "gizli" hale gelmesine izin verir.</Turkish>
+			</Key>
 			<Key ID="STR_HATG_Debug">
 				<Original>Debug Mode</Original>
 				<English>Debug Mode</English>

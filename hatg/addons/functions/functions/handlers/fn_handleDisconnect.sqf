@@ -21,7 +21,7 @@
 private _ehHandleDisconnect = addMissionEventHandler ["HandleDisconnect", {
 	params ["_unit", "_id", "_uid", "_name"];
     
-    if !(isMultiplayer) exitWith {};
+    if (!isMultiplayer) exitWith {};
 
     private _mirror = [_unit] call HATG_fnc_getMirror;
 
