@@ -8,12 +8,16 @@
     ["$STR_HATG_UI_Enable", "$STR_HATG_UI_Enable_info"],
     SETTING_HEADER_UI, 
     false,
-    0,
-    {
-        params ["_value"];
+    0
+] call CBA_fnc_addSetting;
 
-        // uiNamespace setVariable ["hatg_setting_ui", _value];
-    }
+[
+    "hatg_setting_ui_use_image",
+    "CHECKBOX",
+    ["$STR_HATG_UI_Use_Image", "$STR_HATG_UI_Use_Image_info"],
+    SETTING_HEADER_UI,
+    false,
+    2
 ] call CBA_fnc_addSetting;
 
 [
@@ -22,12 +26,7 @@
     ["$STR_HATG_UI_Enable_Fading", "$STR_HATG_UI_Enable_Fading_info"],
     SETTING_HEADER_UI, 
     [0, 15, 0, 2],
-    2,
-    {
-        params ["_value"];
-
-        // uiNamespace setVariable ["hatg_setting_ui_fade", round (_value)];
-    }
+    2
 ] call CBA_fnc_addSetting;
 
 private _fontNames = ["PuristaBold", "PuristaLight", "PuristaMedium", "PuristaSemibold", "Caveat", "EtelkaMonospacePro", "EtelkaMonospaceProBold", "EtelkaNarrowMediumPro", "LCD14", "LucidaConsoleB", "RobotoCondensed", "RobotoCondensedBold", "RobotoCondensedLight", "TahomaB"];
@@ -37,13 +36,7 @@ private _fontNames = ["PuristaBold", "PuristaLight", "PuristaMedium", "PuristaSe
     ["$STR_HATG_UI_Font", "$STR_HATG_UI_Font_info"],
     SETTING_HEADER_UI,
     [_fontNames, _fontNames, 0],
-    2,
-    {
-        params ["_value"];
-
-
-        // uiNamespace setVariable ["hatg_setting_ui_font", _value, true];
-    }
+    2
 ] call CBA_fnc_addSetting;
 
 [
@@ -82,12 +75,7 @@ private _fontNames = ["PuristaBold", "PuristaLight", "PuristaMedium", "PuristaSe
     ["$STR_HATG_UI_Text_Size", "$STR_HATG_UI_Text_Size_info"],
     SETTING_HEADER_UI,
     [0, 6.5, 2, 1],
-    2,
-    {
-        params["_value"];
-
-        // uiNamespace setVariable ["hatg_setting_ui_textsize", _value];
-    }
+    2
 ] call CBA_fnc_addSetting;
 
 [
@@ -96,12 +84,7 @@ private _fontNames = ["PuristaBold", "PuristaLight", "PuristaMedium", "PuristaSe
     ["$STR_HATG_UI_Colour_Hidden", "$STR_HATG_UI_Colour_Hidden_info"],
     SETTING_HEADER_UI,
     [0, 1, 0, 1],
-    2,
-    {
-        params ["_value"];
-
-        // uiNamespace setVariable ["hatg_setting_ui_colour_hidden", _value];
-    }
+    2
 ] call CBA_fnc_addSetting;
 
 [
@@ -110,10 +93,5 @@ private _fontNames = ["PuristaBold", "PuristaLight", "PuristaMedium", "PuristaSe
     ["$STR_HATG_UI_Colour_Revealed", "$STR_HATG_UI_Colour_Revealed_info"],
     SETTING_HEADER_UI, 
     [1, 0, 0, 1],
-    2,
-    {
-        params ["_value"];
-
-        // uiNamespace setVariable ["hatg_setting_ui_colour_revealed", _value];
-    }
+    2
 ] call CBA_fnc_addSetting;

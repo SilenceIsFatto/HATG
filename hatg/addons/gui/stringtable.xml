@@ -679,6 +679,40 @@
 				<Portuguese>Isso controla se a mensagem 'Oculto' pode ser exibida para ajudá-lo a saber quando você está vulnerável.</Portuguese>
 				<Turkish>Bu, 'Gizli' mesajının çizilip çizilemeyeceğini kontrol eder; bu, savunmasız olduğunuzda bilmenize yardımcı olur.</Turkish>
 			</Key>
+			<Key ID="STR_HATG_UI_Use_Image">
+				<Original>Change Text To Image</Original>
+				<English>Change Text To Image</English>
+				<Czech>Změnit text na obrázek</Czech>
+				<French>Changer le texte en image</French>
+				<German>Text in Bild ändern</German>
+				<Italian>Cambia testo in immagine</Italian>
+				<Polish>Zmień tekst na obraz</Polish>
+				<Russian>Заменить текст изображением</Russian>
+				<Spanish>Cambiar texto a imagen</Spanish>
+				<Korean>텍스트를 이미지로 변경</Korean>
+				<Japanese>テキストを画像に変更</Japanese>
+				<Chinesesimp>将文字更改为图像</Chinesesimp>
+				<Chinese>將文字更改為圖像</Chinese>
+				<Portuguese>Mudar texto para imagem</Portuguese>
+				<Turkish>Metni görsele değiştir</Turkish>
+			</Key>
+			<Key ID="STR_HATG_UI_Use_Image_info">
+				<Original>This controls if the indicator message will instead be an image.</Original>
+				<English>This controls if the indicator message will instead be an image.</English>
+				<Czech>Toto určuje, zda bude místo textové zprávy použita obrázková zpráva.</Czech>
+				<French>Cela contrôle si le message indicateur sera une image au lieu d'un texte.</French>
+				<German>Dies steuert, ob die Anzeigennachricht stattdessen ein Bild sein wird.</German>
+				<Italian>Questo controlla se il messaggio indicatore sarà un'immagine anziché un testo.</Italian>
+				<Polish>To kontroluje, czy komunikat wskaźnika będzie obrazem zamiast tekstem.</Polish>
+				<Russian>Это контролирует, будет ли индикаторное сообщение изображением вместо текста.</Russian>
+				<Spanish>Esto controla si el mensaje indicador será una imagen en lugar de texto.</Spanish>
+				<Korean>이 설정은 표시 메시지가 이미지로 대체될지 여부를 제어합니다.</Korean>
+				<Japanese>これにより、指示メッセージが画像に置き換えられるかどうかを制御します。</Japanese>
+				<Chinesesimp>这控制指示消息是否将改为图像。</Chinesesimp>
+				<Chinese>這控制指示訊息是否將改為圖像。</Chinese>
+				<Portuguese>Isso controla se a mensagem do indicador será uma imagem em vez de texto.</Portuguese>
+				<Turkish>Bu, gösterge mesajının bir resim olup olmayacağını kontrol eder.</Turkish>
+			</Key>
 			<Key ID="STR_HATG_UI_Enable_Fading">
 				<Original>Enable UI Fading</Original>
 				<English>Enable UI Fading</English>
