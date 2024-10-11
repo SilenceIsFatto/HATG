@@ -52,6 +52,22 @@
 ] call CBA_fnc_addSetting;
 
 [
+    "hatg_setting_complex_detection",
+    "CHECKBOX",
+    ["$STR_HATG_complex_detection", "$STR_HATG_complex_detection_info"],
+    SETTING_HEADER_DETECTION, 
+    true,
+    true,
+    {
+        params ["_value"];
+
+        // missionNamespace setVariable ["hatg_setting_reveal_nearby", _value, true];
+        hatg_setting_complex_detection = _value;
+        publicVariable "hatg_setting_complex_detection";
+    }
+] call CBA_fnc_addSetting;
+
+[
     "hatg_setting_cooldown",
     "SLIDER",
     ["$STR_HATG_Detection_Cooldown", "$STR_HATG_Detection_Cooldown_info"],

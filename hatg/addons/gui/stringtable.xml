@@ -193,22 +193,39 @@
 				<Portuguese>Revelar unidades escondidas próximas</Portuguese>
 				<Turkish>Yakındaki gizli birimleri ortaya çıkar</Turkish>
 			</Key>
-			<Key ID="STR_HATG_building_requirements_info">
-				<Original>This controls if units that are hidden will be revealed when a nearby unit fires and is revealed.</Original>
-				<English>This controls if units that are hidden will be revealed when a nearby unit fires and is revealed.</English>
-				<Czech>To určuje, zda budou skryté jednotky odhaleny, když blízká jednotka vystřelí a bude odhalena.</Czech>
-				<French>Cela contrôle si les unités cachées seront révélées lorsqu'une unité voisine tire et est révélée.</French>
-				<German>Dies steuert, ob versteckte Einheiten aufgedeckt werden, wenn eine nahegelegene Einheit feuert und aufgedeckt wird.</German>
-				<Italian>Questo controlla se le unità nascoste verranno rivelate quando una unità vicina spara e viene rivelata.</Italian>
-				<Polish>To kontroluje, czy ukryte jednostki zostaną ujawnione, gdy pobliska jednostka odda strzał i zostanie ujawniona.</Polish>
-				<Russian>Это контролирует, будут ли скрытые подразделения раскрыты, когда близлежащая подразделение стреляет и раскрывается.</Russian>
-				<Spanish>Esto controla si las unidades ocultas serán reveladas cuando una unidad cercana dispare y sea revelada.</Spanish>
-				<Korean>숨겨진 유닛이 근처의 유닛이 발사되고 드러날 때 함께 드러나는지 여부를 제어합니다.</Korean>
-				<Japanese>近くのユニットが発砲し、明らかになったときに隠されたユニットが明らかになるかどうかを制御します。</Japanese>
-				<Chinesesimp>这控制隐藏单位是否会在附近单位开火并被揭示时揭露。</Chinesesimp>
-				<Chinese>這控制隱藏單位是否會在附近單位開火並被揭示時揭露。</Chinese>
-				<Portuguese>Isso controla se as unidades escondidas serão reveladas quando uma unidade próxima disparar e for revelada.</Portuguese>
-				<Turkish>Bu, yakındaki bir birim ateş ettiğinde ve ortaya çıktığında gizli birimlerin ortaya çıkıp çıkmayacağını kontrol eder.</Turkish>
+			<Key ID="STR_HATG_complex_detection">
+				<Original>Enable Complex AI Distance Detection</Original>
+				<English>Enable Complex AI Distance Detection</English>
+				<Czech>Povolit složitou detekci vzdálenosti AI</Czech>
+				<French>Activer la détection de distance IA complexe</French>
+				<German>Komplexe KI-Abstandserkennung aktivieren</German>
+				<Italian>Abilita rilevamento complesso della distanza IA</Italian>
+				<Polish>Włącz złożoną detekcję odległości AI</Polish>
+				<Russian>Включить сложное обнаружение расстояния ИИ</Russian>
+				<Spanish>Habilitar detección de distancia de IA compleja</Spanish>
+				<Korean>복잡한 AI 거리 감지 활성화</Korean>
+				<Japanese>複雑なAI距離検出を有効にする</Japanese>
+				<Chinesesimp>启用复杂的AI距离检测</Chinesesimp>
+				<Chinese>啟用複雜的AI距離檢測</Chinese>
+				<Portuguese>Ativar detecção de distância de IA complexa</Portuguese>
+				<Turkish>Karmaşık AI Mesafe Algılamayı Etkinleştir</Turkish>
+			</Key>
+			<Key ID="STR_HATG_complex_detection_info">
+				<Original>This setting enables a more complex function to detect if enemies are close to hidden units regardless of if the enemies 'know' about them.</Original>
+				<English>This setting enables a more complex function to detect if enemies are close to hidden units regardless of if the enemies 'know' about them.</English>
+				<Czech>Toto nastavení umožňuje složitější funkci pro detekci, zda jsou nepřátelé blízko skrytých jednotek, bez ohledu na to, zda o nich nepřátelé „vědí“.</Czech>
+				<French>Ce paramètre permet une fonction plus complexe pour détecter si des ennemis sont proches des unités cachées, peu importe si les ennemis « savent » qu'elles sont là.</French>
+				<German>Diese Einstellung ermöglicht eine komplexere Funktion, um zu erkennen, ob sich Feinde in der Nähe versteckter Einheiten befinden, unabhängig davon, ob die Feinde von ihnen "wissen".</German>
+				<Italian>Questa impostazione abilita una funzione più complessa per rilevare se i nemici sono vicini alle unità nascoste indipendentemente dal fatto che i nemici 'sappiano' della loro presenza.</Italian>
+				<Polish>To ustawienie umożliwia bardziej złożoną funkcję wykrywania, czy wrogowie są blisko ukrytych jednostek, niezależnie od tego, czy „wiedzą” o nich.</Polish>
+				<Russian>Этот параметр включает более сложную функцию для определения того, находятся ли враги рядом со скрытыми подразделениями, независимо от того, "знают" ли враги о них.</Russian>
+				<Spanish>Esta configuración habilita una función más compleja para detectar si los enemigos están cerca de las unidades ocultas, independientemente de si los enemigos 'saben' sobre ellas.</Spanish>
+				<Korean>이 설정은 적이 숨겨진 유닛에 가까이 있는지 여부를 적이 '알고' 있는지에 상관없이 감지하는 더 복잡한 기능을 활성화합니다.</Korean>
+				<Japanese>この設定は、敵が隠されたユニットの近くにいるかどうかを、敵がそれを「知っている」かどうかに関係なく検出するためのより複雑な機能を有効にします。</Japanese>
+				<Chinesesimp>此设置启用更复杂的功能来检测敌人是否靠近隐藏单位，而不管敌人是否“知道”它们。</Chinesesimp>
+				<Chinese>此設定啟用更複雜的功能來檢測敵人是否靠近隱藏單位，而不管敵人是否“知道”它們。</Chinese>
+				<Portuguese>Essa configuração ativa uma função mais complexa para detectar se os inimigos estão próximos das unidades ocultas, independentemente de os inimigos “saberem” sobre elas.</Portuguese>
+				<Turkish>Bu ayar, düşmanların gizli birimlere yakın olup olmadığını, düşmanların onları "bilip bilmediğinden" bağımsız olarak algılayan daha karmaşık bir işlevi etkinleştirir.</Turkish>
 			</Key>
 			<Key ID="STR_HATG_Detection_Cooldown">
 				<Original>Detection Cooldown</Original>
