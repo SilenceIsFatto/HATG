@@ -193,7 +193,7 @@
 				<Portuguese>Revelar unidades escondidas próximas</Portuguese>
 				<Turkish>Yakındaki gizli birimleri ortaya çıkar</Turkish>
 			</Key>
-			<Key ID="STR_HATG_building_requirements_info">
+			<Key ID="STR_HATG_reveal_nearby_info">
 				<Original>This controls if units that are hidden will be revealed when a nearby unit fires and is revealed.</Original>
 				<English>This controls if units that are hidden will be revealed when a nearby unit fires and is revealed.</English>
 				<Czech>To určuje, zda budou skryté jednotky odhaleny, když blízká jednotka vystřelí a bude odhalena.</Czech>
