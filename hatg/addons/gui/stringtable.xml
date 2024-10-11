@@ -12,7 +12,7 @@
 				<Polish>Tryb 'Prosty'</Polish>
 				<Russian>Режим 'Простой'</Russian>
 				<Spanish>Modo 'Simple'</Spanish>
-				<Korean>'간단한' 모드</Korean>
+				<Korean>'단순화' 모드</Korean>
 				<Japanese>'シンプル' モード</Japanese>
 				<Chinesesimp>'简单' 模式</Chinesesimp>
 				<Chinese>'簡單' 模式</Chinese>
@@ -29,7 +29,7 @@
 				<Polish>To ustawienie nadpisuje wszystkie inne ustawienia. Jest przeznaczone do bardziej „zręcznościowego” doświadczenia. Nie zmieniaj innych ustawień przy włączonym tym ustawieniu, zostaną one nadpisane przy następnym uruchomieniu gry.</Polish>
 				<Russian>Этот параметр заменяет все остальные параметры. Он предназначен для более «аркадного» опыта. Не изменяйте другие настройки, если этот параметр включен, они будут перезаписаны при следующем перезапуске игры.</Russian>
 				<Spanish>Esta configuración sobrescribe todas las demás configuraciones. Está destinada a una experiencia más 'arcade'. No cambies otras configuraciones con esta configuración activada, se sobrescribirán en el próximo reinicio del juego.</Spanish>
-				<Korean>이 설정은 다른 모든 설정을 덮어씁니다. 보다 '아케이드' 경험을 위해 설계되었습니다. 이 설정이 활성화된 상태에서 다른 설정을 변경하지 마세요. 다음 게임 재시작 시 덮어씌워집니다.</Korean>
+				<Korean>이 설정은 다른 모든 설정을 덮어씁니다. 보다 '아케이드'적인 경험을 위해 설계되었습니다. 이 설정이 활성화된 상태에서 다른 설정을 변경하지 마십시오. 다음 게임이 재시작되면 덮어씌워집니다.</Korean>
 				<Japanese>この設定は他のすべての設定を上書きします。 より「アーケード」な体験を意図しています。 この設定が有効な状態で他の設定を変更しないでください。それらは次のゲーム再起動時に上書きされます。</Japanese>
 				<Chinesesimp>此设置会覆盖所有其他设置。它旨在提供更“街机”式的体验。启用此设置时，请勿更改其他设置，它们将在下次重新启动游戏时被覆盖。</Chinesesimp>
 				<Chinese>此設定會覆蓋所有其他設定。它旨在提供更“街機”式的體驗。啟用此設定時，請勿更改其他設定，它們將在下次重新啟動遊戲時被覆蓋。</Chinese>
@@ -61,7 +61,7 @@
 				<Italian>Debug RPT (Superfici)</Italian>
 				<Spanish>Debug RPT (Superficies)</Spanish>
 				<French>Debug RPT (Surfaces)</French>
-				<Korean>디버그 RPT (표면)</Korean>
+				<Korean>디버그 보고 (지면)</Korean>
 				<Japanese>デバッグ RPT (サーフェス)</Japanese>
 				<Chinesesimp>调试 RPT (表面)</Chinesesimp>
 				<Chinese>调试 RPT (表面)</Chinese>
@@ -78,7 +78,7 @@
 				<Italian>Debug RPT (Condizioni)</Italian>
 				<Spanish>Debug RPT (Condiciones)</Spanish>
 				<French>Debug RPT (Conditions)</French>
-				<Korean>디버그 RPT (조건)</Korean>
+				<Korean>디버그 보고 (조건)</Korean>
 				<Japanese>デバッグ RPT (条件)</Japanese>
 				<Chinesesimp>调试 RPT (条件)</Chinesesimp>
 				<Chinese>调试 RPT (条件)</Chinese>
@@ -95,7 +95,7 @@
 				<Italian>Debug RPT (Rilevamento)</Italian>
 				<Spanish>Debug RPT (Detección)</Spanish>
 				<French>Debug RPT (Détection)</French>
-				<Korean>디버그 RPT (탐지)</Korean>
+				<Korean>디버그 보고 (탐지)</Korean>
 				<Japanese>デバッグ RPT (検出)</Japanese>
 				<Chinesesimp>调试 RPT (检测)</Chinesesimp>
 				<Chinese>调试 RPT (检测)</Chinese>
@@ -116,7 +116,7 @@
 				<Italian>Aktivieren Sie die Oberflächenanforderungen</Italian>
 				<Spanish>Habilitar requisitos de superficie</Spanish>
 				<French>Activer les exigences de surface</French>
-				<Korean>표면 요구 사항 활성화</Korean>
+				<Korean>지면 요구 사항 활성화</Korean>
 				<Japanese>表面要件を有効にする</Japanese>
 				<Chinesesimp>启用表面要求</Chinesesimp>
 				<Chinese>启用表面要求</Chinese>
@@ -133,7 +133,7 @@
 				<Italian>Dies steuert, auf welchen Oberflächen du dich befinden musst, um versteckt zu bleiben. Standardmäßig musst du auf 'Gras' sein, um unentdeckt zu bleiben. Wenn die Option deaktiviert ist, bleibst du unabhängig vom Terrain versteckt. (andere Faktoren gelten weiterhin)</Italian>
 				<Spanish>Esto controla las superficies en las que debes estar para estar oculto. Por defecto, debes estar en 'hierba' para permanecer oculto. Si se desactiva, permanecerás oculto sin importar el terreno en el que te encuentres. (se aplican otros factores)</Spanish>
 				<French>Cela contrôle les surfaces sur lesquelles vous devez être pour rester caché. Par défaut, vous devez être sur 'herbe' pour rester caché. Si désactivé, vous resterez caché quel que soit le terrain sur lequel vous vous trouvez. (d'autres facteurs s'appliquent toujours)</French>
-				<Korean>숨기 위해 있어야 하는 표면을 제어합니다. 기본적으로 '잔디' 위에 있어야 숨을 수 있습니다. 꺼져 있으면 있는 지형에 관계없이 숨겨진 상태로 유지됩니다. (다른 요소도 여전히 적용됩니다)</Korean>
+				<Korean>숨겨짐 상태가 되기 위해 있어야 하는 지면을 제어합니다. 기본적으로 숨겨짐 상태를 유지하려면 '잔디'에 있어야 합니다. 설정을 끄면 지형에 관계없이 숨기 상태를 유지합니다. (다른 요소도 여전히 적용됩니다)</Korean>
 				<Japanese>隠れるためにいる必要がある表面を制御します。デフォルトでは、隠れるためには「草」の上にいる必要があります。オフにすると、いる地形に関係なく隠れたままになります。（他の要因も適用されます）</Japanese>
 				<Chinesesimp>这控制着您需要站在的表面，以便隐藏。默认情况下，您需要站在“草”上才能保持隐藏。如果关闭，则无论您所在的地形如何，您将保持隐藏。（其他因素仍然适用）</Chinesesimp>
 				<Chinese>这控制着您需要站在的表面，以便隐藏。默认情况下，您需要站在“草”上才能保持隐藏。如果关闭，则无论您所在的地形如何，您将保持隐藏。（其他因素仍然适用）</Chinese>
@@ -152,7 +152,7 @@
 				<Polish>Włącz ukrywanie się w budynkach</Polish>
 				<Russian>Включить скрытие в зданиях</Russian>
 				<Spanish>Habilitar el escondite en edificios</Spanish>
-				<Korean>건물 내 숨기기 활성화</Korean>
+				<Korean>건물 내 숨기 활성화</Korean>
 				<Japanese>建物内に隠れることを有効にする</Japanese>
 				<Chinesesimp>启用在建筑物中隐藏</Chinesesimp>
 				<Chinese>啟用在建築物中隱藏</Chinese>
@@ -169,7 +169,7 @@
 				<Polish>To kontroluje, czy jednostki mogą się ukrywać w budynkach (pod dachem).</Polish>
 				<Russian>Это контролирует, могут ли подразделения скрываться в зданиях (под крышей).</Russian>
 				<Spanish>Esto controla si las unidades pueden esconderse en edificios (bajo un techo).</Spanish>
-				<Korean>유닛이 건물 내에서 숨을 수 있는지 여부를 제어합니다 (지붕 아래).</Korean>
+				<Korean>유닛이 건물 내(지붕 밑)에서 숨겨짐 상태가 될 수 있는지 여부를 제어합니다.</Korean>
 				<Japanese>これにより、ユニットが建物内（屋根の下）に隠れることができるかどうかが制御されます。</Japanese>
 				<Chinesesimp>这控制单位是否可以在建筑物内（在屋顶下）隐藏。</Chinesesimp>
 				<Chinese>這控制單位是否可以在建築物內（在屋頂下）隱藏。</Chinese>
@@ -186,14 +186,14 @@
 				<Polish>Ujawnij ukryte jednostki w pobliżu</Polish>
 				<Russian>Раскрыть скрытые рядом подразделения</Russian>
 				<Spanish>Revelar unidades ocultas cercanas</Spanish>
-				<Korean>근처에 숨겨진 유닛 드러내기</Korean>
+				<Korean>주변에 숨은 유닛 노출시키기</Korean>
 				<Japanese>近くの隠れたユニットを明らかにする</Japanese>
 				<Chinesesimp>揭示附近的隐藏单位</Chinesesimp>
 				<Chinese>揭露附近的隱藏單位</Chinese>
 				<Portuguese>Revelar unidades escondidas próximas</Portuguese>
 				<Turkish>Yakındaki gizli birimleri ortaya çıkar</Turkish>
 			</Key>
-			<Key ID="STR_HATG_building_requirements_info">
+			<Key ID="STR_HATG_reveal_nearby_info">
 				<Original>This controls if units that are hidden will be revealed when a nearby unit fires and is revealed.</Original>
 				<English>This controls if units that are hidden will be revealed when a nearby unit fires and is revealed.</English>
 				<Czech>To určuje, zda budou skryté jednotky odhaleny, když blízká jednotka vystřelí a bude odhalena.</Czech>
@@ -203,7 +203,7 @@
 				<Polish>To kontroluje, czy ukryte jednostki zostaną ujawnione, gdy pobliska jednostka odda strzał i zostanie ujawniona.</Polish>
 				<Russian>Это контролирует, будут ли скрытые подразделения раскрыты, когда близлежащая подразделение стреляет и раскрывается.</Russian>
 				<Spanish>Esto controla si las unidades ocultas serán reveladas cuando una unidad cercana dispare y sea revelada.</Spanish>
-				<Korean>숨겨진 유닛이 근처의 유닛이 발사되고 드러날 때 함께 드러나는지 여부를 제어합니다.</Korean>
+				<Korean>주변 유닛이 사격하여 발각되었을 때 숨은 유닛도 발각되는지 여부를 제어합니다.</Korean>
 				<Japanese>近くのユニットが発砲し、明らかになったときに隠されたユニットが明らかになるかどうかを制御します。</Japanese>
 				<Chinesesimp>这控制隐藏单位是否会在附近单位开火并被揭示时揭露。</Chinesesimp>
 				<Chinese>這控制隱藏單位是否會在附近單位開火並被揭示時揭露。</Chinese>
@@ -218,7 +218,7 @@
 				<Italian>Cooldown di rilevamento</Italian>
 				<Spanish>Tiempo de reutilización de detección</Spanish>
 				<French>Délai de récupération de détection</French>
-				<Korean>탐지 재사용 대기시간</Korean>
+				<Korean>발각 재사용 대기시간</Korean>
 				<Japanese>検出クールダウン</Japanese>
 				<Chinesesimp>侦测冷却时间</Chinesesimp>
 				<Chinese>侦测冷却时间</Chinese>
@@ -235,7 +235,7 @@
 				<Italian>Ciò controlla per quanto tempo sarai 'scoperto' se spari senza un soppressore. Questo è diviso per 10 se spari in posizione prona.</Italian>
 				<Spanish>Esto controla cuánto tiempo serás 'detectado' si disparas sin un supresor. Esto se divide por 10 si disparas sin estar en posición prona.</Spanish>
 				<French>Cela contrôle combien de temps vous serez 'repéré' si vous tirez sans un suppresseur. Cela est divisé par 10 si vous tirez en position couchée.</French>
-				<Korean>소음기 없이 발사하면 '발견'되는 시간을 제어합니다. 엎드린 자세가 아닐 경우 10으로 나뉩니다.</Korean>
+				<Korean>소음기 없이 사격할 경우 '발각'되는 시간을 제어합니다. 엎드리지 않고 사격할 경우 값은 10으로 나뉩니다.</Korean>
 				<Japanese>サプレッサーなしで発砲すると、どれくらいの時間「発見」されるかを制御します。伏せていない状態で発砲すると、10で割られます。</Japanese>
 				<Chinesesimp>如果您在没有消音器的情况下开火，这会控制您被“发现”的时间。如果您不是趴着开火，则会被除以10。</Chinesesimp>
 				<Chinese>如果您在没有消音器的情况下开火，这会控制您被“发现”的时间。如果您不是趴着开火，则会被除以10。</Chinese>
@@ -252,7 +252,7 @@
 				<Italian>Distanza di rilevamento</Italian>
 				<Spanish>Distancia de detección</Spanish>
 				<French>Distance de détection</French>
-				<Korean>탐지 거리</Korean>
+				<Korean>발각 거리</Korean>
 				<Japanese>検出距離</Japanese>
 				<Chinesesimp>侦测距离</Chinesesimp>
 				<Chinese>侦测距离</Chinese>
@@ -269,7 +269,7 @@
 				<Italian>Ciò controlla quanto vicino puoi avvicinarti all'IA prima che ti 'scopra'. Di notte, questo viene dimezzato per simulare la bassa visibilità. Sarà ulteriormente dimezzato se indossi un abito ghillie.</Italian>
 				<Spanish>Esto controla qué tan cerca puedes acercarte a la IA antes de que te 'detecte'. Por la noche, esto se reduce a la mitad para simular baja visibilidad. Se reducirá aún más si usas un traje de camuflaje.</Spanish>
 				<French>Cela contrôle la proximité à laquelle vous pouvez vous approcher de l'IA avant qu'elle ne vous 'repère'. La nuit, cela est réduit de moitié pour simuler une faible visibilité. Cela sera encore réduit de moitié si vous portez un costume de camouflage.</French>
-				<Korean>AI에 '발견'되기 전에 얼마나 가까이 접근할 수 있는지 제어합니다. 밤에는 낮은 가시성을 모방하기 위해 이 값이 절반으로 줄어듭니다. 길리 수트를 입으면 추가로 절반이 줄어듭니다.</Korean>
+				<Korean>AI가 당신을 '발견'하기 전에 당신이 얼마나 가까이 다가갈 수 있는지를 제어합니다. 밤에는 가시성이 낮은 것처럼 보이기 위해 절반으로 줄어듭니다. 길리 슈트를 입으면 더욱 절반으로 줄어듭니다.</Korean>
 				<Japanese>AIに「発見」される前にどれだけ近づけるかを制御します。夜間は低視認性を模倣するために半減されます。ギリースーツを着用している場合はさらに半減します。</Japanese>
 				<Chinesesimp>这控制着您可以接近AI的距离，直到它“发现”您。晚上这个值减半以模拟低能见度。如果您穿着伪装服，它将进一步减半。</Chinesesimp>
 				<Chinese>这控制着您可以接近AI的距离，直到它“发现”您。晚上这个值减半以模拟低能见度。如果您穿着伪装服，它将进一步减半。</Chinese>
@@ -286,7 +286,7 @@
 				<Italian>Multiplicatore di distanza di rilevamento</Italian>
 				<Spanish>Multiplicador de distancia de detección</Spanish>
 				<French>Multiplicateur de distance de détection</French>
-				<Korean>탐지 거리 배율</Korean>
+				<Korean>발각 거리 배율</Korean>
 				<Japanese>検出距離の倍率</Japanese>
 				<Chinesesimp>侦测距离乘数</Chinesesimp>
 				<Chinese>侦测距离乘数</Chinese>
@@ -303,7 +303,7 @@
 				<Italian>Questo controlla il moltiplicatore con cui le diverse posture aumentano il rilevamento della distanza (sopra). Ad esempio, 40 m diventano 80 m quando sei inginocchiato invece di prona.</Italian>
 				<Spanish>Esto controla el multiplicador en el que las diferentes posturas aumentan la distancia de detección (anteriormente). Por ejemplo, 40 m se convierten en 80 m cuando estás agachado en lugar de en posición prona.</Spanish>
 				<French>Cela contrôle le multiplicateur auquel les différentes positions augmentent la distance de détection (ci-dessus). Par exemple, 40 m deviennent 80 m lorsque vous êtes en position accroupie plutôt qu'en position couchée.</French>
-				<Korean>이것은 다양한 자세가 거리 감지를 증가시키는 배율을 제어합니다(위 참조). 예를 들어, 40m는 엎드려 있는 대신 웅크리면 80m가 됩니다.</Korean>
+				<Korean>다양한 자세에 따라 발각 거리가 늘어나는 배수를 제어합니다. 예를 들어 엎드린 자세가 40m라면 앉은 상태에서는 80m로 됩니다.</Korean>
 				<Japanese>これは、さまざまな姿勢が距離検出を増加させる倍率を制御します（上記）。たとえば、40mはうつ伏せの代わりにしゃがむと80mになります。</Japanese>
 				<Chinesesimp>这控制了不同姿势增加距离检测的倍数（如上所述）。例如，当你蹲下而不是趴着时，40米变为80米。</Chinesesimp>
 				<Chinese>这控制了不同姿势增加距离检测的倍数（如上所述）。例如，当你蹲下而不是趴着时，40米变为80米。</Chinese>
@@ -341,7 +341,7 @@
 				<Italian>Ghillies (Whitelist)</Italian>
 				<Spanish>Ghillies (Lista blanca)</Spanish>
 				<French>Ghillies (Liste blanche)</French>
-				<Korean>기리 (허용 목록)</Korean>
+				<Korean>길리 슈트 (허용 목록)</Korean>
 				<Japanese>ギリー（ホワイトリスト）</Japanese>
 				<Chinesesimp>伪装服（白名单）</Chinesesimp>
 				<Chinese>偽裝服（白名單）</Chinese>
@@ -392,7 +392,7 @@
 				<Italian>Ghillies (Blacklist)</Italian>
 				<Spanish>Ghillies (Lista negra)</Spanish>
 				<French>Ghillies (Liste noire)</French>
-				<Korean>기리 (차단 목록)</Korean>
+				<Korean>길리 슈트 (차단 목록)</Korean>
 				<Japanese>ギリー（ブラックリスト）</Japanese>
 				<Chinesesimp>伪装服（黑名单）</Chinesesimp>
 				<Chinese>偽裝服（黑名單）</Chinese>
@@ -415,7 +415,7 @@
 				<Polish>Ujawniony</Polish>
 				<Russian>Раскрытый</Russian>
 				<Spanish>Revelado</Spanish>
-				<Korean>드러난</Korean>
+				<Korean>발각됨</Korean>
 				<Japanese>明らかにされた</Japanese>
 				<Chinesesimp>揭示</Chinesesimp>
 				<Chinese>揭露</Chinese>
@@ -430,7 +430,7 @@
 				<Polish>Ukryty</Polish>
 				<Russian>Скрытый</Russian>
 				<Spanish>Oculto</Spanish>
-				<Korean>숨겨진</Korean>
+				<Korean>숨겨짐</Korean>
 				<Japanese>隠された</Japanese>
 				<Chinesesimp>隐藏</Chinesesimp>
 				<Chinese>隐匿</Chinese>
@@ -447,7 +447,7 @@
 				<Italian>Ripristina la distanza del contatore dei colpi</Italian>
 				<Spanish>Restablecer distancia del contador de disparos</Spanish>
 				<French>Réinitialiser la distance du compteur de tir</French>
-				<Korean>발사 카운터 거리 재설정</Korean>
+				<Korean>발사 카운터 초기화 거리</Korean>
 				<Japanese>ショットカウンター距離のリセット</Japanese>
 				<Chinesesimp>重置射击计数器距离</Chinesesimp>
 				<Chinese>重置射擊計數器距離</Chinese>
@@ -464,7 +464,7 @@
 				<Italian>Questo controlla la distanza (m) che devi percorrere per ripristinare il contatore dei colpi mentre utilizzi un silenziatore. -1 significa che puoi sparare nello stesso punto all'infinito.</Italian>
 				<Spanish>Esto controla la distancia (m) que tienes que mover para restablecer el contador de disparos mientras usas un supresor. -1 significa que puedes disparar en el mismo lugar indefinidamente.</Spanish>
 				<French>Cela contrôle la distance (m) que vous devez parcourir pour réinitialiser le compteur de tirs tout en utilisant un suppresseur. -1 signifie que vous pouvez tirer au même endroit indéfiniment.</French>
-				<Korean>소음기를 사용하면서 발사 카운터를 재설정하려면 이동해야 하는 거리(미터)를 제어합니다. -1은 같은 위치에서 무한히 발사할 수 있음을 의미합니다.</Korean>
+				<Korean>소음기 사용 시 발사 카운터를 초기화하기 위해 이동해야 하는 거리(m)를 제어합니다. -1은 같은 위치에서 무한히 발사할 수 있음을 의미합니다.</Korean>
 				<Japanese>サプレッサーを使用中にショットカウンターをリセットするために移動しなければならない距離（m）を制御します。-1は同じ場所で無限に撃つことができることを意味します。</Japanese>
 				<Chinesesimp>这控制着您必须移动的距离（米）以在使用消声器时重置射击计数器。 -1表示您可以无限次在同一位置射击。</Chinesesimp>
 				<Chinese>這控制著您必須移動的距離（米）以在使用消聲器時重置射擊計數器。 -1表示您可以無限次在同一位置射擊。</Chinese>
@@ -481,7 +481,7 @@
 				<Italian>Colpi prima della rilevazione</Italian>
 				<Spanish>Disparos antes de la detección</Spanish>
 				<French>Coups avant détection</French>
-				<Korean>탐지 이전 발사</Korean>
+				<Korean>발각되기 전 발사 가능 수</Korean>
 				<Japanese>検出前の発射</Japanese>
 				<Chinesesimp>检测前的射击</Chinesesimp>
 				<Chinese>檢測前的射擊</Chinese>
@@ -498,7 +498,7 @@
 				<Italian>Questo controlla il numero generale di colpi che puoi sparare in un punto prima di essere rivelato mentre utilizzi un silenziatore. -1 significa che puoi sparare all'infinito.</Italian>
 				<Spanish>Esto controla la cantidad general de disparos que puedes realizar en un solo lugar antes de ser revelado mientras usas un supresor. -1 significa que puedes disparar indefinidamente.</Spanish>
 				<French>Cela contrôle le nombre général de coups que vous pouvez tirer à un endroit avant d'être révélé en utilisant un suppresseur. -1 signifie que vous pouvez tirer indéfiniment.</French>
-				<Korean>소음기를 사용하면서 드러나기 전에 한 장소에서 발사할 수 있는 총 발사량을 제어합니다. -1은 무한히 발사 edebileceğiniz anlamına gelir.</Korean>
+				<Korean>소음기 사용 시 한 위치에서 쏠 수 있는 총알의 일반적인 수를 제어합니다. -1은 무한히 발사할 수 있음을 의미합니다.</Korean>
 				<Japanese>サプレッサーを使用している間に明らかになる前に、ある場所で発射できるショットの総数を制御します。-1は無限に撃てることを意味します。</Japanese>
 				<Chinesesimp>这控制了在使用消声器之前，您可以在一个地方发射的总数。 -1 表示您可以无限射击。</Chinesesimp>
 				<Chinese>這控制了在使用消聲器之前，您可以在一個地方發射的總數。 -1表示您可以無限次射擊。</Chinese>
@@ -530,7 +530,7 @@
 				<Italian>Questo controlla l'altitudine prima di essere rilevati. -1 significa che puoi andare in alto quanto vuoi.</Italian>
 				<Spanish>Esto controla la altitud antes de ser revelado. -1 significa que puedes ir tan alto como quieras.</Spanish>
 				<French>Cela contrôle l'altitude avant d'être révélé. -1 signifie que vous pouvez monter aussi haut que vous le souhaitez.</French>
-				<Korean>발각되기 전의 고도를 조정합니다. -1은 원하는 만큼 높이 올라갈 수 있음을 의미합니다.</Korean>
+				<Korean>발각되기 전의 고도를 제어합니다. -1은 원하는 만큼 높이 올라갈 수 있음을 의미합니다.</Korean>
 				<Japanese>発見される前の高度を制御します。-1は好きなだけ高く行けることを意味します。</Japanese>
 				<Chinesesimp>这控制了被发现前的高度。-1 表示可以任意高度。</Chinesesimp>
 				<Chinese>這控制了被發現前的高度。-1 表示可以任意高度。</Chinese>
@@ -547,7 +547,7 @@
 				<Italian>Velocità di movimento accovacciato prima della rilevazione</Italian>
 				<Spanish>Velocidad de movimiento agachado antes de la detección</Spanish>
 				<French>Vitesse de mouvement en accroupi avant détection</French>
-				<Korean>탐지 이전 무릎 꿇고 이동하는 속도</Korean>
+				<Korean>발각되기 전 낮은 자세 이동 속도</Korean>
 				<Japanese>検出前のしゃがんだ移動速度</Japanese>
 				<Chinesesimp>检测前的蹲下移动速度</Chinesesimp>
 				<Chinese>檢測前的蹲下移動速度</Chinese>
@@ -564,7 +564,7 @@
 				<Italian>Questo controlla quanto velocemente puoi muoverti mentre sei accovacciato prima di essere rilevato.</Italian>
 				<Spanish>Esto controla qué tan rápido puedes moverte mientras estás agachado antes de ser detectado.</Spanish>
 				<French>Cela contrôle la vitesse à laquelle vous pouvez vous déplacer en étant accroupi avant d'être détecté.</French>
-				<Korean>탐지되기 전에 쭈그리고 앉아 있을 때 얼마나 빨리 이동할 수 있는지를 제어합니다.</Korean>
+				<Korean>발각되기 전에 앉은 상태에서 얼마나 빨리 움직일 수 있는 지를 제어합니다.</Korean>
 				<Japanese>検出される前にしゃがんでいるときにどれだけ速く動けるかを制御します。</Japanese>
 				<Chinesesimp>这控制着您在蹲下时被发现之前可以移动的速度。</Chinesesimp>
 				<Chinese>這控制著您在蹲下時被發現之前可以移動的速度。</Chinese>
@@ -581,7 +581,7 @@
 				<Italian>Rileva sempre il movimento</Italian>
 				<Spanish>Siempre detectar movimiento</Spanish>
 				<French>Détecter toujours le mouvement</French>
-				<Korean>항상 움직임을 감지하다</Korean>
+				<Korean>항상 움직임 발각</Korean>
 				<Japanese>常に動きを検出する</Japanese>
 				<Chinesesimp>始终检测运动</Chinesesimp>
 				<Chinese>始終檢測運動</Chinese>
@@ -598,7 +598,7 @@
 				<Italian>Furtività</Italian>
 				<Spanish>Sigilo</Spanish>
 				<French>Se faufiler</French>
-				<Korean>살금살금</Korean>
+				<Korean>살금살금 이동</Korean>
 				<Japanese>忍び寄る</Japanese>
 				<Chinesesimp>悄悄地</Chinesesimp>
 				<Chinese>悄悄地</Chinese>
@@ -615,7 +615,7 @@
 				<Italian>Camminare</Italian>
 				<Spanish>Caminando</Spanish>
 				<French>Marcher</French>
-				<Korean>걷다</Korean>
+				<Korean>걷기</Korean>
 				<Japanese>歩く</Japanese>
 				<Chinesesimp>走路</Chinesesimp>
 				<Chinese>走路</Chinese>
@@ -632,7 +632,7 @@
 				<Italian>Mai rilevare il movimento</Italian>
 				<Spanish>Nunca detectar movimiento</Spanish>
 				<French>Ne jamais détecter le mouvement</French>
-				<Korean>결코 움직임을 감지하지 마십시오</Korean>
+				<Korean>절대 움직임 발각 안됨</Korean>
 				<Japanese>決して動きを検出しない</Japanese>
 				<Chinesesimp>绝对不检测运动</Chinesesimp>
 				<Chinese>絕對不檢測運動</Chinese>
@@ -670,7 +670,7 @@
 				<Italian>Questo controlla se il messaggio 'Nascosto' può essere visualizzato per aiutarti a sapere quando sei vulnerabile.</Italian>
 				<Spanish>Esto controla si se puede dibujar el mensaje 'Oculto' para ayudarte a saber cuándo eres vulnerable.</Spanish>
 				<French>Cela contrôle si le message 'Caché' peut être affiché pour vous aider à savoir quand vous êtes vulnérable.</French>
-				<Korean>이것은 '숨김' 메시지가 표시될 수 있는지 제어하여 취약할 때 알림을 도와줍니다.</Korean>
+				<Korean>발각 여부를 아는 게 어려울 경우 알려주기 위해 '숨겨짐' 메시지를 표시할 지 여부를 제어합니다.</Korean>
 				<Japanese>これは、あなたが脆弱なときに「隠れている」というメッセージが描画されるかどうかを制御します。</Japanese>
 				<Chinesesimp>这控制着是否可以绘制“隐藏”消息，以帮助您知道何时处于脆弱状态。</Chinesesimp>
 				<Chinese>這控制著是否可以繪製“隱藏”消息，以幫助您知道何時處於脆弱狀態。</Chinese>
@@ -706,7 +706,7 @@
 				<Polish>To kontroluje, czy komunikat wskaźnika będzie obrazem zamiast tekstem.</Polish>
 				<Russian>Это контролирует, будет ли индикаторное сообщение изображением вместо текста.</Russian>
 				<Spanish>Esto controla si el mensaje indicador será una imagen en lugar de texto.</Spanish>
-				<Korean>이 설정은 표시 메시지가 이미지로 대체될지 여부를 제어합니다.</Korean>
+				<Korean>이 설정은 표시 메시지가 이미지로 대체될 지 여부를 제어합니다.</Korean>
 				<Japanese>これにより、指示メッセージが画像に置き換えられるかどうかを制御します。</Japanese>
 				<Chinesesimp>这控制指示消息是否将改为图像。</Chinesesimp>
 				<Chinese>這控制指示訊息是否將改為圖像。</Chinese>
@@ -721,7 +721,7 @@
 				<Italian>Abilita dissolvenza dell'interfaccia utente</Italian>
 				<Spanish>Habilitar desvanecimiento de la interfaz de usuario</Spanish>
 				<French>Activer l'estompage de l'interface utilisateur</French>
-				<Korean>UI 페이드 기능 활성화</Korean>
+				<Korean>UI 페이드 활성화</Korean>
 				<Japanese>UIフェードを有効にする</Japanese>
 				<Chinesesimp>启用UI淡出</Chinesesimp>
 				<Chinese>啟用UI淡出</Chinese>
@@ -738,7 +738,7 @@
 				<Italian>Questo controlla il tempo necessario affinché il testo scompaia. Se impostato su 0, il testo non scomparirà.</Italian>
 				<Spanish>Esto controla el tiempo que tarda en desvanecerse el texto. Si se establece en 0, el texto no se desvanecerá.</Spanish>
 				<French>Cela contrôle le temps nécessaire pour que le texte disparaisse. Si réglé sur 0, le texte ne disparaîtra pas.</French>
-				<Korean>이 설정은 텍스트가 사라지는 데 걸리는 시간을 제어합니다. 0으로 설정하면 텍스트가 사라지지 않습니다.</Korean>
+				<Korean>텍스트가 사라지는 데 걸리는 시간을 제어합니다. 0으로 설정하면 텍스트가 사라지지 않습니다.</Korean>
 				<Japanese>これはテキストが消えるまでの時間を制御します。0に設定すると、テキストは消えません。</Japanese>
 				<Chinesesimp>该选项控制文本消失所需的时间。如果设置为0，文本将不会消失。</Chinesesimp>
 				<Chinese>該選項控制文本消失所需的時間。如果設置為0，文本將不會消失。</Chinese>
@@ -772,7 +772,7 @@
 				<Italian>Questa impostazione controlla il carattere che verrà utilizzato per l'interfaccia.</Italian>
 				<Spanish>Esta configuración controla la fuente que se usará para la interfaz.</Spanish>
 				<French>Ce paramètre contrôle la police qui sera utilisée pour l'interface utilisateur.</French>
-				<Korean>이 설정은 UI에 사용할 글꼴을 제어합니다.</Korean>
+				<Korean>UI에 사용할 글꼴을 제어합니다.</Korean>
 				<Japanese>この設定は、UIに使用されるフォントを制御します。</Japanese>
 				<Chineseimp>该设置控制UI使用的字体。</Chineseimp>
 				<Chinese>該設置控制UI使用的字體。</Chinese>
@@ -789,7 +789,7 @@
 				<Italian>Posizione X dell'interfaccia utente</Italian>
 				<Spanish>Posición X de la UI</Spanish>
 				<French>Position X de l'UI</French>
-				<Korean>UI X 위치</Korean>
+				<Korean>UI 위치 (X축)</Korean>
 				<Japanese>UIのX位置</Japanese>
 				<Chinesesimp>用户界面X位置</Chinesesimp>
 				<Chinese>使用者介面X位置</Chinese>
@@ -806,7 +806,7 @@
 				<Italian>Questo controlla la posizione X dell'interfaccia utente, Sinistra/Destra.</Italian>
 				<Spanish>Esto controla la posición X de la UI, Izquierda/Derecha.</Spanish>
 				<French>Cela contrôle la position X de l'UI, Gauche/Droite.</French>
-				<Korean>이것은 UI의 X 위치, 왼쪽/오른쪽을 제어합니다.</Korean>
+				<Korean>UI의 X축 위치, 좌측/우측을 제어합니다.</Korean>
 				<Japanese>これは、UIのX位置を制御します。左/右。</Japanese>
 				<Chinesesimp>这控制用户界面X位置，左/右。</Chinesesimp>
 				<Chinese>這控制使用者介面X位置，左/右。</Chinese>
@@ -823,7 +823,7 @@
 				<Italian>Posizione Y dell'interfaccia utente</Italian>
 				<Spanish>Posición Y de la UI</Spanish>
 				<French>Position Y de l'UI</French>
-				<Korean>UI Y 위치</Korean>
+				<Korean>UI 위치 (Y축)</Korean>
 				<Japanese>UIのY位置</Japanese>
 				<Chinesesimp>用户界面Y位置</Chinesesimp>
 				<Chinese>使用者介面Y位置</Chinese>
@@ -840,7 +840,7 @@
 				<Italian>Questo controlla la posizione Y dell'interfaccia utente, Su/Giu.</Italian>
 				<Spanish>Esto controla la posición Y de la UI, Arriba/Abajo.</Spanish>
 				<French>Cela contrôle la position Y de l'UI, Haut/Bas.</French>
-				<Korean>이것은 UI의 Y 위치, 위/아래를 제어합니다.</Korean>
+				<Korean>UI의 Y축 위치, 위/아래를 제어합니다.</Korean>
 				<Japanese>これは、UIのY位置を制御します。上/下。</Japanese>
 				<Chinesesimp>这控制用户界面Y位置，上/下。</Chinesesimp>
 				<Chinese>這控制使用者介面Y位置，上/下。</Chinese>
@@ -874,7 +874,7 @@
 				<Italian>Questo controlla la dimensione del testo nell'HUD.</Italian>
 				<Spanish>Esto controla el tamaño del texto en el HUD.</Spanish>
 				<French>Cela contrôle la taille du texte sur l'interface HUD.</French>
-				<Korean>이것은 HUD의 텍스트 크기를 제어합니다.</Korean>
+				<Korean>HUD의 텍스트 크기를 제어합니다.</Korean>
 				<Japanese>これはHUD上のテキストのサイズを制御します。</Japanese>
 				<Chinesesimp>这控制着HUD上文本的大小。</Chinesesimp>
 				<Chinese>這控制著HUD上文字的大小。</Chinese>
@@ -891,7 +891,7 @@
 				<Italian>Colore UI (Nascosto)</Italian>
 				<Spanish>Color de UI (Oculto)</Spanish>
 				<French>Couleur de l'UI (Caché)</French>
-				<Korean>UI 색상 (숨김)</Korean>
+				<Korean>UI 색상 (숨겨짐)</Korean>
 				<Japanese>UIの色（隠し）</Japanese>
 				<Chinesesimp>用户界面颜色（隐藏）</Chinesesimp>
 				<Chinese>使用者介面顏色（隱藏）</Chinese>
@@ -908,7 +908,7 @@
 				<Italian>Questo controlla il colore dell'interfaccia utente quando è nascosta.</Italian>
 				<Spanish>Esto controla el color de la UI cuando está oculta.</Spanish>
 				<French>Cela contrôle la couleur de l'UI lorsqu'elle est cachée.</French>
-				<Korean>이것은 숨겨져 있을 때 UI 색상을 제어합니다.</Korean>
+				<Korean>숨겨짐 상태의 UI 색상을 제어합니다.</Korean>
 				<Japanese>これは、隠されているときのUIの色を制御します。</Japanese>
 				<Chinesesimp>这控制隐藏时的用户界面颜色。</Chinesesimp>
 				<Chinese>這控制隱藏時的使用者介面顏色。</Chinese>
@@ -925,7 +925,7 @@
 				<Italian>Colore UI (Rivelato)</Italian>
 				<Spanish>Color de UI (Revelado)</Spanish>
 				<French>Couleur de l'UI (Révélé)</French>
-				<Korean>UI 색상 (표시됨)</Korean>
+				<Korean>UI 색상 (발각됨)</Korean>
 				<Japanese>UIの色（表示）</Japanese>
 				<Chinesesimp>用户界面颜色（显示）</Chinesesimp>
 				<Chinese>使用者介面顏色（顯示）</Chinese>
@@ -942,7 +942,7 @@
 				<Italian>Questo controlla il colore dell'interfaccia utente quando è rivelato.</Italian>
 				<Spanish>Esto controla el color de la UI cuando está revelado.</Spanish>
 				<French>Cela contrôle la couleur de l'UI lorsqu'elle est révélée.</French>
-				<Korean>이것은 표시될 때 UI 색상을 제어합니다.</Korean>
+				<Korean>발각됨 상태의 UI 색상을 제어합니다.</Korean>
 				<Japanese>これは、表示されているときのUIの色を制御します。</Japanese>
 				<Chinesesimp>这控制显示时的用户界面颜色。</Chinesesimp>
 				<Chinese>這控制顯示時的使用者介面顏色。</Chinese>
@@ -959,7 +959,7 @@
 				<Italian>Abilita il dissolvenza dell'interfaccia utente</Italian>
 				<Spanish>Activar desvanecimiento de UI</Spanish>
 				<French>Activer le fondu de l'interface utilisateur</French>
-				<Korean>UI 페이딩 활성화</Korean>
+				<Korean>UI 페이드 활성화</Korean>
 				<Japanese>UIフェードを有効にする</Japanese>
 				<Chinesesimp>启用用户界面渐隐</Chinesesimp>
 				<Chinese>啟用使用者介面漸隱</Chinese>
