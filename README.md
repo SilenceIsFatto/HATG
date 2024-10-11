@@ -34,6 +34,8 @@
 
   The main difference is that HATG is *faster* and *better for performance*.
 
+![image](https://github.com/user-attachments/assets/e381caaa-27ef-48be-932a-ea870e12c48d)
+
   From quick code performance testing, ACSTG takes around 1ms to run with no AI present. With 100 AI present, this can skyrocket to 2-6ms. That's the main loop that runs every second or so (I couldn't test the entire thing due to its heavy use of threads and scheduling, made the performance results inaccurate. If anything the loop may actually take longer.). It also floods the server network with creation/deletion requests, which is then passed on to every connected client.
 
   HATG will take around 0.2-0.4ms to run its loop every second with 120 AI present. I don't need to say why that's better. (Runtime varies with mods, running scripts, etc)
