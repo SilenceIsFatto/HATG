@@ -58,12 +58,6 @@ if (_unit distance2D _unitPos >= _resetDistance || {_resetDistance isEqualTo -1 
 private _canStayHidden = [_unit, _unitShots] call HATG_fnc_canStayHidden;
 if (_canStayHidden) exitWith {}; // If they should remain hidden then don't do a cooldown
 
-private _isHidden = [_unit] call HATG_fnc_getMirror isNotEqualTo ObjNull;
-if !(_isHidden) exitWith {
-    [format ["%1 fired whilst not hidden.", name _unit], 1, _fnc_scriptName] call HATG_fnc_log;
-    [_unit, (round(_cooldown / 10))] call HATG_fnc_cooldown; // if they shoot whilst not prone, give them 3 seconds to wait instead of 30. (default, 30. Divided by 10 = 3)
-};
-
-[format ["%1 fired whilst hidden.", name _unit], 1, _fnc_scriptName] call HATG_fnc_log;
+[format ["%1 fired. Giving cooldown", name _unit], 1, _fnc_scriptName] call HATG_fnc_log;
 [_unit] call HATG_fnc_deleteMirror;
 [_unit, _cooldown] call HATG_fnc_cooldown;
