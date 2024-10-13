@@ -296,21 +296,21 @@
 				<Turkish>Algılama bekleme süresi</Turkish>
 			</Key>
 			<Key ID="STR_HATG_Detection_Cooldown_info">
-				<Original>This controls how long you will be 'spotted' for if you fire without a suppressor. This is divided by 10 if you fire while not prone.</Original>
-				<English>This controls how long you will be 'spotted' for if you fire without a suppressor. This is divided by 10 if you fire while not prone.</English>
-				<Russian>Это определяет, как долго вас будут 'засекать', если вы стреляете без глушителя. Это значение делится на 10, если вы стреляете, не лежа лежа.</Russian>
-				<German>Dies steuert, wie lange du 'entdeckt' wirst, wenn du ohne Schalldämpfer schießt. Dies wird durch 10 geteilt, wenn du nicht in der Bauchlage schießt.</German>
-				<Italian>Ciò controlla per quanto tempo sarai 'scoperto' se spari senza un soppressore. Questo è diviso per 10 se spari in posizione prona.</Italian>
-				<Spanish>Esto controla cuánto tiempo serás 'detectado' si disparas sin un supresor. Esto se divide por 10 si disparas sin estar en posición prona.</Spanish>
-				<French>Cela contrôle combien de temps vous serez 'repéré' si vous tirez sans un suppresseur. Cela est divisé par 10 si vous tirez en position couchée.</French>
-				<Korean>소음기 없이 사격할 경우 '발각'되는 시간을 제어합니다. 엎드리지 않고 사격할 경우 값은 10으로 나뉩니다.</Korean>
-				<Japanese>サプレッサーなしで発砲すると、どれくらいの時間「発見」されるかを制御します。伏せていない状態で発砲すると、10で割られます。</Japanese>
-				<Chinesesimp>如果您在没有消音器的情况下开火，这会控制您被“发现”的时间。如果您不是趴着开火，则会被除以10。</Chinesesimp>
-				<Chinese>如果您在没有消音器的情况下开火，这会控制您被“发现”的时间。如果您不是趴着开火，则会被除以10。</Chinese>
-				<Polish>To kontroluje, jak długo będziesz 'zauważony', jeśli strzelasz bez tłumika. Jest to dzielone przez 10, jeśli strzelasz w pozycji stojącej.</Polish>
-				<Czech>To řídí, jak dlouho budete 'zpozorován', pokud vystřelíte bez tlumiče. Toto se dělí 10, pokud střílíte, když nejste v leže.</Czech>
-				<Portuguese>Isso controla por quanto tempo você será 'detectado' se disparar sem um supressor. Isso é dividido por 10 se você disparar enquanto não estiver deitado.</Portuguese>
-				<Turkish>Ses sistemi olmadan ateş ederseniz, 'tespit' edildiğiniz süreyi kontrol eder. Eğer yatar pozisyonda değilken ateş ederseniz, 10'a bölünür.</Turkish>
+				<Original>This controls how long you will be 'spotted' for if you fire without a suppressor.</Original>
+				<English>This controls how long you will be 'spotted' for if you fire without a suppressor.</English>
+				<Russian>Это определяет, как долго вас будут 'засекать', если вы стреляете без глушителя.</Russian>
+				<German>Dies steuert, wie lange du 'entdeckt' wirst, wenn du ohne Schalldämpfer schießt.</German>
+				<Italian>Ciò controlla per quanto tempo sarai 'scoperto' se spari senza un soppressore.</Italian>
+				<Spanish>Esto controla cuánto tiempo serás 'detectado' si disparas sin un supresor.</Spanish>
+				<French>Cela contrôle combien de temps vous serez 'repéré' si vous tirez sans un suppresseur.</French>
+				<Korean>소음기 없이 사격할 경우 '발각'되는 시간을 제어합니다.</Korean>
+				<Japanese>サプレッサーなしで発砲すると、どれくらいの時間「発見」されるかを制御します。</Japanese>
+				<Chinesesimp>如果您在没有消音器的情况下开火，这会控制您被“发现”的时间。</Chinesesimp>
+				<Chinese>如果您在没有消音器的情况下开火，这会控制您被“发现”的时间。</Chinese>
+				<Polish>To kontroluje, jak długo będziesz 'zauważony', jeśli strzelasz bez tłumika.</Polish>
+				<Czech>To řídí, jak dlouho budete 'zpozorován', pokud vystřelíte bez tlumiče.</Czech>
+				<Portuguese>Isso controla por quanto tempo você será 'detectado' se disparar sem um supressor.</Portuguese>
+				<Turkish>Ses sistemi olmadan ateş ederseniz, 'tespit' edildiğiniz süreyi kontrol eder.</Turkish>
 			</Key>
 			<Key ID="STR_HATG_Detection_Distance">
 				<Original>Detection Distance</Original>
