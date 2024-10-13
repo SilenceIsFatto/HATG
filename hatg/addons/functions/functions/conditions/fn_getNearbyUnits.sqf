@@ -25,8 +25,18 @@ private _distanceClose = [_unit, _stance] call HATG_fnc_getDetectionDistance;
 
 [format["Detection Distance: %1", _distanceClose], 3, _fnc_scriptName] call HATG_fnc_log;
 
-private _nearbyUnit = _unit findNearestEnemy _unit;
+if (hatg_setting_complex_detection) exitWith {
+    private _unitSide = side _unit;
+    private _targets = nearestObjects [_unit, ["CAManBase"], _distanceClose];
+    _targets deleteAt (_targets find _unit);
+    private _isEnemyClose = if (_targets findIf {_unitSide getFriend side _x <= 0.5 && {_x getVariable ["ACE_isUnconscious", false] isEqualTo false}} isNotEqualTo -1) then {true} else {false};
 
+    [format["Close Unit (Complex)? %1", _isEnemyClose], 4, _fnc_scriptName] call HATG_fnc_log;
+
+    _isEnemyClose;
+};
+
+private _nearbyUnit = _unit findNearestEnemy _unit;
 if (isNil "_nearbyUnit" || {_nearbyUnit isEqualTo ObjNull}) exitWith {false};
 if (_nearbyUnit distance2D _unit >= _distanceClose) exitWith {false};
 if (_nearbyUnit getVariable ["ACE_isUnconscious", false] isEqualTo true) exitWith {false};
