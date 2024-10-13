@@ -23,7 +23,7 @@ private _ehGroupCreated = addMissionEventHandler ["GroupCreated", {
 
     private _leader = leader _group;
 
-    if (!(isMultiplayer) && {isPlayer _leader}) then {
+    if ((hatg_setting_mp_ai || {!isMultiplayer}) && {isPlayer _leader}) then {
         [_group] call HATG_fnc_handleUnitJoined;
     };
 }];

@@ -40,7 +40,7 @@ if (_respawn isEqualTo false) then {
 ["hatg_handlers_activated", true, _unit] call HATG_fnc_setVariable;
 
 // Word of advice: Don't run addHandlers when these ifs return true the second time around... you may cause a recursion loop and freeze the game...
-if (!isMultiplayer && {isPlayer _unit}) then {
+if ((hatg_setting_mp_ai || {!isMultiplayer}) && {isPlayer _unit}) then {
     private _unitGroup = group _unit;
 
     {
