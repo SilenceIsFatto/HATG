@@ -4,9 +4,12 @@ private _serverActivated = ["hatg_serverActivated", false] call HATG_fnc_getVari
 if !(_serverActivated) exitWith {titleText ["HATG is not a client mod and needs to be ran on the server too. HATG features will not work until the server loads the mod.", "PLAIN"]};
 if (isClass (configFile >> "CfgPatches" >> "HIG_wall")) exitWith {titleText ["HATG should not be running alongside ACSTG, please disable it. HATG will now be disabled to prevent conflicts.", "PLAIN"]};
 
+// Should probably localize the above error messages
+
 [player] call HATG_fnc_addHandlers;
 
 call HATG_fnc_createDisplay;
+[player] call HATG_fnc_handleDisplayText;
 
 if !(isMultiplayer) then {
     call HATG_fnc_handleGroupCreated;
