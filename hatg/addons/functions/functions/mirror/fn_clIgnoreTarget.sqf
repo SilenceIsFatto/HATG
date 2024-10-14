@@ -8,12 +8,9 @@
     
     Params:
         _unit <OBJECT> <Default: ObjNull>
-        _stance <STRING> <Default: "PRONE">
-    
-    Dependencies:
-        _unit Namespace variables:
-        > "hatg_mirror_cooldown"
-    
+        _status <BOOL> <Default: "false">
+        _ignorTarget <BOOL> <Default: "false">
+
     Scope:
         Local
     
@@ -25,6 +22,11 @@
     
     Return:
         nil
+    
+    Note:
+        this func is currently not efficient and will lead to issues
+        also noticed that it runs when you are in the main menu
+        func also always stays in a loop. got to find something for that.
 */
 
 params [
