@@ -65,6 +65,7 @@ class CfgFunctions
         class mirror 
         {
             file = QPATHTOFOLDER(functions\mirror);
+            class clIgnoreTarget {};
             class canCreateMirror {};
             class cooldown {};
             class createMirror {};

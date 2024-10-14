@@ -21,7 +21,7 @@ if !(hatg_setting_ui) exitWith {
     _displayHidden ctrlCommit 0;
 };
 
-if (["hatg_mirror", ObjNull, _unit] call HATG_fnc_getVariable isNotEqualTo ObjNull) then {
+if ((["hatg_mirror", ObjNull, _unit] call HATG_fnc_getVariable isNotEqualTo ObjNull) || {hatg_ignorTarget}) then {
     _colour = _displayColourHidden;
     _statusText = localize "$STR_HATG_Hidden";
     _displayImage = QPATHTOFOLDER(data\ui\hidden_ca.paa);

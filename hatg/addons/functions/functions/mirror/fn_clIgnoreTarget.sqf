@@ -29,20 +29,41 @@
 
 params [
 	["_unit", ObjNull],
-	["_stance", "PRONE"]
+    ["_status", false],
+    ["_ignorTarget", false]
 ];
 
-private _closeEnemies = nearestObjects [_unit, ["CAManBase"], hatg_setting_distance_close];
+hatg_ignorTarget = _ignorTarget;
+
+private _unitSide = side _unit;
+
+private _closeUnits = nearestObjects [_unit, ["CAManBase"], 200];
+_closeUnits deleteAt (_closeUnits find _unit);
+private _areUnitsClose = if (_closeUnits findIf {_unitSide getFriend side _x <= 0.5 && {_x getVariable ["ACE_isUnconscious", false] isEqualTo false}} isNotEqualTo -1) then {true} else {false};
+
+
+private _targets = nearestObjects [_unit, ["CAManBase"], 30];
+_targets deleteAt (_targets find _unit);
+private _isEnemyClose = if (_targets findIf {_unitSide getFriend side _x <= 0.5 && {_x getVariable ["ACE_isUnconscious", false] isEqualTo false}} isNotEqualTo -1) then {true} else {false};
+// if this returns true it should revoke undercover
+
 private _closeEnemyGroups = [];
 
 {
-  private _group = group _x;
-  _closeEnemyGroups pushBack _group;
-  if ([_unit, _stance] call HATG_fnc_canCreateMirror) then {
-	  _group ignoreTarget [_unit, true];
-	  systemChat "you are hidden"; // debugging
-	  } else {
-	  _group ignoreTarget [_unit, false];
-	  systemChat "you are overt"; // debugging
-	  };
-} forEach _closeEnemies;
+    private _group = group _x;
+    _closeEnemyGroups pushBack _group;
+
+    if ((_status) && !(_isEnemyClose)) then {
+        _group ignoreTarget [_unit, true];
+        systemChat "Hidden Status: true"; // debugging
+    } else {
+        _group ignoreTarget [_unit, false];
+        systemChat "Hidden Status: false"; // debugging
+    };
+} forEach _closeUnits;
+
+_unit call HATG_fnc_canCreateMirror;
+
+if (isPlayer _unit) then {
+    [_unit] call HATG_fnc_handleDisplayText;
+};

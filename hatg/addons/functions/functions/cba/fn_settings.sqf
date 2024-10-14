@@ -2,6 +2,11 @@
 
 #define SETTING_HEADER Hide Among The Grass
 #define SETTING_HEADER_QUOTE QUOTE(SETTING_HEADER)
+
+if (HATG_Client_Side) exitwith {
+    #include "fn_settings_ui.sqf"
+};
+
 #define SETTING_HEADER_GENERAL [SETTING_HEADER_QUOTE, QUOTE(General)]
 #define SETTING_HEADER_DEBUG [SETTING_HEADER_QUOTE, QUOTE(Debug)]
 
