@@ -34,12 +34,14 @@ params [
 private _unitInVehicle = !(isNull objectParent _unit);
 private _isOnRoad = isOnRoad _unit;
 private _movementSpeed = speed _unit;
+private _cooldown = _unit getVariable ["hatg_mirror_cooldown", false];
 
 if (HATG_Client_Side) exitwith {
     if (_unit isEqualTo ObjNull) exitWith {false};
     if (_unitInVehicle) exitWith {false};
     if (_isOnRoad) exitWith {false};
-    if (_stance isEqualTo "CROUCH" && {_movementSpeed > 15}) exitWith {false};
+    if (_movementSpeed > 15) exitWith {false};
+    if (_cooldown) exitWith {false};
 
     true
 };
@@ -48,7 +50,6 @@ if (_unit isEqualTo ObjNull) exitWith {false};
 
 if (_unitInVehicle) exitWith {["In Vehicle Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
 
-private _cooldown = _unit getVariable ["hatg_mirror_cooldown", false];
 if (_cooldown) exitWith {["Cooldown Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
 
 if (_stance isEqualTo "CROUCH" && {_movementSpeed > hatg_setting_movement_crouch}) exitWith {["Movement Speed Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};

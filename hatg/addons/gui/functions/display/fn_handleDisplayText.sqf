@@ -20,11 +20,18 @@ if !(hatg_setting_ui) exitWith {
     _displayHidden ctrlSetStructuredText (parseText _hiddenText);
     _displayHidden ctrlCommit 0;
 };
-
-if ((["hatg_mirror", ObjNull, _unit] call HATG_fnc_getVariable isNotEqualTo ObjNull) || {hatg_ignorTarget}) then {
-    _colour = _displayColourHidden;
-    _statusText = localize "$STR_HATG_Hidden";
-    _displayImage = QPATHTOFOLDER(data\ui\hidden_ca.paa);
+if (HATG_Client_Side) then {
+    if (hatg_ignorTarget) then {
+        _colour = _displayColourHidden;
+        _statusText = localize "$STR_HATG_Hidden";
+        _displayImage = QPATHTOFOLDER(data\ui\hidden_ca.paa);
+    };
+} else {
+    if (["hatg_mirror", ObjNull, _unit] call HATG_fnc_getVariable isNotEqualTo ObjNull) then {
+        _colour = _displayColourHidden;
+        _statusText = localize "$STR_HATG_Hidden";
+        _displayImage = QPATHTOFOLDER(data\ui\hidden_ca.paa);
+    };
 };
 
 _colour = (_colour call BIS_fnc_colorRGBAtoHTML);

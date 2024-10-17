@@ -1,5 +1,6 @@
 if !(hasInterface) exitWith {false}; // Do not run postInit on dedicated servers or headless clients
 
+HATG_Client_Side = false;
 private _serverActivated = ["hatg_serverActivated", false] call HATG_fnc_getVariable;
 if !(_serverActivated) exitWith {
     titleText ["HATG is not loaded on the server.\nSwitching to client sided version", "PLAIN"];
