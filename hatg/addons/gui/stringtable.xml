@@ -1019,23 +1019,6 @@
 				<Portuguese>Isso controla a cor da UI quando está revelada.</Portuguese>
 				<Turkish>Bu, açık olduğunda UI rengini kontrol eder.</Turkish>
 			</Key>
-			<Key ID="STR_HATG_UI_Enable_Fading">
-				<Original>Enable UI Fading</Original>
-				<English>Enable UI Fading</English>
-				<Russian>Включить затухание пользовательского интерфейса</Russian>
-				<German>UI-Fading aktivieren</German>
-				<Italian>Abilita il dissolvenza dell'interfaccia utente</Italian>
-				<Spanish>Activar desvanecimiento de UI</Spanish>
-				<French>Activer le fondu de l'interface utilisateur</French>
-				<Korean>UI 페이드 활성화</Korean>
-				<Japanese>UIフェードを有効にする</Japanese>
-				<Chinesesimp>启用用户界面渐隐</Chinesesimp>
-				<Chinese>啟用使用者介面漸隱</Chinese>
-				<Polish>Włącz przejrzystość UI</Polish>
-				<Czech>Aktivovat vyblednutí UI</Czech>
-				<Portuguese>Ativar desvanecimento da UI</Portuguese>
-				<Turkish>UI Solmasını Etkinleştir</Turkish>
-			</Key>
 		</Container>
 	</Package>
 </Project>
