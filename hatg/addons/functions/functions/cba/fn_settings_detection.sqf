@@ -68,6 +68,22 @@
 ] call CBA_fnc_addSetting;
 
 [
+    "hatg_setting_enable_crouch",
+    "CHECKBOX",
+    ["$STR_HATG_Enable_Crouch", "$STR_HATG_Enable_Crouch_info"],
+    SETTING_HEADER_DETECTION,
+    true,
+    true,
+    {
+        params ["_value"];
+
+        // missionNamespace setVariable ["hatg_setting_movement_crouch", _value, true];
+        hatg_setting_enable_crouch = _value;
+        publicVariable "hatg_setting_enable_crouch";
+    }
+] call CBA_fnc_addSetting;
+
+[
     "hatg_setting_cooldown",
     "SLIDER",
     ["$STR_HATG_Detection_Cooldown", "$STR_HATG_Detection_Cooldown_info"],

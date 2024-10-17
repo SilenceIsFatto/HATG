@@ -37,38 +37,38 @@
 				<Turkish>Bu ayar diğer tüm ayarların üzerine yazar. Daha 'atari' tarzı bir deneyim için tasarlanmıştır. Bu ayar etkinleştirildiğinde diğer ayarları değiştirmeyin; bunlar, oyunun bir sonraki yeniden başlatılmasında üzerine yazılacaktır.</Turkish>
 			</Key>
 			<Key ID="STR_HATG_MP_AI">
-				<Original>Enable AI Support In MP</Original>
-				<English>Enable AI Support In MP</English>
-				<Czech>Povolit podporu AI v MP</Czech>
-				<French>Activer le support de l'IA en MP</French>
-				<German>KI-Unterstützung in MP aktivieren</German>
-				<Italian>Abilita supporto IA in MP</Italian>
-				<Polish>Włącz wsparcie AI w MP</Polish>
-				<Russian>Включить поддержку ИИ в МП</Russian>
-				<Spanish>Habilitar soporte de IA en MP</Spanish>
-				<Korean>MP에서 AI 지원 활성화</Korean>
-				<Japanese>MPでAIサポートを有効にする</Japanese>
-				<Chinesesimp>启用MP中的AI支持</Chinesesimp>
-				<Chinese>啟用MP中的AI支持</Chinese>
-				<Portuguese>Ativar suporte de IA no MP</Portuguese>
-				<Turkish>MP'de AI desteğini etkinleştir</Turkish>
+				<Original>Enable AI Support In LAN</Original>
+				<English>Enable AI Support In LAN</English>
+				<Czech>Povolit podporu AI v LAN</Czech>
+				<French>Activer le support de l'IA en LAN</French>
+				<German>KI-Unterstützung in LAN aktivieren</German>
+				<Italian>Abilita supporto IA in LAN</Italian>
+				<Polish>Włącz wsparcie AI w LAN</Polish>
+				<Russian>Включить поддержку ИИ в LAN</Russian>
+				<Spanish>Habilitar soporte de IA en LAN</Spanish>
+				<Korean>LAN에서 AI 지원 활성화</Korean>
+				<Japanese>LANでAIサポートを有効にする</Japanese>
+				<Chinesesimp>启用LAN中的AI支持</Chinesesimp>
+				<Chinese>啟用LAN中的AI支持</Chinese>
+				<Portuguese>Ativar suporte de IA no LAN</Portuguese>
+				<Turkish>LAN'de AI desteğini etkinleştir</Turkish>
 			</Key>
 			<Key ID="STR_HATG_MP_AI_info">
-				<Original>This setting allows AI in player groups to become 'hidden' in multiplayer.</Original>
-				<English>This setting allows AI in player groups to become 'hidden' in multiplayer.</English>
-				<Czech>Toto nastavení umožňuje AI ve skupinách hráčů stát se „skrytými“ v multiplayeru.</Czech>
-				<French>Ce paramètre permet à l'IA dans les groupes de joueurs de devenir « cachée » en multijoueur.</French>
-				<German>Diese Einstellung ermöglicht es der KI in Spielergruppen, im Mehrspielermodus „versteckt“ zu werden.</German>
-				<Italian>Questa impostazione consente all'IA nei gruppi di giocatori di diventare "nascosta" nel multiplayer.</Italian>
-				<Polish>To ustawienie pozwala, aby AI w grupach graczy stało się „ukryte” w trybie multiplayer.</Polish>
-				<Russian>Этот параметр позволяет ИИ в группах игроков стать «скрытым» в многопользовательском режиме.</Russian>
-				<Spanish>Esta configuración permite que la IA en grupos de jugadores se vuelva "oculta" en el multijugador.</Spanish>
-				<Korean>이 설정은 MP에서 플레이어 그룹의 AI가 '숨김' 상태가 되도록 허용합니다.</Korean>
-				<Japanese>この設定により、プレイヤーグループ内のAIがマルチプレイヤーで「隠れる」ようになります。</Japanese>
-				<Chinesesimp>此设置允许玩家组中的AI在多人游戏中变为“隐藏”。</Chinesesimp>
-				<Chinese>此設置允許玩家組中的AI在多人遊戲中變為「隱藏」。</Chinese>
-				<Portuguese>Essa configuração permite que a IA em grupos de jogadores fique "oculta" no multijogador.</Portuguese>
-				<Turkish>Bu ayar, oyuncu gruplarındaki yapay zekanın çok oyunculu modda "gizli" hale gelmesine izin verir.</Turkish>
+				<Original>This setting allows AI in the player group to become 'hidden' in LAN multiplayer. Do not use if playing with others, it may cause serious issues.</Original>
+				<English>This setting allows AI in the player group to become 'hidden' in LAN multiplayer. Do not use if playing with others, it may cause serious issues.</English>
+				<Czech>Toto nastavení umožňuje, aby se AI ve skupině hráčů stalo „skrytým“ v LAN multiplayeru. Nepoužívejte při hře s ostatními, může to způsobit vážné problémy.</Czech>
+				<French>Ce paramètre permet à l'IA dans le groupe de joueurs de devenir « cachée » en multijoueur LAN. Ne l'utilisez pas si vous jouez avec d'autres, cela peut causer de graves problèmes.</French>
+				<German>Diese Einstellung ermöglicht es der KI in der Spielergruppe, im LAN-Multiplayer „versteckt“ zu werden. Verwenden Sie es nicht, wenn Sie mit anderen spielen, da es schwerwiegende Probleme verursachen kann.</German>
+				<Italian>Questa impostazione consente all'IA nel gruppo di giocatori di diventare "nascosta" nel multiplayer LAN. Non utilizzare se giochi con altri, potrebbe causare seri problemi.</Italian>
+				<Polish>To ustawienie pozwala AI w grupie graczy stać się „ukrytym” w trybie LAN multiplayer. Nie używaj, jeśli grasz z innymi, może to spowodować poważne problemy.</Polish>
+				<Russian>Этот параметр позволяет ИИ в группе игроков стать «скрытым» в локальной сети. Не используйте, если играете с другими, это может вызвать серьёзные проблемы.</Russian>
+				<Spanish>Esta configuración permite que la IA del grupo de jugadores se vuelva "oculta" en el multijugador de LAN. No lo uses si juegas con otros, puede causar problemas graves.</Spanish>
+				<Korean>이 설정은 LAN 멀티플레이어에서 플레이어 그룹의 AI가 '숨김' 상태가 되도록 허용합니다. 다른 사람과 플레이할 때 사용하지 마십시오. 심각한 문제가 발생할 수 있습니다.</Korean>
+				<Japanese>この設定により、LAN マルチプレイヤーでプレイヤー グループの AI が「隠れる」ようになります。他のプレイヤーとプレイする場合は使用しないでください。重大な問題が発生する可能性があります。</Japanese>
+				<Chinesesimp>此设置允许玩家组中的AI在局域网多人游戏中变为“隐藏”。如果与他人一起玩，请不要使用，可能会导致严重问题。</Chinesesimp>
+				<Chinese>此設定允許玩家組中的AI在局域網多人遊戲中變為「隱藏」。若與其他玩家一起遊玩，請勿使用，可能會導致嚴重問題。</Chinese>
+				<Portuguese>Essa configuração permite que a IA no grupo de jogadores fique "oculta" no multijogador LAN. Não use se estiver jogando com outros, pois pode causar problemas graves.</Portuguese>
+				<Turkish>Bu ayar, LAN çok oyunculu modda oyuncu grubundaki yapay zekanın "gizli" hale gelmesine izin verir. Başkalarıyla oynuyorsanız kullanmayın, ciddi sorunlara neden olabilir.</Turkish>
 			</Key>
 			<Key ID="STR_HATG_Debug">
 				<Original>Debug Mode</Original>
@@ -379,6 +379,40 @@
 				<Czech>To řídí násobitel, při kterém různé postoje zvyšují detekci vzdálenosti (výše). Například 40 m se stává 80 m, když se sehněte místo ležící.</Czech>
 				<Portuguese>Isso controla o multiplicador em que as diferentes posturas aumentam a detecção de distância (acima). Por exemplo, 40m se torna 80m quando você está agachado em vez de deitado.</Portuguese>
 				<Turkish>Bu, farklı pozisyonların mesafe algısını artırdığı çarpanı kontrol eder (yukarıda). Örneğin, 40m, uzanmak yerine çömelirseniz 80m olur.</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Enable_Crouch">
+				<Original>Enable Hiding Whilst Crouching</Original>
+				<English>Enable Hiding Whilst Crouching</English>
+				<Czech>Povolit skrývání při podřepu</Czech>
+				<French>Activer la dissimulation en étant accroupi</French>
+				<German>Verstecken im Hocken aktivieren</German>
+				<Italian>Abilita nascondersi mentre sei accovacciato</Italian>
+				<Polish>Włącz ukrywanie się podczas kucania</Polish>
+				<Russian>Включить скрытность при приседании</Russian>
+				<Spanish>Habilitar ocultación al agacharse</Spanish>
+				<Korean>웅크린 상태에서 숨기기 활성화</Korean>
+				<Japanese>しゃがみながら隠れることを有効にする</Japanese>
+				<Chinesesimp>启用蹲伏时隐藏</Chinesesimp>
+				<Chinese>啟用蹲伏時隱藏</Chinese>
+				<Portuguese>Ativar ocultação enquanto agachado</Portuguese>
+				<Turkish>Eğilirken Gizlenmeyi Etkinleştir</Turkish>
+			</Key>
+			<Key ID="STR_HATG_Enable_Crouch_info">
+				<Original>This controls if you can be 'hidden' whilst crouched, provided you meet the criteria.</Original>
+				<English>This controls if you can be 'hidden' whilst crouched, provided you meet the criteria.</English>
+				<Czech>Toto určuje, zda můžete být „skryti“ při podřepu, pokud splníte kritéria.</Czech>
+				<French>Cela contrôle si vous pouvez être « caché » en étant accroupi, à condition de remplir les critères.</French>
+				<German>Dies steuert, ob Sie im Hocken „versteckt“ werden können, sofern Sie die Kriterien erfüllen.</German>
+				<Italian>Questo controlla se puoi essere 'nascosto' mentre sei accovacciato, a condizione che soddisfi i criteri.</Italian>
+				<Polish>To kontroluje, czy możesz być „ukryty” podczas kucania, pod warunkiem spełnienia kryteriów.</Polish>
+				<Russian>Это контролирует, можете ли вы быть "скрыты" при приседании, если выполните условия.</Russian>
+				<Spanish>Esto controla si puedes estar "oculto" mientras estás agachado, siempre que cumplas con los criterios.</Spanish>
+				<Korean>이 설정은 조건을 충족할 경우 웅크린 상태에서 '숨겨질' 수 있는지 여부를 제어합니다.</Korean>
+				<Japanese>これにより、基準を満たせば、しゃがんでいる間に「隠れる」ことができるかどうかが制御されます。</Japanese>
+				<Chinesesimp>此设置控制您在蹲伏时是否可以“隐藏”，前提是您符合标准。</Chinesesimp>
+				<Chinese>此設定控制您在蹲伏時是否可以「隱藏」，前提是您符合標準。</Chinese>
+				<Portuguese>Isso controla se você pode ficar "oculto" enquanto agachado, desde que atenda aos critérios.</Portuguese>
+				<Turkish>Bu, kriterleri karşıladığınız takdirde eğilirken 'gizlenip' gizlenemeyeceğinizi kontrol eder.</Turkish>
 			</Key>
 		</Container>
 	</Package>
