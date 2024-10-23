@@ -141,7 +141,7 @@
 		</Container>
 	</Package>
 	<Package name="Detection">
-		<Container name="Settings">
+		<Container name="Settings_Detection">
 			<Key ID="STR_HATG_Surface_Requirements">
 				<Original>Enable Surface Requirements</Original>
 				<English>Enable Surface Requirements</English>
@@ -277,7 +277,7 @@
 				<Chinese>此設定啟用更複雜的功能來檢測敵人是否靠近隱藏單位，而不管敵人是否“知道”它們。</Chinese>
 				<Portuguese>Essa configuração ativa uma função mais complexa para detectar se os inimigos estão próximos das unidades ocultas, independentemente de os inimigos “saberem” sobre elas.</Portuguese>
 				<Turkish>Bu ayar, düşmanların gizli birimlere yakın olup olmadığını, düşmanların onları "bilip bilmediğinden" bağımsız olarak algılayan daha karmaşık bir işlevi etkinleştirir.</Turkish>
-      </Key>
+			</Key>
 			<Key ID="STR_HATG_Detection_Cooldown">
 				<Original>Detection Cooldown</Original>
 				<English>Detection Cooldown</English>
@@ -417,7 +417,7 @@
 		</Container>
 	</Package>
 	<Package name="Equipment">
-		<Container name="Settings">
+		<Container name="Settings_Equipment">
 			<Key ID="STR_HATG_Suppressors_whitelist">
 				<Original>Suppressors (Whitelist)</Original>
 				<English>Suppressors (Whitelist)</English>
@@ -540,7 +540,7 @@
 		</Container>
 	</Package>
 	<Package name="Movement">
-		<Container name="Settings">
+		<Container name="Settings_Movement">
 			<Key ID="STR_HATG_Reset_Shot_Counter">
 				<Original>Reset Shot Counter Distance</Original>
 				<English>Reset Shot Counter Distance</English>
@@ -746,7 +746,7 @@
 		</Container>
 	</Package>
 	<Package name="UI">
-		<Container name="Settings">
+		<Container name="Settings_UI">
 			<Key ID="STR_HATG_UI_Enable">
 				<Original>Enable UI</Original>
 				<English>Enable UI</English>

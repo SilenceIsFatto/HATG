@@ -43,6 +43,8 @@ if (_respawn isEqualTo false) then {
 if ((hatg_setting_mp_ai || {!isMultiplayer}) && {isPlayer _unit}) then {
     private _unitGroup = group _unit;
 
+    if ((count allPlayers) > 1) exitWith {};
+
     {
         if (_x isEqualTo _unit) then {continue};
         [_x] call HATG_fnc_addHandlers;
