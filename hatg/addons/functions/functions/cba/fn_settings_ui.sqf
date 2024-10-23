@@ -10,13 +10,6 @@
     false,
     0,
     {
-        params ["_value"];
-
-        if (_value) then {
-            call HATG_fnc_createDisplay;
-            call HATG_fnc_handleDisplayPosition;
-        };
-        
         [player] call HATG_fnc_handleDisplayText;
     }
 ] call CBA_fnc_addSetting;

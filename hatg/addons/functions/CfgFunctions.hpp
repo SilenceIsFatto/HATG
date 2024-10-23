@@ -5,6 +5,7 @@ class CfgFunctions
         class cba 
         {
             file = QPATHTOFOLDER(functions\cba);
+            class keybinds {};
             class settings {};
         };
         class conditions 
