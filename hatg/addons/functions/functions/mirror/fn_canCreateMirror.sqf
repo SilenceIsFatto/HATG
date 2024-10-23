@@ -32,9 +32,11 @@ params [
 ];
 
 if (_unit isEqualTo ObjNull) exitWith {false};
-
+ 
 private _unitInVehicle = !(isNull objectParent _unit);
 if (_unitInVehicle) exitWith {["In Vehicle Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
+
+if (_unit getVariable ["hatg_mirror_force_hidden", false]) exitWith {true};
 
 private _cooldown = _unit getVariable ["hatg_mirror_cooldown", false];
 if (_cooldown) exitWith {["Cooldown Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};

@@ -12,5 +12,6 @@ call HATG_fnc_createDisplay;
 [player] call HATG_fnc_handleDisplayText;
 
 if (hatg_setting_mp_ai || {!isMultiplayer}) then {
+    if ((count allPlayers) > 1) exitWith {};
     call HATG_fnc_handleGroupCreated;
 };
