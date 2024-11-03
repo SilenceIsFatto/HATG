@@ -38,7 +38,7 @@ if ([_unit] call HATG_fnc_isInBuilding) exitWith {true;};
 if isOnRoad _unit exitWith {false};
 if (nearestTerrainObjects [_unit, ["bush"], 3, false, true] isNotEqualTo []) exitWith {true};
 if (_surfacesNames findIf {(_x in _surface || {_x in _surfaceTexture}) } isNotEqualTo -1) exitWith {
-	if (_surfacesNamesBlackList findIf {(_x in _surface || {_x in _surfaceTexture}) } isNotEqualTo -1) then {true} else {true};
+	 _surfacesNamesBlackList findIf {(_x in _surface || {_x in _surfaceTexture}) } isEqualTo -1 ;
 };
 
 false;
