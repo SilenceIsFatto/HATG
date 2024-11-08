@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project name="HATG">
 	<Package name="Debug">
 		<Container name="Settings">
@@ -46,7 +46,7 @@
 				<Polish>Włącz wsparcie AI w LAN</Polish>
 				<Russian>Включить поддержку ИИ в LAN</Russian>
 				<Spanish>Habilitar soporte de IA en LAN</Spanish>
-				<Korean>LAN에서 AI 지원 활성화</Korean>
+				<Korean>LAN 서버에서 AI 지원 활성화</Korean>
 				<Japanese>LANでAIサポートを有効にする</Japanese>
 				<Chinesesimp>启用LAN中的AI支持</Chinesesimp>
 				<Chinese>啟用LAN中的AI支持</Chinese>
@@ -63,7 +63,7 @@
 				<Polish>To ustawienie pozwala AI w grupie graczy stać się „ukrytym” w trybie LAN multiplayer. Nie używaj, jeśli grasz z innymi, może to spowodować poważne problemy.</Polish>
 				<Russian>Этот параметр позволяет ИИ в группе игроков стать «скрытым» в локальной сети. Не используйте, если играете с другими, это может вызвать серьёзные проблемы.</Russian>
 				<Spanish>Esta configuración permite que la IA del grupo de jugadores se vuelva "oculta" en el multijugador de LAN. No lo uses si juegas con otros, puede causar problemas graves.</Spanish>
-				<Korean>이 설정은 LAN 멀티플레이어에서 플레이어 그룹의 AI가 '숨김' 상태가 되도록 허용합니다. 다른 사람과 플레이할 때 사용하지 마십시오. 심각한 문제가 발생할 수 있습니다.</Korean>
+				<Korean>이 설정은 LAN 서버에서 플레이어 그룹의 AI가 '숨김' 상태가 되도록 허용합니다. 다른 사람과 플레이할 때 사용하지 마십시오. 심각한 문제가 발생할 수 있습니다.</Korean>
 				<Japanese>この設定により、LAN マルチプレイヤーでプレイヤー グループの AI が「隠れる」ようになります。他のプレイヤーとプレイする場合は使用しないでください。重大な問題が発生する可能性があります。</Japanese>
 				<Chinesesimp>此设置允许玩家组中的AI在局域网多人游戏中变为“隐藏”。如果与他人一起玩，请不要使用，可能会导致严重问题。</Chinesesimp>
 				<Chinese>此設定允許玩家組中的AI在局域網多人遊戲中變為「隱藏」。若與其他玩家一起遊玩，請勿使用，可能會導致嚴重問題。</Chinese>
@@ -167,7 +167,7 @@
 				<Italian>Dies steuert, auf welchen Oberflächen du dich befinden musst, um versteckt zu bleiben. Standardmäßig musst du auf 'Gras' sein, um unentdeckt zu bleiben. Wenn die Option deaktiviert ist, bleibst du unabhängig vom Terrain versteckt. (andere Faktoren gelten weiterhin)</Italian>
 				<Spanish>Esto controla las superficies en las que debes estar para estar oculto. Por defecto, debes estar en 'hierba' para permanecer oculto. Si se desactiva, permanecerás oculto sin importar el terreno en el que te encuentres. (se aplican otros factores)</Spanish>
 				<French>Cela contrôle les surfaces sur lesquelles vous devez être pour rester caché. Par défaut, vous devez être sur 'herbe' pour rester caché. Si désactivé, vous resterez caché quel que soit le terrain sur lequel vous vous trouvez. (d'autres facteurs s'appliquent toujours)</French>
-				<Korean>숨겨짐 상태가 되기 위해 있어야 하는 지면을 제어합니다. 기본적으로 숨겨짐 상태를 유지하려면 '잔디'에 있어야 합니다. 설정을 끄면 지형에 관계없이 숨기 상태를 유지합니다. (다른 요소도 여전히 적용됩니다)</Korean>
+				<Korean>은신 상태가 되기 위해 있어야 하는 지면을 제어합니다. 기본적으로 은신 상태를 유지하려면 '잔디'에 있어야 합니다. 설정을 끄면 지형에 관계없이 은신 상태를 유지합니다. (다른 요소도 여전히 적용됩니다)</Korean>
 				<Japanese>隠れるためにいる必要がある表面を制御します。デフォルトでは、隠れるためには「草」の上にいる必要があります。オフにすると、いる地形に関係なく隠れたままになります。（他の要因も適用されます）</Japanese>
 				<Chinesesimp>这控制着您需要站在的表面，以便隐藏。默认情况下，您需要站在“草”上才能保持隐藏。如果关闭，则无论您所在的地形如何，您将保持隐藏。（其他因素仍然适用）</Chinesesimp>
 				<Chinese>这控制着您需要站在的表面，以便隐藏。默认情况下，您需要站在“草”上才能保持隐藏。如果关闭，则无论您所在的地形如何，您将保持隐藏。（其他因素仍然适用）</Chinese>
@@ -186,7 +186,7 @@
 				<Polish>Włącz ukrywanie się w budynkach</Polish>
 				<Russian>Включить скрытие в зданиях</Russian>
 				<Spanish>Habilitar el escondite en edificios</Spanish>
-				<Korean>건물 내 숨기 활성화</Korean>
+				<Korean>건물 내 은신 활성화</Korean>
 				<Japanese>建物内に隠れることを有効にする</Japanese>
 				<Chinesesimp>启用在建筑物中隐藏</Chinesesimp>
 				<Chinese>啟用在建築物中隱藏</Chinese>
@@ -203,7 +203,7 @@
 				<Polish>To kontroluje, czy jednostki mogą się ukrywać w budynkach (pod dachem).</Polish>
 				<Russian>Это контролирует, могут ли подразделения скрываться в зданиях (под крышей).</Russian>
 				<Spanish>Esto controla si las unidades pueden esconderse en edificios (bajo un techo).</Spanish>
-				<Korean>유닛이 건물 내(지붕 밑)에서 숨겨짐 상태가 될 수 있는지 여부를 제어합니다.</Korean>
+				<Korean>유닛이 건물 내(지붕 밑)에서 은신 상태가 될 수 있는지 여부를 제어합니다.</Korean>
 				<Japanese>これにより、ユニットが建物内（屋根の下）に隠れることができるかどうかが制御されます。</Japanese>
 				<Chinesesimp>这控制单位是否可以在建筑物内（在屋顶下）隐藏。</Chinesesimp>
 				<Chinese>這控制單位是否可以在建築物內（在屋頂下）隱藏。</Chinese>
@@ -390,7 +390,7 @@
 				<Polish>Włącz ukrywanie się podczas kucania</Polish>
 				<Russian>Включить скрытность при приседании</Russian>
 				<Spanish>Habilitar ocultación al agacharse</Spanish>
-				<Korean>웅크린 상태에서 숨기기 활성화</Korean>
+				<Korean>앉은 상태에서 은신 활성화</Korean>
 				<Japanese>しゃがみながら隠れることを有効にする</Japanese>
 				<Chinesesimp>启用蹲伏时隐藏</Chinesesimp>
 				<Chinese>啟用蹲伏時隱藏</Chinese>
@@ -407,7 +407,7 @@
 				<Polish>To kontroluje, czy możesz być „ukryty” podczas kucania, pod warunkiem spełnienia kryteriów.</Polish>
 				<Russian>Это контролирует, можете ли вы быть "скрыты" при приседании, если выполните условия.</Russian>
 				<Spanish>Esto controla si puedes estar "oculto" mientras estás agachado, siempre que cumplas con los criterios.</Spanish>
-				<Korean>이 설정은 조건을 충족할 경우 웅크린 상태에서 '숨겨질' 수 있는지 여부를 제어합니다.</Korean>
+				<Korean>기준을 충족할 경우 앉고 있는 동안 '은신 상태'가 될 수 있는지 여부를 제어합니다.</Korean>
 				<Japanese>これにより、基準を満たせば、しゃがんでいる間に「隠れる」ことができるかどうかが制御されます。</Japanese>
 				<Chinesesimp>此设置控制您在蹲伏时是否可以“隐藏”，前提是您符合标准。</Chinesesimp>
 				<Chinese>此設定控制您在蹲伏時是否可以「隱藏」，前提是您符合標準。</Chinese>
@@ -532,7 +532,7 @@
 				<Polish>Ukryty</Polish>
 				<Russian>Скрытый</Russian>
 				<Spanish>Oculto</Spanish>
-				<Korean>숨겨짐</Korean>
+				<Korean>은신 중</Korean>
 				<Japanese>隠された</Japanese>
 				<Chinesesimp>隐藏</Chinesesimp>
 				<Chinese>隐匿</Chinese>
@@ -649,7 +649,7 @@
 				<Italian>Velocità di movimento accovacciato prima della rilevazione</Italian>
 				<Spanish>Velocidad de movimiento agachado antes de la detección</Spanish>
 				<French>Vitesse de mouvement en accroupi avant détection</French>
-				<Korean>발각되기 전 낮은 자세 이동 속도</Korean>
+				<Korean>발각되기 전 앉은 자세 이동 속도</Korean>
 				<Japanese>検出前のしゃがんだ移動速度</Japanese>
 				<Chinesesimp>检测前的蹲下移动速度</Chinesesimp>
 				<Chinese>檢測前的蹲下移動速度</Chinese>
@@ -772,7 +772,7 @@
 				<Italian>Questo controlla se il messaggio 'Nascosto' può essere visualizzato per aiutarti a sapere quando sei vulnerabile.</Italian>
 				<Spanish>Esto controla si se puede dibujar el mensaje 'Oculto' para ayudarte a saber cuándo eres vulnerable.</Spanish>
 				<French>Cela contrôle si le message 'Caché' peut être affiché pour vous aider à savoir quand vous êtes vulnérable.</French>
-				<Korean>발각 여부를 아는 게 어려울 경우 알려주기 위해 '숨겨짐' 메시지를 표시할 지 여부를 제어합니다.</Korean>
+				<Korean>발각 여부를 아는 게 어려울 경우 알려주기 위해 '은신 중' 메시지를 표시할 지 여부를 제어합니다.</Korean>
 				<Japanese>これは、あなたが脆弱なときに「隠れている」というメッセージが描画されるかどうかを制御します。</Japanese>
 				<Chinesesimp>这控制着是否可以绘制“隐藏”消息，以帮助您知道何时处于脆弱状态。</Chinesesimp>
 				<Chinese>這控制著是否可以繪製“隱藏”消息，以幫助您知道何時處於脆弱狀態。</Chinese>
@@ -808,7 +808,7 @@
 				<Polish>To kontroluje, czy komunikat wskaźnika będzie obrazem zamiast tekstem.</Polish>
 				<Russian>Это контролирует, будет ли индикаторное сообщение изображением вместо текста.</Russian>
 				<Spanish>Esto controla si el mensaje indicador será una imagen en lugar de texto.</Spanish>
-				<Korean>이 설정은 표시 메시지가 이미지로 대체될 지 여부를 제어합니다.</Korean>
+				<Korean>표시 메시지가 이미지로 대체될 지 여부를 제어합니다.</Korean>
 				<Japanese>これにより、指示メッセージが画像に置き換えられるかどうかを制御します。</Japanese>
 				<Chinesesimp>这控制指示消息是否将改为图像。</Chinesesimp>
 				<Chinese>這控制指示訊息是否將改為圖像。</Chinese>
@@ -1010,7 +1010,7 @@
 				<Italian>Questo controlla il colore dell'interfaccia utente quando è nascosta.</Italian>
 				<Spanish>Esto controla el color de la UI cuando está oculta.</Spanish>
 				<French>Cela contrôle la couleur de l'UI lorsqu'elle est cachée.</French>
-				<Korean>숨겨짐 상태의 UI 색상을 제어합니다.</Korean>
+				<Korean>은신 상태의 UI 색상을 제어합니다.</Korean>
 				<Japanese>これは、隠されているときのUIの色を制御します。</Japanese>
 				<Chinesesimp>这控制隐藏时的用户界面颜色。</Chinesesimp>
 				<Chinese>這控制隱藏時的使用者介面顏色。</Chinese>
