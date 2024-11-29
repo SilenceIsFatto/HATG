@@ -32,6 +32,8 @@ params [
 ];
 
 if (_unit isEqualTo ObjNull) exitWith {false};
+
+if (["hatg_mirror_toggle", false, _unit] call HATG_fnc_getVariable) exitWith {["Toggle Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
  
 private _unitInVehicle = !(isNull objectParent _unit);
 if (_unitInVehicle) exitWith {["In Vehicle Check Failed", 3, _fnc_scriptName] call HATG_fnc_log; false};
