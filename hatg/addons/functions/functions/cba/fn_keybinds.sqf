@@ -4,7 +4,7 @@
 #define KEYBIND_HEADER Hide Among The Grass
 #define KEYBIND_HEADER_QUOTE QUOTE(KEYBIND_HEADER)
 
-[KEYBIND_HEADER_QUOTE, "hatg_keybind_refresh", ["Refresh UI", "This keybind will refresh the UI, can be used to re-load the UI after loading a save."], {
+[KEYBIND_HEADER_QUOTE, "hatg_keybind_refresh", ["$STR_HATG_Keybind_Refresh", "$STR_HATG_Keybind_Refresh_Info"], {
     [] call HATG_fnc_createDisplay;
 
     private _width = ["hatg_setting_ui_x", 0.45] call HATG_fnc_getVariable;
@@ -13,3 +13,11 @@
 
     [player] call HATG_fnc_handleDisplayText;
 }, {}, [DIK_COMMA, [false, false, false]]] call CBA_fnc_addKeybind;
+
+[KEYBIND_HEADER_QUOTE, "hatg_keybind_toggle", ["$STR_HATG_Keybind_Toggle", "$STR_HATG_Keybind_Toggle_Info"], {
+    private _enabled = ["hatg_mirror_toggle", false, player] call HATG_fnc_getVariable;
+
+    ["hatg_mirror_toggle", (!_enabled), player] call HATG_fnc_setVariable;
+
+    [player] call HATG_fnc_handleDisplayText;
+}, {}, [DIK_SLASH, [false, false, false]]] call CBA_fnc_addKeybind;

@@ -7,7 +7,7 @@
     "CHECKBOX",
     ["$STR_HATG_UI_Enable", "$STR_HATG_UI_Enable_info"],
     SETTING_HEADER_UI, 
-    false,
+    true,
     0,
     {
         [player] call HATG_fnc_handleDisplayText;

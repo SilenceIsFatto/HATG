@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="HATG">
+	<Package name="Keybinds">
+		<Container name="UI">
+			<Key ID="STR_HATG_Keybind_Refresh">
+				<Original>Refresh UI</Original>
+				<English>Refresh UI</English>
+			</Key>
+			<Key ID="STR_HATG_Keybind_Refresh_Info">
+				<Original>This keybind will refresh the UI, it can be used to re-load the UI after loading a save.</Original>
+				<Original>This keybind will refresh the UI, it can be used to re-load the UI after loading a save.</Original>
+			</Key>
+			<Key ID="STR_HATG_Keybind_Toggle">
+				<Original>Toggle HATG</Original>
+				<English>Toggle HATG</English>
+			</Key>
+			<Key ID="STR_HATG_Keybind_Toggle_Info">
+				<Original>This keybind will toggle HATG functionality, it can be used to completely turn the "mirror" off (except the UI).</Original>
+				<Original>This keybind will toggle HATG functionality, it can be used to completely turn the "mirror" off (except the UI).</Original>
+			</Key>
+		</Container>
+	</Package>
 	<Package name="Debug">
 		<Container name="Settings">
 			<Key ID="STR_HATG_Simple">
@@ -536,6 +556,10 @@
 				<Japanese>隠された</Japanese>
 				<Chinesesimp>隐藏</Chinesesimp>
 				<Chinese>隐匿</Chinese>
+			</Key>
+			<Key ID="STR_HATG_Disabled">
+				<Original>Disabled</Original>
+				<English>Disabled</English>
 			</Key>
 		</Container>
 	</Package>
