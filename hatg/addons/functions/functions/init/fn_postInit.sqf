@@ -6,7 +6,8 @@ if (isClass (configFile >> "CfgPatches" >> "HIG_wall")) exitWith {titleText ["HA
 
 // Should probably localize the above error messages
 
-call HATG_fnc_keybinds;
+// Commented out in favour of CfgUserActions
+// call HATG_fnc_keybinds;
 
 [player] call HATG_fnc_addHandlers;
 
