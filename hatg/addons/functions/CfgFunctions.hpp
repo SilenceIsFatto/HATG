@@ -61,7 +61,9 @@ class CfgFunctions
             class getVariable {};
             class postInit {};
             class preInit {};
+            class refreshUI {};
             class setVariable {};
+            class toggleUI {};
         };
         class mirror 
         {
