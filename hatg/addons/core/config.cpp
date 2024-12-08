@@ -24,3 +24,5 @@ class CfgVehicles
 {
 	#include "CfgVehicles.hpp"
 };
+
+#include "CfgUserActions.hpp"
