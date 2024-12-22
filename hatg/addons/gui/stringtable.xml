@@ -10,7 +10,7 @@
 			<Key ID="STR_HATG_Keybind_Refresh_Info">
 				<Original>This keybind will refresh the UI, it can be used to re-load the UI after loading a save.</Original>
 				<Original>This keybind will refresh the UI, it can be used to re-load the UI after loading a save.</Original>
-				<Korean>UI를 새로고침하는 키 설정입니다. 저장한 파일을 로드한 후 UI를 새로고침하는 데 사용됩니다.</Korean>
+				<Korean>UI를 새로고침 하는 키 설정입니다. 저장한 파일을 불러온 후 UI를 다시 불러오는 데 사용됩니다.</Korean>
 			</Key>
 			<Key ID="STR_HATG_Keybind_Toggle">
 				<Original>Toggle HATG</Original>
@@ -564,6 +564,7 @@
 			<Key ID="STR_HATG_Disabled">
 				<Original>Disabled</Original>
 				<English>Disabled</English>
+				<Korean>비활성화됨</Korean>
 			</Key>
 		</Container>
 	</Package>
