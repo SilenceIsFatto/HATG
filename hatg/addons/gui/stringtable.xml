@@ -5,18 +5,22 @@
 			<Key ID="STR_HATG_Keybind_Refresh">
 				<Original>Refresh UI</Original>
 				<English>Refresh UI</English>
+				<Korean>UI 새로고침</Korean>
 			</Key>
 			<Key ID="STR_HATG_Keybind_Refresh_Info">
 				<Original>This keybind will refresh the UI, it can be used to re-load the UI after loading a save.</Original>
 				<Original>This keybind will refresh the UI, it can be used to re-load the UI after loading a save.</Original>
+				<Korean>UI를 새로고침 하는 키 설정입니다. 저장한 파일을 불러온 후 UI를 다시 불러오는 데 사용됩니다.</Korean>
 			</Key>
 			<Key ID="STR_HATG_Keybind_Toggle">
 				<Original>Toggle HATG</Original>
 				<English>Toggle HATG</English>
+				<Korean>HATG 모드 토글</Korean>
 			</Key>
 			<Key ID="STR_HATG_Keybind_Toggle_Info">
 				<Original>This keybind will toggle HATG functionality, it can be used to completely turn the "mirror" off (except the UI).</Original>
 				<Original>This keybind will toggle HATG functionality, it can be used to completely turn the "mirror" off (except the UI).</Original>
+				<Korean>HATG 모드의 기능을 토글하며, "미러" 기능을 완전히 끄는 데 사용되는 키 설정입니다(UI 제외).</Korean>
 			</Key>
 		</Container>
 	</Package>
@@ -49,7 +53,7 @@
 				<Polish>To ustawienie nadpisuje wszystkie inne ustawienia. Jest przeznaczone do bardziej „zręcznościowego” doświadczenia. Nie zmieniaj innych ustawień przy włączonym tym ustawieniu, zostaną one nadpisane przy następnym uruchomieniu gry.</Polish>
 				<Russian>Этот параметр заменяет все остальные параметры. Он предназначен для более «аркадного» опыта. Не изменяйте другие настройки, если этот параметр включен, они будут перезаписаны при следующем перезапуске игры.</Russian>
 				<Spanish>Esta configuración sobrescribe todas las demás configuraciones. Está destinada a una experiencia más 'arcade'. No cambies otras configuraciones con esta configuración activada, se sobrescribirán en el próximo reinicio del juego.</Spanish>
-				<Korean>이 설정은 다른 모든 설정을 덮어씁니다. 보다 '아케이드'적인 경험을 위해 설계되었습니다. 이 설정이 활성화된 상태에서 다른 설정을 변경하지 마십시오. 다음 게임이 재시작되면 덮어씌워집니다.</Korean>
+				<Korean>다른 모든 설정을 덮어씁니다. 보다 '아케이드적인' 경험을 위해 설계되었습니다. 이 설정이 활성화된 상태에서 다른 설정을 변경하지 마십시오. 다음 게임이 재시작되면 덮어씌워집니다.</Korean>
 				<Japanese>この設定は他のすべての設定を上書きします。 より「アーケード」な体験を意図しています。 この設定が有効な状態で他の設定を変更しないでください。それらは次のゲーム再起動時に上書きされます。</Japanese>
 				<Chinesesimp>此设置会覆盖所有其他设置。它旨在提供更“街机”式的体验。启用此设置时，请勿更改其他设置，它们将在下次重新启动游戏时被覆盖。</Chinesesimp>
 				<Chinese>此設定會覆蓋所有其他設定。它旨在提供更“街機”式的體驗。啟用此設定時，請勿更改其他設定，它們將在下次重新啟動遊戲時被覆蓋。</Chinese>
@@ -83,7 +87,7 @@
 				<Polish>To ustawienie pozwala AI w grupie graczy stać się „ukrytym” w trybie LAN multiplayer. Nie używaj, jeśli grasz z innymi, może to spowodować poważne problemy.</Polish>
 				<Russian>Этот параметр позволяет ИИ в группе игроков стать «скрытым» в локальной сети. Не используйте, если играете с другими, это может вызвать серьёзные проблемы.</Russian>
 				<Spanish>Esta configuración permite que la IA del grupo de jugadores se vuelva "oculta" en el multijugador de LAN. No lo uses si juegas con otros, puede causar problemas graves.</Spanish>
-				<Korean>이 설정은 LAN 서버에서 플레이어 그룹의 AI가 '숨김' 상태가 되도록 허용합니다. 다른 사람과 플레이할 때 사용하지 마십시오. 심각한 문제가 발생할 수 있습니다.</Korean>
+				<Korean>LAN 서버에서 플레이어 그룹의 AI가 '은신 중' 상태가 되도록 허용합니다. 다른 사람과 플레이할 때 사용하지 마십시오. 심각한 문제가 발생할 수 있습니다.</Korean>
 				<Japanese>この設定により、LAN マルチプレイヤーでプレイヤー グループの AI が「隠れる」ようになります。他のプレイヤーとプレイする場合は使用しないでください。重大な問題が発生する可能性があります。</Japanese>
 				<Chinesesimp>此设置允许玩家组中的AI在局域网多人游戏中变为“隐藏”。如果与他人一起玩，请不要使用，可能会导致严重问题。</Chinesesimp>
 				<Chinese>此設定允許玩家組中的AI在局域網多人遊戲中變為「隱藏」。若與其他玩家一起遊玩，請勿使用，可能會導致嚴重問題。</Chinese>
@@ -187,7 +191,7 @@
 				<Italian>Dies steuert, auf welchen Oberflächen du dich befinden musst, um versteckt zu bleiben. Standardmäßig musst du auf 'Gras' sein, um unentdeckt zu bleiben. Wenn die Option deaktiviert ist, bleibst du unabhängig vom Terrain versteckt. (andere Faktoren gelten weiterhin)</Italian>
 				<Spanish>Esto controla las superficies en las que debes estar para estar oculto. Por defecto, debes estar en 'hierba' para permanecer oculto. Si se desactiva, permanecerás oculto sin importar el terreno en el que te encuentres. (se aplican otros factores)</Spanish>
 				<French>Cela contrôle les surfaces sur lesquelles vous devez être pour rester caché. Par défaut, vous devez être sur 'herbe' pour rester caché. Si désactivé, vous resterez caché quel que soit le terrain sur lequel vous vous trouvez. (d'autres facteurs s'appliquent toujours)</French>
-				<Korean>은신 상태가 되기 위해 있어야 하는 지면을 제어합니다. 기본적으로 은신 상태를 유지하려면 '잔디'에 있어야 합니다. 설정을 끄면 지형에 관계없이 은신 상태를 유지합니다. (다른 요소도 여전히 적용됩니다)</Korean>
+				<Korean>은신 중 상태가 되기 위해 있어야 하는 지면을 제어합니다. 기본적으로 은신 상태를 유지하려면 '잔디'에 있어야 합니다. 설정을 끄면 지형에 관계없이 은신 중 상태를 유지합니다. (다른 요소도 여전히 적용됩니다)</Korean>
 				<Japanese>隠れるためにいる必要がある表面を制御します。デフォルトでは、隠れるためには「草」の上にいる必要があります。オフにすると、いる地形に関係なく隠れたままになります。（他の要因も適用されます）</Japanese>
 				<Chinesesimp>这控制着您需要站在的表面，以便隐藏。默认情况下，您需要站在“草”上才能保持隐藏。如果关闭，则无论您所在的地形如何，您将保持隐藏。（其他因素仍然适用）</Chinesesimp>
 				<Chinese>这控制着您需要站在的表面，以便隐藏。默认情况下，您需要站在“草”上才能保持隐藏。如果关闭，则无论您所在的地形如何，您将保持隐藏。（其他因素仍然适用）</Chinese>
@@ -223,7 +227,7 @@
 				<Polish>To kontroluje, czy jednostki mogą się ukrywać w budynkach (pod dachem).</Polish>
 				<Russian>Это контролирует, могут ли подразделения скрываться в зданиях (под крышей).</Russian>
 				<Spanish>Esto controla si las unidades pueden esconderse en edificios (bajo un techo).</Spanish>
-				<Korean>유닛이 건물 내(지붕 밑)에서 은신 상태가 될 수 있는지 여부를 제어합니다.</Korean>
+				<Korean>유닛이 건물 내(지붕 밑)에서 은신 중 상태가 될 수 있는지 여부를 제어합니다.</Korean>
 				<Japanese>これにより、ユニットが建物内（屋根の下）に隠れることができるかどうかが制御されます。</Japanese>
 				<Chinesesimp>这控制单位是否可以在建筑物内（在屋顶下）隐藏。</Chinesesimp>
 				<Chinese>這控制單位是否可以在建築物內（在屋頂下）隱藏。</Chinese>
@@ -240,7 +244,7 @@
 				<Polish>Ujawnij ukryte jednostki w pobliżu</Polish>
 				<Russian>Раскрыть скрытые рядом подразделения</Russian>
 				<Spanish>Revelar unidades ocultas cercanas</Spanish>
-				<Korean>주변에 숨은 유닛 노출시키기</Korean>
+				<Korean>주변에 은신 중인 유닛 발각시키기</Korean>
 				<Japanese>近くの隠れたユニットを明らかにする</Japanese>
 				<Chinesesimp>揭示附近的隐藏单位</Chinesesimp>
 				<Chinese>揭露附近的隱藏單位</Chinese>
@@ -257,7 +261,7 @@
 				<Polish>To kontroluje, czy ukryte jednostki zostaną ujawnione, gdy pobliska jednostka odda strzał i zostanie ujawniona.</Polish>
 				<Russian>Это контролирует, будут ли скрытые подразделения раскрыты, когда близлежащая подразделение стреляет и раскрывается.</Russian>
 				<Spanish>Esto controla si las unidades ocultas serán reveladas cuando una unidad cercana dispare y sea revelada.</Spanish>
-				<Korean>주변 유닛이 사격하여 발각되었을 때 숨은 유닛도 발각되는지 여부를 제어합니다.</Korean>
+				<Korean>주변 유닛이 사격하여 발각되었을 때 은신 중이던 유닛도 발각되는지 여부를 제어합니다.</Korean>
 				<Japanese>近くのユニットが発砲し、明らかになったときに隠されたユニットが明らかになるかどうかを制御します。</Japanese>
 				<Chinesesimp>这控制隐藏单位是否会在附近单位开火并被揭示时揭露。</Chinesesimp>
 				<Chinese>這控制隱藏單位是否會在附近單位開火並被揭示時揭露。</Chinese>
@@ -274,7 +278,7 @@
 				<Polish>Włącz złożoną detekcję odległości AI</Polish>
 				<Russian>Включить сложное обнаружение расстояния ИИ</Russian>
 				<Spanish>Habilitar detección de distancia de IA compleja</Spanish>
-				<Korean>복잡한 AI 거리 감지 활성화</Korean>
+				<Korean>복합적 AI 거리 감지 활성화</Korean>
 				<Japanese>複雑なAI距離検出を有効にする</Japanese>
 				<Chinesesimp>启用复杂的AI距离检测</Chinesesimp>
 				<Chinese>啟用複雜的AI距離檢測</Chinese>
@@ -291,7 +295,7 @@
 				<Polish>To ustawienie umożliwia bardziej złożoną funkcję wykrywania, czy wrogowie są blisko ukrytych jednostek, niezależnie od tego, czy „wiedzą” o nich.</Polish>
 				<Russian>Этот параметр включает более сложную функцию для определения того, находятся ли враги рядом со скрытыми подразделениями, независимо от того, "знают" ли враги о них.</Russian>
 				<Spanish>Esta configuración habilita una función más compleja para detectar si los enemigos están cerca de las unidades ocultas, independientemente de si los enemigos 'saben' sobre ellas.</Spanish>
-				<Korean>이 설정은 적이 숨겨진 유닛에 가까이 있는지 여부를 적이 '알고' 있는지에 상관없이 감지하는 더 복잡한 기능을 활성화합니다.</Korean>
+				<Korean>적이 은신 중인 유닛에 대한 '인식' 여부에 상관없이 은신 중인 유닛 근처에 있는지 감지하는 더 복합적인 기능을 활성화합니다.</Korean>
 				<Japanese>この設定は、敵が隠されたユニットの近くにいるかどうかを、敵がそれを「知っている」かどうかに関係なく検出するためのより複雑な機能を有効にします。</Japanese>
 				<Chinesesimp>此设置启用更复杂的功能来检测敌人是否靠近隐藏单位，而不管敌人是否“知道”它们。</Chinesesimp>
 				<Chinese>此設定啟用更複雜的功能來檢測敵人是否靠近隱藏單位，而不管敵人是否“知道”它們。</Chinese>
@@ -306,7 +310,7 @@
 				<Italian>Cooldown di rilevamento</Italian>
 				<Spanish>Tiempo de reutilización de detección</Spanish>
 				<French>Délai de récupération de détection</French>
-				<Korean>발각 재사용 대기시간</Korean>
+				<Korean>발각됨 상태 쿨타임</Korean>
 				<Japanese>検出クールダウン</Japanese>
 				<Chinesesimp>侦测冷却时间</Chinesesimp>
 				<Chinese>侦测冷却时间</Chinese>
@@ -323,7 +327,7 @@
 				<Italian>Ciò controlla per quanto tempo sarai 'scoperto' se spari senza un soppressore.</Italian>
 				<Spanish>Esto controla cuánto tiempo serás 'detectado' si disparas sin un supresor.</Spanish>
 				<French>Cela contrôle combien de temps vous serez 'repéré' si vous tirez sans un suppresseur.</French>
-				<Korean>소음기 없이 사격할 경우 '발각'되는 시간을 제어합니다.</Korean>
+				<Korean>소음기 없이 사격할 경우 얼마나 오랫동안 '발각됨' 상태가 될지 여부를 설정합니다.</Korean>
 				<Japanese>サプレッサーなしで発砲すると、どれくらいの時間「発見」されるかを制御します。</Japanese>
 				<Chinesesimp>如果您在没有消音器的情况下开火，这会控制您被“发现”的时间。</Chinesesimp>
 				<Chinese>如果您在没有消音器的情况下开火，这会控制您被“发现”的时间。</Chinese>
@@ -391,7 +395,7 @@
 				<Italian>Questo controlla il moltiplicatore con cui le diverse posture aumentano il rilevamento della distanza (sopra). Ad esempio, 40 m diventano 80 m quando sei inginocchiato invece di prona.</Italian>
 				<Spanish>Esto controla el multiplicador en el que las diferentes posturas aumentan la distancia de detección (anteriormente). Por ejemplo, 40 m se convierten en 80 m cuando estás agachado en lugar de en posición prona.</Spanish>
 				<French>Cela contrôle le multiplicateur auquel les différentes positions augmentent la distance de détection (ci-dessus). Par exemple, 40 m deviennent 80 m lorsque vous êtes en position accroupie plutôt qu'en position couchée.</French>
-				<Korean>다양한 자세에 따라 발각 거리가 늘어나는 배수를 제어합니다. 예를 들어 엎드린 자세가 40m라면 앉은 상태에서는 80m로 됩니다.</Korean>
+				<Korean>다양한 자세에 따라 발각되는 거리가 늘어나는 배수를 제어합니다. 예를 들어 엎드린 자세가 40m라면 앉은 상태에서는 80m로 됩니다.</Korean>
 				<Japanese>これは、さまざまな姿勢が距離検出を増加させる倍率を制御します（上記）。たとえば、40mはうつ伏せの代わりにしゃがむと80mになります。</Japanese>
 				<Chinesesimp>这控制了不同姿势增加距离检测的倍数（如上所述）。例如，当你蹲下而不是趴着时，40米变为80米。</Chinesesimp>
 				<Chinese>这控制了不同姿势增加距离检测的倍数（如上所述）。例如，当你蹲下而不是趴着时，40米变为80米。</Chinese>
@@ -427,7 +431,7 @@
 				<Polish>To kontroluje, czy możesz być „ukryty” podczas kucania, pod warunkiem spełnienia kryteriów.</Polish>
 				<Russian>Это контролирует, можете ли вы быть "скрыты" при приседании, если выполните условия.</Russian>
 				<Spanish>Esto controla si puedes estar "oculto" mientras estás agachado, siempre que cumplas con los criterios.</Spanish>
-				<Korean>기준을 충족할 경우 앉고 있는 동안 '은신 상태'가 될 수 있는지 여부를 제어합니다.</Korean>
+				<Korean>조건을 충족할 경우 앉고 있는 동안 '은신 중' 상태가 될 수 있는지 여부를 제어합니다.</Korean>
 				<Japanese>これにより、基準を満たせば、しゃがんでいる間に「隠れる」ことができるかどうかが制御されます。</Japanese>
 				<Chinesesimp>此设置控制您在蹲伏时是否可以“隐藏”，前提是您符合标准。</Chinesesimp>
 				<Chinese>此設定控制您在蹲伏時是否可以「隱藏」，前提是您符合標準。</Chinese>
@@ -560,6 +564,7 @@
 			<Key ID="STR_HATG_Disabled">
 				<Original>Disabled</Original>
 				<English>Disabled</English>
+				<Korean>비활성화됨</Korean>
 			</Key>
 		</Container>
 	</Package>
@@ -724,7 +729,7 @@
 				<Italian>Furtività</Italian>
 				<Spanish>Sigilo</Spanish>
 				<French>Se faufiler</French>
-				<Korean>살금살금 이동</Korean>
+				<Korean>포복이동</Korean>
 				<Japanese>忍び寄る</Japanese>
 				<Chinesesimp>悄悄地</Chinesesimp>
 				<Chinese>悄悄地</Chinese>
@@ -832,7 +837,7 @@
 				<Polish>To kontroluje, czy komunikat wskaźnika będzie obrazem zamiast tekstem.</Polish>
 				<Russian>Это контролирует, будет ли индикаторное сообщение изображением вместо текста.</Russian>
 				<Spanish>Esto controla si el mensaje indicador será una imagen en lugar de texto.</Spanish>
-				<Korean>표시 메시지가 이미지로 대체될 지 여부를 제어합니다.</Korean>
+				<Korean>표시 메시지를 이미지로 대체할지 여부를 제어합니다.</Korean>
 				<Japanese>これにより、指示メッセージが画像に置き換えられるかどうかを制御します。</Japanese>
 				<Chinesesimp>这控制指示消息是否将改为图像。</Chinesesimp>
 				<Chinese>這控制指示訊息是否將改為圖像。</Chinese>
@@ -1017,7 +1022,7 @@
 				<Italian>Colore UI (Nascosto)</Italian>
 				<Spanish>Color de UI (Oculto)</Spanish>
 				<French>Couleur de l'UI (Caché)</French>
-				<Korean>UI 색상 (숨겨짐)</Korean>
+				<Korean>UI 색상 (은신 중)</Korean>
 				<Japanese>UIの色（隠し）</Japanese>
 				<Chinesesimp>用户界面颜色（隐藏）</Chinesesimp>
 				<Chinese>使用者介面顏色（隱藏）</Chinese>
@@ -1034,7 +1039,7 @@
 				<Italian>Questo controlla il colore dell'interfaccia utente quando è nascosta.</Italian>
 				<Spanish>Esto controla el color de la UI cuando está oculta.</Spanish>
 				<French>Cela contrôle la couleur de l'UI lorsqu'elle est cachée.</French>
-				<Korean>은신 상태의 UI 색상을 제어합니다.</Korean>
+				<Korean>은신 중 상태의 UI 색상을 제어합니다.</Korean>
 				<Japanese>これは、隠されているときのUIの色を制御します。</Japanese>
 				<Chinesesimp>这控制隐藏时的用户界面颜色。</Chinesesimp>
 				<Chinese>這控制隱藏時的使用者介面顏色。</Chinese>
