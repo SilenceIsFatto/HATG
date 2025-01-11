@@ -8,7 +8,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = REQUIRED_VERSION;
-		requiredAddons[] = {"CBA_Main"};
+		requiredAddons[] = {MOD(core)};
 		author = "Silence";
 		url = "";
 		VERSION_CONFIG;
