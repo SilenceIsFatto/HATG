@@ -15,11 +15,11 @@ class CfgPatches
 	};
 };
 
-#include "CfgFunctions.hpp"
-
-class RscTitles
+class CfgVehicles
 {
-	class RscTitleDisplayEmpty;
-
-	class RscTitleDisplayHATGHidden : RscTitleDisplayEmpty {};
+	class Man;
+	class CAManBase: Man
+	{
+		extCameraPosition[] = {0.22,0.05,-2.2};
+	};
 };
