@@ -10,6 +10,15 @@
 #include "fn_settings_ui.sqf"
 
 [
+    "hatg_setting_simple_object", // Internal setting name, should always contain a tag! This will be the global variable which takes the value of the setting.
+    "CHECKBOX", // setting type
+    ["$STR_HATG_Simple_Object", "$STR_HATG_Simple_Object_info"], // Pretty name shown inside the ingame settings menu. Can be stringtable entry.
+    SETTING_HEADER_GENERAL, // Pretty name of the category where the setting can be found. Can be stringtable entry.
+    false,
+    true // "_isGlobal" flag. Set this to true to always have this setting synchronized between all clients in multiplayer
+] call CBA_fnc_addSetting;
+
+[
     "hatg_setting_simple", // Internal setting name, should always contain a tag! This will be the global variable which takes the value of the setting.
     "CHECKBOX", // setting type
     ["$STR_HATG_Simple", "$STR_HATG_Simple_info"], // Pretty name shown inside the ingame settings menu. Can be stringtable entry.
