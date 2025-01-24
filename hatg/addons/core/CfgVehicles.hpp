@@ -19,3 +19,13 @@
 		model = QPATHTOFOLDER(data\hatg_mirror_debug);
 		displayName = "AI Mirror (Debug)";
 	};
+
+	class hatg_mirror_new: hatg_mirror 
+	{
+		model = QPATHTOFOLDER(data\hatg_mirror_new);
+	};
+	
+	class hatg_mirror_debug_new: hatg_mirror_debug 
+	{
+		model = QPATHTOFOLDER(data\hatg_mirror_debug_new);
+	};

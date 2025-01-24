@@ -26,6 +26,12 @@
 	</Package>
 	<Package name="Debug">
 		<Container name="Settings">
+			<Key ID="STR_HATG_Simple_Object">
+				<Original>Use Simple Blocking Object</Original>
+			</Key>
+			<Key ID="STR_HATG_Simple_Object_info">
+				<Original>This setting changes the object created as a 'mirror'. Instead of being covered, the object is only infront of you. This means you are vulnerable to the flanks and back. Also fixes any camera issues due to collision.</Original>
+			</Key>
 			<Key ID="STR_HATG_Simple">
 				<Original>'Simple' Mode</Original>
 				<English>'Simple' Mode</English>
